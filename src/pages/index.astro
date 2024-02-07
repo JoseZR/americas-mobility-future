@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import i18next, { changeLanguage, t } from "i18next";
+
+changeLanguage("es");
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="bg-red-800">
+		<p class="text-purple-300">{t("home.subtitle")}</p>
+	</div>
+</Layout>
+
+<style>
+
+</style>

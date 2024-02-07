@@ -1,0 +1,46 @@
+{
+    "site": {
+      "title": "America's Mobility of the Future",
+      "description": "An exhibition of the mobility of the future, enabling the transfer of knowledge and the exchange of experiences, as a meeting point for industry, politics and users."
+    },
+    "home": {
+      "title": "Welcome to my awesome website!",
+      "subtitle": ""
+    },
+    "menu":{
+      "option1":{
+        "title":"ABOUT US",
+        "subMenu":{
+          "option1":"ABOUT AMOF",
+          "option2":"ABOUT IGECO"
+        }
+      },
+      "option2":{
+        "title":"SUMMIT"
+      },
+      "option3":{
+        "title":"SHOWROOM",
+        "subMenu":{
+          "option1":"AFTERSHOW REPORT 2023",
+          "option2":"EXHIBITOR MANUAL",
+          "option3":"WHY EXHIBIT",
+          "option4":"EXHIBITOR PROFLE",
+          "option5":"FACTSHEET AMOF",
+          "option6":"FLOOR PLAN AMOF",
+          "option7":"CONTRACT AMOF",
+          "option8":"RATES",
+          "option9":"TOOLKIT"
+        }
+      },
+      "option4":{
+        "title":"VISITORS",
+        "subMenu":{
+          "option1":"VISITOR PROFILE"
+        }
+      },
+      "option5":{
+        "title":"CONTACT US"
+      }
+    }
+  }
+  
