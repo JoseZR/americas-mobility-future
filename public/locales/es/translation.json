@@ -3,10 +3,6 @@
       "title": "America's Mobility of the Future",
       "description": "Una exposición de movilidad del futuro que permita la transferencia de conocimientos y el intercambio de experiencias, que sea el punto de reunión de la industria, política y usuarios"
     },
-    "home": {
-      "title": "Bienvenue sur mon super site web !",
-      "subtitle": ""
-    },
     "menu":{
       "option1":{
         "title":"NOSOTROS",
@@ -41,6 +37,56 @@
       "option5":{
         "title":"CONTACTANOS"
       }
-    }
+    },
+    "home":{
+      "platinum-sponsor":"Patrocinador Platino",
+      "content-partner":"Content Partner",
+      "mobility-partner":"Mobility Partner",
+      "broadcast-partner":"Broadcast Media Partner",
+      "gold-partner":"Gold Media Partner",
+      "silver-partner":"Silver Media Partner",
+      "about_title":"Acerca del evento",
+      "description1":"Una exposición de movilidad del futuro que permita la transferencia de conocimientos y el intercambio de experiencias, que sea el punto de reunión de la industria, política y usuarios",
+      "title1":"Enfocada a",
+      "title2":"Un programa integral de conferencias",
+      "description2":"La promoción de discusiones políticas, económicas y sociales actuales sobre la movilidad del futuro. Exhibición de la tecnología disponible",
+      "description3":"Paneles de discusión y presentaciones de proyectos, acompañado de un piso de exposición y demostración de tecnología",
+      "title3":"Metas",
+      "topic1":"Metros cuadrados",
+      "topic2":"Expositores nacionales e internacionales",
+      "topic3":"Asistentes Conferencias especializadas 2 días",
+      "topic4":"Visitantes profesionales",
+      "title4":"Categorías del showroom",
+      "category1":"Movilidad del futuro, transporte y vehículos ligeros",
+      "category2":"Infraestructura y sostenibilidad",
+      "category3":"Servicios de movilidad e innovaciones",
+      "category4":"Ecosistema de movilidad eléctrica & proveedores de servicios",
+      "price-title":"Precios a expositores",
+      "price1":{
+        "title":"Espacio libre",
+        "type":"MODALIDAD",
+        "characteristics":{
+          "coin-type":"USD por m2 + IVA",
+          "item1":"Incluye gafetes de expositor (3 por cada 9 m2)",
+          "item2":"Código de pre-registro de visitantes para su compañía y mención en el directorio.",
+          "item3":"*NO incluye alfombra, construcción, mobiliario, ni servicios.",
+          "item-button":"COMPRAR"
+        }
+      },
+      "price2":{
+        "title":"Stand confort",
+        "type":"MODALIDAD",
+        "characteristics":{
+          "coin-type":"USD por m2 + IVA",
+          "item1":"Incluye alfombra estándar",
+          "item2":"Mamparas divisorias",
+          "item3":"Antepecho con rótulo en vinil",
+          "item4":"Iluminación, mobiliario comfort, 1 contacto eléctrico de 110v",
+          "item5":"Gafetes de expositor (3 por cada 9 m2)",
+          "item6":"Código de pre-registro de visitantes para su compañía y mención en el directorio.",
+          "item-button":"COMPRAR"
+        }
+      }
   }
+}
   

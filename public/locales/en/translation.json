@@ -3,10 +3,6 @@
       "title": "America's Mobility of the Future",
       "description": "An exhibition of the mobility of the future, enabling the transfer of knowledge and the exchange of experiences, as a meeting point for industry, politics and users."
     },
-    "home": {
-      "title": "Welcome to my awesome website!",
-      "subtitle": ""
-    },
     "menu":{
       "option1":{
         "title":"ABOUT US",
@@ -40,6 +36,56 @@
       },
       "option5":{
         "title":"CONTACT US"
+      }
+    },
+    "home":{
+      "platinum-sponsor":"Platinum Sponsor",
+      "content-partner":"Content Partner",
+      "mobility-partner":"Mobility Partner",
+      "broadcast-partner":"Broadcast Media Partner",
+      "gold-partner":"Gold Media Partner",
+      "silver-partner":"Silver Media Partner",
+      "about_title":"About us",
+      "description1":"An exhibition of the mobility of the future, enabling the transfer of knowledge and the exchange of experiences, as a meeting point for industry, politics and users.",
+      "title1":"Focus on",
+      "title2":"A comprehensive program of conferences",
+      "description2":"Promoting current political, economic and social discussions on the mobility of the future.Display of available technology",
+      "description3":"Panel discussions and project presentations, accompanied by an exhibition and technology demonstration floor.",
+      "title3":"Goals",
+      "topic1":"Square meters",
+      "topic2":"National and international exhibitors",
+      "topic3":"Attendees Specialized conferences",
+      "topic4":"visitantes profesionales",
+      "title4":"Showroom Categories",
+      "category1":"Mobility of the future, transportation and light vehicles",
+      "category2":"Infrastructure and sustainability",
+      "category3":"Mobility and innovation services",
+      "category4":"Ecosystem for electric mobility & service providers",
+      "price-title":"Prices to exhibitors",
+      "price1":{
+        "title":"Raw Space",
+        "type":"MODALITY",
+        "characteristics":{
+          "coin-type":"USD per sqm +VAT",
+          "item1":"Includes exhibitor badges (3 per 9 sqm)",
+          "item2":"Visitor preregistration code for your company and directory listing.",
+          "item3":"*Does NOT include carpet, construction, furniture, or services.",
+          "item-button":"BUY"
+        }
+      },
+      "price2":{
+        "title":"Stand confort",
+        "type":"MODALITY",
+        "characteristics":{
+          "coin-type":"USD per sqm + VAT",
+          "item1":"Includes standard carpet.",
+          "item2":"Dividing partitions.",
+          "item3":"Vinyl sign fascia.",
+          "item4":"lighting, comfort furniture (higher quality than basic), 1 110v electrical contact.",
+          "item5":"Exhibitor badges (3 per 9 sqm)",
+          "item6":"Visitor preregistration code for your company and directory listing.",
+          "item-button":"BUY"
+        }
       }
     }
   }

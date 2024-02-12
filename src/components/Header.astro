@@ -12,7 +12,7 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
   >
     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img
-        src="/americas-mobility-future/img/amof_logo.webp"
+        src="/img/amof_logo.webp"
         class="lg:h-20 h-28 ms-5 me-5 lg:my-0 my-4"
         alt="americas-mobility-future-logo"
       />
@@ -21,13 +21,13 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
       {
         i18next.language === "en" ? (
           <img
-            src="/americas-mobility-future/img/flag-us.svg"
+            src="/img/flag-us.svg"
             alt="us flag"
             class="h-6 w-6 rounded-full mr-2"
           />
         ) : (
           <img
-            src="/americas-mobility-future/img/flag-mexico.svg"
+            src="/img/flag-mexico.svg"
             alt="México flag"
             class="h-6 w-6 rounded-full mr-2"
           />
@@ -77,7 +77,8 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
           <button
             id="dropdownExhibitors"
             data-dropdown-toggle="dropdownNavbar1"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+            data-dropdown-trigger="hover"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto"
           >
             {t("menu.option1.title")}
             <svg
@@ -103,12 +104,12 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
               class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a href={`${base}/about`} class="block px-4 py-2"
                   >{t("menu.option1.subMenu.option1")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option1.subMenu.option2")}</a
@@ -120,7 +121,7 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
         <li>
           <a
             href={`${base}/gallery`}
-            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 lg:border-none border-gray-100 border-b"
+            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 lg:border-none border-gray-300 border-b text-blue-950 font-bold"
             aria-current="page">{t("menu.option2.title")}</a
           >
         </li>
@@ -128,7 +129,8 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
           <button
             id="dropdownExhibitors"
             data-dropdown-toggle="dropdownNavbar2"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+            data-dropdown-trigger="hover"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto"
           >
             {t("menu.option3.title")}
             <svg
@@ -154,55 +156,55 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
               class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a 
                   href={`${base}/about`} 
                   class="block px-4 py-2">{t("menu.option3.subMenu.option1")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option2")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option3")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option4")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option5")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option6")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option7")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option8")}</a
                 >
               </li>
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a
                   href={`${base}/about-expo-guadalajara`}
                   class="block px-4 py-2">{t("menu.option3.subMenu.option9")}</a
@@ -215,7 +217,8 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
           <button
             id="dropdownExhibitors"
             data-dropdown-toggle="dropdownNavbar"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+            data-dropdown-trigger="hover"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto"
           >
             {t("menu.option4.title")}
             <svg
@@ -241,7 +244,7 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
               class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
-              <li>
+              <li class="hover:bg-blue-100 font-semibold">
                 <a href={`${base}/about`} class="block px-4 py-2"
                   >{t("menu.option4.subMenu.option1")}</a
                 >
@@ -252,7 +255,7 @@ const base = lang === "es" ? "/agrotechmexico" : `/agrotechmexico/${lang}`;
         <li>
           <a
             href={`${base}/gallery`}
-            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
+            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-blue-950 font-bold"
             aria-current="page">{t("menu.option5.title")}</a
           >
         </li>

@@ -2,18 +2,129 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import i18next, { changeLanguage, t } from "i18next";
+import { partners } from "../logos_partners";
+import { MarqueeReact } from "../components/MarqueeReact.jsx";
 
 changeLanguage("es");
 ---
 
 <Layout title="Welcome to Astro.">
-	<!-- <main class="flex-grow w-full">
-		<div class="aspect-w-16 aspect-h-9 w-full">
-		  <video src="/your-video.mp4" controls class="w-full"></video>
-		</div>
-	  </main> -->
+  <!-- <section>
+    <div class="aspect-w-16 aspect-h-9 w-full">
+      <video
+        src="/video/amof_background_2024.mp4"
+        autoplay
+        loop
+        playsinline
+        class="w-full"></video>
+    </div>
+  </section> -->
+
+  <section class="relative h-screen">
+	<video
+	  class="absolute w-screen h-screen z-[-1]"
+	  muted
+	  loop
+	  autoplay
+	  playsinline
+	>
+	  <source src="/video/amof_background_2024.mp4" type="video/mp4" />
+	  <img src="/img/worldseafood.webp" alt="worldseafood-video">
+	</video>
+	<div class="flex items-center h-full">
+	  <div
+		class="container mx-auto px-4"
+		style="text-shadow: 4px 4px 4px black;"
+	  >
+		<p class="lg:text-7xl text-5xl font-bold text-white lg:text-left text-center">
+		  WORLD <br />SEAFOOD <br /> INDUSTRY
+		</p>
+		<p class="text-white font-bold home-text-agro text-3xl pt-10 lg:text-left text-center">
+		  {t("home.about_fair")}
+		</p>
+		<p class="text-white font-bold home-text-agro text-3xl pt-2 lg:text-left text-center">
+		  {t("home.event_date")}
+		</p>
+		<img
+		  src="/img/logo_igeco_deutsche.webp"
+		  alt="Igeco"
+		  height="42"
+		  class="filter-shadow pt-16"
+		/>
+	  </div>
+	</div>
+  </section>
+
+  <div class="my-12">
+    <p class="text-blue-900 font-bold text-3xl uppercase text-center p-4">
+      {t("home.platinum-sponsor")}
+    </p>
+    <div
+      class="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:w-[600px] max-w-screen-lg mx-auto"
+    >
+      <div class="flex flex-col justify-center items-center">
+        <a href="">
+          <img
+            src="/img/logos/kia.webp"
+            alt=""
+            class="w-[250px] object-contain"
+          />
+        </a>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <a href="">
+          <img
+            src="/img/logos/siemens.webp"
+            alt=""
+            class="w-[250px] object-contain"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="my-12">
+    <div
+      class="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:w-auto max-w-screen-lg mx-auto"
+    >
+      <div class="flex flex-col justify-center items-center">
+		<p class="text-blue-900 font-bold text-3xl uppercase text-center p-4">{t("home.content-partner")} </p>
+        <a href="">
+          <img
+            src="/img/logos/deloitte.webp"
+            alt=""
+            class="w-[250px] object-contain"
+          />
+        </a>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+		<p class="text-blue-900 font-bold text-3xl uppercase text-center p-4">{t("home.mobility-partner")} </p>
+        <a href="">
+          <img
+            src="/img/logos/questum.webp"
+            alt=""
+            class="w-[250px] object-contain"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+			<div class="bg-red-500">Elemento 1</div>
+			<div class="bg-red-500">Elemento 2</div>
+			<div class="bg-blue-500">Elemento 3</div>
+		</div> -->
 </Layout>
-
 <style>
-
+   video {
+    object-fit: cover;
+    object-position: left;
+  }
+  .home-text-agro {
+    text-shadow: 4px 4px 4px black;
+  }
+  .filter-shadow {
+    filter: drop-shadow(4px 4px 4px black);
+  }
 </style>

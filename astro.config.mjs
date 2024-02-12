@@ -8,8 +8,7 @@ import astroI18next from "astro-i18next";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://hfmexico.mx/americas-mobility-future/",
-    base: "/americas-mobility-future",  
+    site: "https://americas-mobility-future/",
   integrations: [sitemap({
     i18n: {
       defaultLocale: "es",
