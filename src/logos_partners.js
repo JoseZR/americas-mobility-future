@@ -1,9 +1,14 @@
 const partners = [
-    { link: 'https://www.kia.com/mx/main.html', src: '/img/logos/kia.webp', alt:'', width: 200, height: 190 },
-    { link: 'https://www.siemens.com/mx/es.html', src: '/img/logos/siemens.webp', alt:'', width: 200, height: 190 },
-    { link: 'https://www.kia.com/mx/main.html', src: '/img/logos/kia.webp', alt:'', width: 200, height: 190 },
-    { link: 'https://www.siemens.com/mx/es.html', src: '/img/logos/siemens.webp', alt:'', width: 200, height: 190 },
-    { link: 'https://www.kia.com/mx/main.html', src: '/img/logos/kia.webp', alt:'', width: 200, height: 190 },
-    { link: 'https://www.siemens.com/mx/es.html', src: '/img/logos/siemens.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/cluster-industrial.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/heraldo_group.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/vanguardia-industrial.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/negocio-motor.webp', alt:'', width: 200, height: 190 },
+    { link: 'l', src: '/img/logos/negocio-transporte.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/logistic-delivery.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/dpl-news.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/global-industries.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/consultoria.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/metropoli-mid.webp', alt:'', width: 200, height: 190 }
+
 ]
 export {partners}
