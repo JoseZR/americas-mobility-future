@@ -87,6 +87,11 @@
           "item-button":"BUY"
         }
       }
+    },
+    "footer":{
+      "event_date":"October 9 – 11, 2024 <br /> Poliforum Léon <br /> Léon, Guanajuato, México <br /> Wednesday and Thursday: 11:00 – 19:00 hrs. Friday: 11:00 – 17:00 hrs.",
+      "title_contact":"Contact"
+
     }
   }
   
