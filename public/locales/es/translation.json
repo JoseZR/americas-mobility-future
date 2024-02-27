@@ -38,19 +38,21 @@
         "title":"CONTACTANOS"
       }
     },
-    "home":{
-      "platinum-sponsor":"Patrocinador Platino",
-      "content-partner":"Content Partner",
-      "mobility-partner":"Mobility Partner",
-      "broadcast-partner":"Broadcast Media Partner",
-      "gold-partner":"Gold Media Partner",
-      "silver-partner":"Silver Media Partner",
+    "home":{      
+      "event_date_video": "9 – 11 de octubre de 2024",
+      "slogan": "La feria de electromovilidad<br />  más importante del continente",
       "about_title":"Acerca del evento",
-      "description1":"Plataforma integral para presentar las últimas tendencias, innovaciones, conocimientos, desarrollo y tecnología que están redefiniendo la movilidad",
-      "title1":"Enfocada a",
-      "title2":"Un programa integral de conferencias",
-      "description2":"La promoción de discusiones políticas, económicas y sociales actuales sobre la movilidad del futuro. Exhibición de la tecnología disponible.",
-      "description3":"Paneles de discusión y presentaciones de proyectos, acompañado de un piso de exposición y demostración de tecnología.",
+      "description":"Plataforma integral para presentar las últimas tendencias, innovaciones, conocimientos, desarrollo y tecnología que están redefiniendo la movilidad.",
+      "title1":"Expo",
+      "description1":"Demostración de avances tecnológicos y productos innovadores de los actores clave que están sentando las bases para el desarrollo de la movilidad del futuro.",
+      "title2":"Summit",      
+      "description2":"Conferencias y paneles de discusión que sirven como punto de encuentro entre la industria, la política y los usuarios para atraer y complementar la cadena de valor, así como las políticas públicas necesarias para avanzar hacia una movilidad más sostenible.",
+      "why_participe":"¿Por qué participar?",
+      "why_participe1":"Aprende de expertos internacionales y tomadores de decisión",
+      "why_participe2":"Impulsa la transición y transformación de la movilidad del futuro en México",
+      "why_participe3":"Accede a las últimas tecnologías de la movilidad sustentable",
+      "why_participe4":"Descubre oportunidades de negocio y el potencial en movilidad inteligente",
+      "why_participe5":"Explora novedades en infraestructura sostenible",
       "title3":"Metas",
       "topic1":"Metros cuadrados",
       "topic2":"Expositores nacionales e internacionales",
@@ -87,6 +89,36 @@
           "item-button":"COMPRAR"
         }
       }
+    },
+    "about_amof":{
+      "title":"Exposición de Movilidad del futuro",
+      "description": "que permita la transferencia de conocimientos y el intercambio de experiencias, que sea el punto de reunión de la industria, política y usuarios",
+      "title1":"Enfocada a",
+      "description1":"La promoción de discusiones políticas, económicas y sociales actuales sobre la movilidad del futuro",
+      "title2":"Exhibición",
+      "description2":"de la tecnología disponible",
+      "title3":"Programa",
+      "description3":"integral de conferencias, paneles de discusión y presentaciones de proyectos, acompañado de un piso de exposición y demostración de tecnología."
+    },
+    "why_exhibit":{
+      "title":"¿POR QUÉ ASISTIR?",
+      "title1":"Participa",
+      "description1":"en el punto de encuentro central para innovadores de movilidad, proveedores de soluciones tecnológicas y tomadores de decisiones.",
+      "title2":"Establece",
+      "description2":"contactos e impulsa la transición y transformación de la movilidad en México.",
+      "title3":"Amplia",
+      "description3":"Amplia tu red de contactos especializados en movilidad y negocios.",
+      "title4":"Impulsa",
+      "description4":"tu empresa ante la cúpula empresarial, política y medios",
+      "title5":"Expone",
+      "description5":"y promueve productos de movilidad con un alto impacto visual y presencial con canales de contenido innovadores",
+      "exhibitor_profile":"Perfil del expositor",
+      "exhibitor_profile1":"Habilitadores de tecnologías de movilidad",
+      "exhibitor_profile2":"Fabricantes y proveedores de baterías, sistemas de almacenamiento de energía e infraestructuras de carga de vehículos eléctricos",
+      "exhibitor_profile3":"Empresas de soluciones y tecnología de conducción autónoma",
+      "exhibitor_profile4":"Fabricantes y proveedores de componentes y suministros",
+      "exhibitor_profile5":"OEM de vehículos comerciales y de pasajeros"
+
     },
     "footer":{
       "event_date":"9 – 11 de octubre de 2024 <br /> Poliforum Léon, <br /> Léon Guanajuato, México <br /> miércoles y jueves: 11:00 – 19:00 hrs. viernes: 11:00 – 17:00 hrs.",
