@@ -148,11 +148,18 @@ changeLanguage("en");
     </div>
   </section>
   <section class='py-10 container mx-auto px-4' id='visitantes'>
-    <p class='font-bold text-3xl text-gray-600 uppercase'>
+    <p class='font-bold text-3xl text-gray-600 uppercase text-center'>
       {t('home.visitor_profile')}
     </p>
-    <p class='text-lg'>{t('home.visitor_description')}</p>
-    <ul class='mt-5 list-disc'>
+    <div
+      class='mt-10 grid md:grid-cols-2 place-items-center place-content-center'
+    >
+      <p class='text-2xl text-center'>
+        <span class='text-8xl font-bold'>84%</span><br />
+        {t('home.visitor_description')}
+      </p>
+      {
+        /*<ul class='mt-5 list-disc'>
       <li>
         {t('home.visitor_profile1')}
       </li>
@@ -186,7 +193,10 @@ changeLanguage("en");
       <li>
         {t('home.visitor_profile11')}
       </li>
-    </ul>
+    </ul> */
+      }
+      <img src='/img/grafica.png' alt='Amof toma de desiciones' class='w-96' />
+    </div>
   </section>
   <section class='py-10 container mx-auto'>
     <p class='text-3xl text-center font-bold text-gray-600 uppercase'>
