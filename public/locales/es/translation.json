@@ -40,29 +40,39 @@
     },
     "home":{      
       "event_date_video": "9 – 11 de octubre de 2024",
-      "slogan": "La feria de <span class='text-[#03CAFE]'>electromovilidad</span><br />  más importante del continente",
+      "slogan": "La feria de <span>electromovilidad</span><br />  más importante del continente",
       "about_title":"Acerca del evento",
       "description":"Plataforma integral para presentar las últimas tendencias, innovaciones, conocimientos, desarrollo y tecnología que están redefiniendo la movilidad.",
       "title1":"Expo",
       "description1":"Demostración de avances tecnológicos y productos innovadores de los actores clave que están sentando<br /> las bases para el desarrollo de la movilidad del futuro.",
       "title2":"Summit",      
       "description2":"Conferencias y paneles de discusión que sirven como punto de encuentro entre la industria, la política y los usuarios para atraer y complementar la cadena de valor, así como las políticas públicas necesarias para avanzar hacia una movilidad más sostenible.",
-      "why_participe":"¿POR QUÉ <span class='text-[#87F9F2]'>ASISTIR?</span>",    
+      "why_participe":"¿POR QUÉ <span'>ASISTIR?</span>",    
       "why_participe1":"Aprende de expertos internacionales y tomadores de decisión",
       "why_participe2":"Impulsa la transición y transformación de la movilidad del futuro en México",
       "why_participe3":"Accede a las últimas tecnologías de la movilidad sustentable",
       "why_participe4":"Descubre oportunidades de negocio y el potencial en movilidad inteligente",
       "why_participe5":"Explora novedades en infraestructura sostenible",
-      "title3":"Categorias",
-      "topic1":"Metros cuadrados",
-      "topic2":"Expositores nacionales e internacionales",
-      "topic3":"Asistentes Conferencias especializadas 2 días",
-      "topic4":"Visitantes profesionales",
-      "title4":"Categorías del showroom",
+      "visitor_profile":"Perfil del visitante",
+      "visitor_description":"84 % SON TOMADORES DE DECISIÓN",
+      "visitor_profile1":"Fabricantes y ensambladores de automóviles, camiones, autobuses, tranvías y motos",
+      "visitor_profile2":"Fabricantes y ensambladores de bicicletas, scooters, drones y otros vehículos de movilidad personal de última milla",
+      "visitor_profile3":"Proveedores del sector automotriz Tier 1, Tier 2 y OEMs",
+      "visitor_profile4":"Proveedores del sector de aeronáutica Tier 1, Tier 2 y OEMs",
+      "visitor_profile5":"Proveedores del sector de infraestructura y seguridad vial",
+      "visitor_profile6":"Proveedores de servicios logísticos",
+      "visitor_profile7":"Proveedores de soluciones de almacenamiento y carga",
+      "visitor_profile8":"Ingenieros con especialidad en ciudades inteligentes y planeación urbana sustentable",
+      "visitor_profile9":"Expertos en movilidad y urbanismo",
+      "visitor_profile10":"Arquitectos especializados en certificación LEED",
+      "visitor_profile11":"Desarrolladores de bienes raíces y de centros comerciales",
+      "testimonial":"Testimoniales de expositores y visitantes",
+      "title3":"CATEGORÍAS DE EXHIBICIÓN",
       "category1":"Movilidad del futuro, transporte y vehículos ligeros",
       "category2":"Infraestructura y sostenibilidad",
       "category3":"Servicios de movilidad e innovaciones",
       "category4":"Ecosistema de movilidad eléctrica & proveedores de servicios",
+      "gallery":"Galería",
       "price-title":"Precios a expositores",
       "price1":{
         "title":"Espacio libre",
@@ -123,6 +133,9 @@
     "footer":{
       "event_date":"9 – 11 de octubre de 2024 <br /> Poliforum Léon, <br /> Léon Guanajuato, México <br /> miércoles y jueves: 11:00 – 19:00 hrs. viernes: 11:00 – 17:00 hrs.",
       "title_contact":"Contacto General"
+    },
+    "widgetsocial":{
+      "description":"Evento celebrado simultáneamente con ITM"
     }
 }
   

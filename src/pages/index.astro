@@ -23,22 +23,54 @@ changeLanguage('es')
       <div class='bg-gray-950 opacity-45 absolute w-full h-full'></div>
       <div
         class='container mx-auto px-4 relative z-50'
-        style='text-shadow: 4px 4px 4px black;'
+        style='text-shadow: 4px 4px 8px black;'
       >
         <p
           class='lg:text-9xl text-5xl font-bold text-white lg:text-center text-center'
         >
-          AMOF
+          <span class='text-[#03CAFE]'>AM</span><span class='text-[#1D4ED8]'
+            >OF</span
+          >
+          <p
+            class='text-3xl font-bold text-white lg:text-center text-center'
+            set:html={t('home.slogan')}
+          />
+          <p class='mt-10 text-center text-white font-semibold text-5xl'>
+            {t('home.event_date_video')}
+          </p>
+          <p class='mt-5 text-center text-white font-bold text-3xl'>
+            Poliforum - Léon Guanajuato, México
+          </p>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class='relative grid place-items-center'>
+    <video
+      class='absolute top-0 object-cover w-full h-full'
+      muted
+      loop
+      autoplay
+      playsinline
+    >
+      <source src='/video/video_amof_bg.mp4' type='video/mp4' />
+    </video>
+    <div
+      class='lg:w-2/5 w-full rounded-t-3xl bg-white mt-[150px] flex justify-center items-center relative z-50'
+    >
+      <div class='lg:px-20 py-5'>
+        <p
+          class='font-semibold text-2xl lg:text-left text-center py-6 text-blue-700'
+        >
+          {t('home.about_title')}
         </p>
         <p
-          class='text-3xl font-bold text-white lg:text-center text-center'
-          set:html={t('home.slogan')}
-        />
-        <p class='mt-10 text-center text-white font-semibold text-5xl'>
-          {t('home.event_date_video')}
+          class='font-bold text-5xl pb-12 lg:text-left text-center text-blue-700'
+        >
+          AMERICAS’ mobility of the future
         </p>
-        <p class='mt-5 text-center text-white font-bold text-3xl'>
-          Poliforum - Léon Guanajuato, México
+        <p class='lg:text-2xl lg:text-left text-justify'>
+          {t('home.description')}
         </p>
       </div>
     </div>
@@ -68,43 +100,13 @@ changeLanguage('es')
         playsinline></video>
     </div>
   </section>
-  <section class='relative grid place-items-center'>
-    <video
-      class='absolute object-cover w-full h-full z-[-1]'
-      muted
-      loop
-      autoplay
-      playsinline
-    >
-      <source src='/video/video_amof_bg.mp4' type='video/mp4' />
-    </video>
-    <div
-      class='lg:w-2/5 w-full rounded-t-3xl bg-white mt-[150px] flex justify-center items-center'
-    >
-      <div class='lg:px-20 py-5'>
-        <p
-          class='font-semibold text-2xl lg:text-left text-center py-6 text-blue-700'
-        >
-          {t('home.about_title')}
-        </p>
-        <p
-          class='font-bold text-5xl pb-12 lg:text-left text-center text-blue-700'
-        >
-          AMERICAS’ mobility of the future
-        </p>
-        <p class='lg:text-2xl lg:text-left text-justify'>
-          {t('home.description')}
-        </p>
-      </div>
-    </div>
-  </section>
   <section
     class="bg-[url('/img/bgWhyparticipate.webp')] bg-cover bg-center py-32 relative"
   >
     <div class='relative z-50 mx-auto container'>
       <p
-        class='text-white text-6xl font-bold text-center'
-        set:html={t('why_exhibit.title')}
+        class='text-white text-6xl font-bold text-center *:text-[#87F9F2]'
+        set:html={t('home.why_participe')}
       />
       <Carousel3d
         client:only
@@ -116,44 +118,231 @@ changeLanguage('es')
       />
     </div>
   </section>
-  <div>
+  <section class='py-10 container mx-auto px-4'>
+    <p class='font-bold text-3xl text-gray-600 uppercase'>
+      {t('home.visitor_profile')}
+    </p>
+    <p class='text-lg'>{t('home.visitor_description')}</p>
+    <ul class='mt-5 list-disc'>
+      <li>
+        {t('home.visitor_profile1')}
+      </li>
+      <li>
+        {t('home.visitor_profile2')}
+      </li>
+      <li>
+        {t('home.visitor_profile3')}
+      </li>
+      <li>
+        {t('home.visitor_profile4')}
+      </li>
+      <li>
+        {t('home.visitor_profile5')}
+      </li>
+      <li>
+        {t('home.visitor_profile6')}
+      </li>
+      <li>
+        {t('home.visitor_profile7')}
+      </li>
+      <li>
+        {t('home.visitor_profile8')}
+      </li>
+      <li>
+        {t('home.visitor_profile9')}
+      </li>
+      <li>
+        {t('home.visitor_profile10')}
+      </li>
+      <li>
+        {t('home.visitor_profile11')}
+      </li>
+    </ul>
+  </section>
+  <section class='py-10 container mx-auto'>
+    <p class='text-3xl text-center font-bold text-gray-600 uppercase'>
+      {t('home.testimonial')}
+    </p>
+    <div class='mt-5 grid md:grid-cols-4'>
+      <div class='p-4'>
+        <lite-youtube
+          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+          videoid='wjfs2AygD_U'
+          videotitle='CII IA'></lite-youtube>
+      </div>
+      <div class='p-4'>
+        <lite-youtube
+          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+          videoid='RyWyLJzVM9s'
+          videotitle='Siemens'></lite-youtube>
+      </div>
+      <div class='p-4'>
+        <lite-youtube
+          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+          videoid='e5cqOqNDdaE'
+          videotitle='Air mobility'></lite-youtube>
+      </div>
+      <div class='p-4'>
+        <lite-youtube
+          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+          videoid='183Ds-5BatU'
+          videotitle='Air mobility'></lite-youtube>
+      </div>
+    </div>
+  </section>
+  <section class='py-10 bg-[#032174] text-white'>
     <p class='font-bold uppercase text-4xl text-center'>{t('home.title3')}</p>
-  </div>
-  <div class='my-28'>
-    <p class='font-bold uppercase text-4xl text-center'>{t('home.title4')}</p>
     <div class='grid lg:grid-cols-4 grid-cols-1 gap-4 m-8'>
       <div
-        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-star text-blue-950'
+        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-star text-white'
       >
-        <img src='/img/movilidad_icono.webp' alt='' class='w-[180px] mb-4' />
+        <video
+          src='/video/Video_01.mp4'
+          autoplay
+          loop
+          muted
+          class='w-full h-52 object-cover rounded-xl'></video>
         {t('home.category1')}
       </div>
       <div
-        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-blue-950'
+        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-white'
       >
-        <img src='/img/infraestructura_icono.webp' alt='' class='w-[180px]' />
+        <video
+          src='/video/Video_02.mp4'
+          autoplay
+          loop
+          muted
+          class='w-full h-52 object-cover rounded-xl'></video>
         {t('home.category2')}
       </div>
       <div
-        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-blue-950'
+        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-white'
       >
-        <img
-          src='/img/servicios_de_movilidad_icono.webp'
-          alt=''
-          class='w-[180px]'
-        />
+        <video
+          src='/video/Video_03.mp4'
+          autoplay
+          loop
+          muted
+          class='w-full h-52 object-cover rounded-xl'></video>
         {t('home.category3')}
       </div>
       <div
-        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-blue-950'
+        class='text-xl font-bold text-center p-4 flex flex-col items-center justify-start text-white'
       >
-        <img src='/img/ecosistema_icono.webp' alt='' class='w-[180px]' />
+        <video
+          src='/video/Video_04.mp4'
+          autoplay
+          loop
+          muted
+          class='w-full h-52 object-cover rounded-xl'></video>
         {t('home.category4')}
       </div>
     </div>
-  </div>
-  <div class='my-28'>
-    <p class='font-bold uppercase text-4xl text-center'>Showroom</p>
+  </section>
+  <section class='py-10 container mx-auto px-4'>
+    <p class='text-center font-bold text-4xl uppercase text-gray-600'>
+      {t('home.gallery')} 2023
+    </p>
+
+    <div class='mt-10 grid grid-cols-2 md:grid-cols-4 gap-4'>
+      <div class='grid gap-4'>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/gallery1.webp'
+            alt='Amof 2023 - 1'
+          />
+        </div>
+        <div>
+          <img
+            class='h-60 w-full rounded-lg object-cover'
+            src='/img/gallery2.webp'
+            alt='Amof 2023 - 2'
+          />
+        </div>
+        <div>
+          <img
+            class='h-96 max-w-full rounded-lg object-cover'
+            src='/img/gallery3.webp'
+            alt='Amof 2023 - 3'
+          />
+        </div>
+      </div>
+      <div class='grid gap-4'>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery4.webp'
+            alt='Amof 2023 - 4'
+          />
+        </div>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery5.webp'
+            alt='Amof 2023 - 5'
+          />
+        </div>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery6.webp'
+            alt='Amof 2023 - 6'
+          />
+        </div>
+      </div>
+      <div class='grid gap-4'>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/gallery7.webp'
+            alt='Amof 2023 - 7'
+          />
+        </div>
+        <div>
+          <img
+            class='h-64 w-full rounded-lg object-cover'
+            src='/img/gallery8.webp'
+            alt='Amof 2023 - 8'
+          />
+        </div>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/gallery9.webp'
+            alt='Amof 2023 - 9'
+          />
+        </div>
+      </div>
+      <div class='grid gap-4'>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery9.webp'
+            alt='Amof 2023 - 9'
+          />
+        </div>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery10.webp'
+            alt='Amof 2023 - 10'
+          />
+        </div>
+        <div>
+          <img
+            class='h-full w-full rounded-lg object-cover'
+            src='/img/gallery11.webp'
+            alt='Amof 2023 - 11'
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='my-28'>
+    <p class='font-bold uppercase text-4xl text-center text-gray-600'>
+      Showroom
+    </p>
     <p class='font-bold uppercase text-normal text-center pt-4'>
       {t('home.price-title')}
     </p>
@@ -163,7 +352,7 @@ changeLanguage('es')
       <div class='flex items-center justify-center lg:w-[400px] w-auto'>
         <div class='flex items-center justify-center'>
           <div
-            class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[600px]'
+            class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
           >
             <h5 class='text-3xl font-bold text-white uppercase'>
               {t('home.price1.title')}
@@ -195,11 +384,11 @@ changeLanguage('es')
                 />
               </li>
             </ul>
-            <button
-              type='button'
+            <a
+              href='mailto:eder.rangel@igeco.mx'
               class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
               >{t('home.price1.characteristics.item-button')}
-            </button>
+            </a>
             <span
               class='text-base font-normal leading-tight text-white ms-3'
               set:html={t('home.price1.characteristics.item3')}
@@ -274,29 +463,27 @@ changeLanguage('es')
                 />
               </li>
             </ul>
-            <button
-              type='button'
+            <a
+              href='mailto:eder.rangel@igeco.mx'
               class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
               >{t('home.price1.characteristics.item-button')}
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class='my-12'>
+  </section>
+  <section class='my-12'>
     <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
       MEDIA PARTNERS
     </p>
     <MarqueeReact images={partners} client:only />
-  </div>
+  </section>
+  <section class='py-10 container px-4 mx-auto grid place-items-center'>
+    <img src='/img/amof_redes.webp' alt='AMOF Redes' class='md:w-4/6 w-full' />
+  </section>
 </Layout>
 <style>
-  video {
-    object-fit: cover;
-    object-position: left;
-  }
-
   .home-text-agro {
     text-shadow: 4px 4px 4px black;
   }
@@ -304,3 +491,6 @@ changeLanguage('es')
     filter: drop-shadow(4px 4px 4px black);
   }
 </style>
+<script>
+  import '@justinribeiro/lite-youtube'
+</script>
