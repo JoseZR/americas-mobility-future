@@ -6,7 +6,7 @@ interface Props {
 const { title } = Astro.props
 
 import i18next, { t } from 'i18next'
-import { Trans, HeadHrefLangs } from 'astro-i18next/components'
+import { HeadHrefLangs } from 'astro-i18next/components'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import WidgetSocial from '../components/WidgetSocial.astro'
@@ -20,6 +20,7 @@ import WidgetSocial from '../components/WidgetSocial.astro'
     <meta name='viewport' content='width=device-width' />
     <link rel='icon' type='image/svg+xml' href='/img/amof_favicon.webp' />
     <meta name='description' content={t('site.description')} />
+    <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet' />
     <title>{t('site.title')}</title>
     <HeadHrefLangs />
   </head>
@@ -33,5 +34,9 @@ import WidgetSocial from '../components/WidgetSocial.astro'
       is:inline
       src='https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js'
     ></script>
+    <script is:inline src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+    <script is:inline>
+      AOS.init()
+    </script>
   </body>
 </html>
