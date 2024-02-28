@@ -45,14 +45,12 @@
       "description":"Comprehensive platform to showcase the latest trends, innovations, knowledge, developments and technology that are redefining mobility",
       "title2":"A comprehensive program of conferences",
       "description2":"Promoting current political, economic and social discussions on the mobility of the future.Display of available technology",
-      "why_participe":"Why participate?",
+      "why_participe":"WHY <span class='text-[#87F9F2]'>PARTICIPATE?</span>",      
       "why_participe1":"Learn from international experts and decision makers.",
       "why_participe2":"Drives the transition and transformation of the mobility of the future in Mexico.",
       "why_participe3":"Access to the latest technologies for sustainable mobility.",
       "why_participe4":"Discover business opportunities and potential in smart mobility.",
       "why_participe5":"Explore what's new in sustainable infrastructure.",
-
-
       "description3":"Panel discussions and project presentations, accompanied by an exhibition and technology demonstration floor.",
       "title3":"Goals",
       "topic1":"Square meters",
@@ -102,7 +100,7 @@
       "description3":"comprehensive lectures, panel discussions and project presentations, accompanied by an exhibition and technology demonstration floor."
     },
     "why_exhibit":{
-      "title":"Why exhibit",
+      "title":"Why <span class='text-[#87F9F2]'>exhibit?</span>",
       "title1":"Participate",
       "description1":"in the central meeting point for mobility innovators, technology solution providers and decision makers.",
       "title2":"Builds",

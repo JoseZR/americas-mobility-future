@@ -10,8 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.4.1",
-    "@astrojs/partytown": "^2.0.4",
+    "@astrojs/check": "^0.4.1",    
     "@astrojs/react": "^3.0.6",
     "@astrojs/sitemap": "^3.0.5",
     "@astrojs/tailwind": "^5.1.0",
@@ -21,6 +20,8 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
+    "react-id-swiper": "^4.0.0",
+    "swiper": "^11.0.7",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   }

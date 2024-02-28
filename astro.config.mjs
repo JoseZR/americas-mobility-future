@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import sitemap from "@astrojs/sitemap";
-import partytown from "@astrojs/partytown";
 import react from '@astrojs/react';
 import tailwind from "@astrojs/tailwind";
 import astroI18next from "astro-i18next";
@@ -17,5 +16,5 @@ export default defineConfig({
         es: "es"
       }
     }
-  }), partytown(), tailwind(), react(), astroI18next()]
+  }), tailwind(), react(), astroI18next()]
 });
