@@ -108,7 +108,7 @@ const base = lang === 'es' ? '' : `/${lang}`
               aria-labelledby='dropdownLargeButton'
             >
               <li class='hover:bg-blue-100 font-semibold'>
-                <a href={`${base}/acerca-de-amof`} class='block px-4 py-2'
+                <a href={`${base}/#acerca-de-amof`} class='block px-4 py-2'
                   >{t('menu.option1.subMenu.option1')}
                 </a>
               </li>
@@ -126,7 +126,7 @@ const base = lang === 'es' ? '' : `/${lang}`
         </li>
         <li>
           <a
-            href={`${base}/gallery`}
+            href={`${base}/#summit`}
             class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 lg:border-none border-gray-300 border-b text-blue-950 font-bold'
             aria-current='page'>{t('menu.option2.title')}</a
           >
@@ -163,95 +163,65 @@ const base = lang === 'es' ? '' : `/${lang}`
               aria-labelledby='dropdownLargeButton'
             >
               <li class='hover:bg-blue-100 font-semibold'>
-                <a href={`${base}/about`} class='block px-4 py-2'
-                  >{t('menu.option3.subMenu.option1')}</a
+                <a
+                  href={i18next.language === 'en'
+                    ? '/files/AFTERSHOW-REPORT-AMOF-ENG-2023.pdf'
+                    : '/files/AFTERSHOW-REPORT-AMOF-ESP-2023.pdf'}
+                  target='_blank'
+                  class='block px-4 py-2'>{t('menu.option3.subMenu.option1')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
-                <a href='' target='_blank' class='block px-4 py-2'>
+                <a
+                  href='/files/MANUAL-DEL-EXPOSITOR-AMOF-ES.pdf'
+                  target='_blank'
+                  class='block px-4 py-2'
+                >
                   {t('menu.option3.subMenu.option2')}
                 </a>
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href={`${base}/about-expo-guadalajara`}
-                  class='block px-4 py-2'
+                <a href={`${base}/#perfil-expositor`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option3')}
                 </a>
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href={`${base}/about-expo-guadalajara`}
-                  class='block px-4 py-2'>{t('menu.option3.subMenu.option4')}</a
+                <a href={`${base}/#porque-asistir`} class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option4')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
-                  href={`${base}/about-expo-guadalajara`}
+                  href={i18next.language === 'en'
+                    ? '/files/FACTSHEET-EN-2024.pdf3.pdf'
+                    : '/files/FACTSHEET-ESP-2024.pdf.pdf'}
+                  target='_blank'
+                  target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option5')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
-                  href={`${base}/about-expo-guadalajara`}
+                  href='/files/Plano-AMOF-2024.pdf'
+                  target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option6')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
-                  href={`${base}/about-expo-guadalajara`}
+                  href='/files/CONTRATO.pdf'
+                  target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option7')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href={`${base}/about-expo-guadalajara`}
-                  class='block px-4 py-2'>{t('menu.option3.subMenu.option8')}</a
+                <a href={`${base}/#tarifas`} class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option8')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href={`${base}/about-expo-guadalajara`}
-                  class='block px-4 py-2'>{t('menu.option3.subMenu.option9')}</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <button
-            id='dropdownExhibitors'
-            data-dropdown-toggle='dropdownNavbar'
-            data-dropdown-trigger='hover'
-            class='flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto'
-          >
-            {t('menu.option4.title')}
-            <svg
-              class='w-2.5 h-2.5 ml-2.5'
-              aria-hidden='true'
-              xmlns='http://www.w3.org/2000/svg'
-              fill='none'
-              viewBox='0 0 10 6'
-            >
-              <path
-                stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
-                d='m1 1 4 4 4-4'></path>
-            </svg>
-          </button>
-          <div
-            id='dropdownNavbar'
-            class='dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-auto'
-          >
-            <ul
-              class='py-2 text-sm text-gray-700'
-              aria-labelledby='dropdownLargeButton'
-            >
-              <li class='hover:bg-blue-100 font-semibold'>
-                <a href={`${base}/about`} class='block px-4 py-2'
-                  >{t('menu.option4.subMenu.option1')}</a
+                <a href={`${base}/toolkit`} class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option9')}</a
                 >
               </li>
             </ul>
@@ -259,7 +229,14 @@ const base = lang === 'es' ? '' : `/${lang}`
         </li>
         <li>
           <a
-            href={`${base}/gallery`}
+            href={`${base}/#visitantes`}
+            class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 lg:border-none border-gray-300 border-b text-blue-950 font-bold'
+            aria-current='page'>{t('menu.option4.title')}</a
+          >
+        </li>
+        <li>
+          <a
+            href={`${base}/#contactanos`}
             class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-blue-950 font-bold'
             aria-current='page'>{t('menu.option5.title')}</a
           >

@@ -20,7 +20,7 @@
           "option1":"AFTERSHOW REPORT 2023",
           "option2":"MANUAL DEL EXPOSITOR",
           "option3":"PERFIL DEL EXPOSITOR",
-          "option4":"POR QUÉ EXPONER",
+          "option4":"POR QUÉ ASISTIR",
           "option5":"FACTSHEET AMOF",
           "option6":"PLANO AMOF",
           "option7":"CONTRATO AMOF",
@@ -29,10 +29,7 @@
         }
       },
       "option4":{
-        "title":"VISITANTES",
-        "subMenu":{
-          "option1":"PERFIL DEL VISITANTE"
-        }
+        "title":"VISITANTES"        
       },
       "option5":{
         "title":"CONTACTANOS"
@@ -67,12 +64,66 @@
       "visitor_profile10":"Arquitectos especializados en certificación LEED",
       "visitor_profile11":"Desarrolladores de bienes raíces y de centros comerciales",
       "testimonial":"Testimoniales de expositores y visitantes",
-      "title3":"CATEGORÍAS DE EXHIBICIÓN",
+      "title3":"CATEGORÍAS DE EXHIBICIÓN / PERFIL DEL EXPOSITOR",      
       "category1":"Movilidad del futuro, transporte y vehículos ligeros",
+      "category1_1":"Tractocamiones, autobuses eficientes",
+      "category1_2":"Tractocamiones, autobuses híbridos",
+      "category1_3":"Tractocamiones, autobuses híbridos enchufables",
+      "category1_4":"Tractocamiones, autobuses eléctricos",
+      "category1_5":"Tractocamiones, autobuses autónomoss",
+      "category1_6":"Vehículos eficientes",
+      "category1_7":"Vehículos híbridos",
+      "category1_8":"Vehículos híbridos enchufables",
+      "category1_9":"Vehículos eléctricos",
+      "category1_10":"Vehículos autónomos",
+      "category1_11":"Motos eléctricas",
+      "category1_12":"Bicicletas eléctricas",
+      "category1_13":"Scooters y patines de carga eléctricos",
+      "category1_14":"Micromovilidad",
+      "category1_15":"Última milla",
+      "category1_16":"Drones",
+      "category1_17":"Vehículos aéreos",
       "category2":"Infraestructura y sostenibilidad",
+      "category2_1":"Infraestructura sustentable",
+      "category2_2":"Estaciones de carga (EV/EVSE)",
+      "category2_3":"Baterías",
+      "category2_4":"Almacenamiento de energía",
+      "category2_5":"Motores",
+      "category2_6":"Componentes y suministros",
+      "category2_7":"Soluciones de gestión de combustible limpio (para la lista en inglés es Clean Fuel Program Management)",      
       "category3":"Servicios de movilidad e innovaciones",
+      "category3_1":"Inteligencia artificial para movilidad",
+      "category3_2":"Sistemas avanzados de asistencia al conductor (ADAS)",
+      "category3_3":"Soluciones y tecnología de conducción autónoma",
+      "category3_4":"Servicios inteligentes de gestión del tráfico e intersecciones inteligentes",
+      "category3_5":"Servicios inteligentes para gestión tráfico en carreteras y caminos",
+      "category3_6":"Placas digitales",
+      "category3_7":"Aplicaciones/Plataformas de movilidad",
+      "category3_8":"Servicios de transporte digital",
+      "category3_9":"Movilidad compartida",
+      "category3_10":"Estacionamientos inteligentes",
+      "category3_11":"Gestión inteligente de flota",
       "category4":"Ecosistema de movilidad eléctrica & proveedores de servicios",
+      "category4_1":"SAAC (Sistemas avanzados de asistencia al conductor)",
+      "category4_2":"Sistemas AV",
+      "category4_3":"Conectividad",
+      "category4_4":"Ciberseguridad",
+      "category4_5":"Localización",
+      "category4_6":"Experiencia del pasajero y de viaje",
+      "category4_7":"Seguridad vial y del pasajero",
+      "category4_8":"Insurtech",
+      "category4_9":"Pagos digitales",
+      "category4_10":"Servicios de consultoría y desarrollo urbano inteligente",
       "gallery":"Galería",
+      "convert_exhibitor": "Conviértete en expositor",
+      "presence_social": "Presencia en redes sociales",
+      "followers": "Seguidores",
+      "network": "en redes",
+      "people": "personas",
+      "reach": "alcanzadas",
+      "follow_us":"Síguenos en Redes Sociales",
+      "coverage": "Cobertura",
+      "allsocial": "EN TODAS NUESTRAS REDES",
       "price-title":"Precios a expositores",
       "price1":{
         "title":"Espacio libre",
@@ -98,7 +149,11 @@
           "item6":"Código de pre-registro de visitantes para su compañía y mención en el directorio.",
           "item-button":"COMPRAR"
         }
-      }
+      },
+      "contact_us":"Contacto",
+      "simultanious_event":"Evento simultáneo con:",
+      "plain":"Plano"
+
     },
     "about_amof":{
       "title":"Exposición de Movilidad del futuro",
@@ -132,7 +187,9 @@
     },
     "footer":{
       "event_date":"9 – 11 de octubre de 2024 <br /> Poliforum Léon, <br /> Léon Guanajuato, México <br /> miércoles y jueves: 11:00 – 19:00 hrs. viernes: 11:00 – 17:00 hrs.",
-      "title_contact":"Contacto General"
+      "title_contact":"Contacto General",
+      "suscribe":"Suscríbase a nuestro boletín",
+      "button_suscribe":"Suscribirse"
     },
     "widgetsocial":{
       "description":"Evento celebrado simultáneamente con ITM"
