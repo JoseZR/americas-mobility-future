@@ -1,12 +1,12 @@
 ---
-import { MarqueeReact } from "../components/MarqueeReact";
-import Layout from "../layouts/Layout.astro";
-import { changeLanguage, t } from "i18next";
-import { partners } from "../logos_partners";
-import { Carousel3d } from "../components/Carousel3d.jsx";
-import { PresenceSocial } from "../components/PresenceSocial.jsx";
-
-changeLanguage("es");
+import { MarqueeReact } from '../components/MarqueeReact'
+import Layout from '../layouts/Layout.astro'
+import { changeLanguage, t } from 'i18next'
+import { partners } from '../logos_partners'
+import { Carousel3d } from '../components/Carousel3d.jsx'
+import { PresenceSocial } from '../components/PresenceSocial.jsx'
+import { Funnel_visitor } from '../components/Funnel_visitor.jsx'
+changeLanguage('es')
 ---
 
 <Layout title='AMOF | Inicio'>
@@ -195,7 +195,7 @@ changeLanguage("es");
       </li>
     </ul> */
       }
-      <img src='/img/grafica.png' alt='Amof toma de desiciones' class='w-96' />
+      <Funnel_visitor client:only />
     </div>
   </section>
   <section class='py-10 container mx-auto'>
