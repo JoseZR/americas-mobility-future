@@ -31,31 +31,31 @@ changeLanguage("en");
         <p
           data-aos='fade-down'
           data-aos-duration='1000'
-          class='lg:text-9xl text-5xl font-bold text-white lg:text-center text-center'
+          class='lg:text-7xl text-5xl font-bold text-white lg:text-center text-center'
         >
-          <span class='text-[#03CAFE]'>AM</span><span class='text-[#001A78]'
-            >OF</span
+          <span class='text-[#03CAFE]'>AMERICAS´<br /> mobi</span><span
+            class='text-[#001A78]'>lity of the Future</span
           >
-          <p
-            data-aos='zoom-in'
-            data-aos-duration='1000'
-            class='text-3xl font-bold text-white lg:text-center text-center'
-            set:html={t('home.slogan')}
-          />
-          <p
-            data-aos='fade-up'
-            data-aos-duration='1000'
-            class='mt-10 text-center text-white font-semibold text-5xl'
-          >
-            {t('home.event_date_video')}
-          </p>
-          <p
-            data-aos='fade-up'
-            data-aos-duration='1000'
-            class='mt-5 text-center text-white font-bold text-3xl'
-          >
-            Poliforum - Léon Guanajuato, México
-          </p>
+        </p>
+        <p
+          data-aos='zoom-in'
+          data-aos-duration='1000'
+          class='mt-5 text-3xl font-bold text-white lg:text-center text-center'
+          set:html={t('home.slogan')}
+        />
+        <p
+          data-aos='fade-up'
+          data-aos-duration='1000'
+          class='mt-10 text-center text-white font-semibold text-5xl'
+        >
+          {t('home.event_date_video')}
+        </p>
+        <p
+          data-aos='fade-up'
+          data-aos-duration='1000'
+          class='mt-5 text-center text-white font-bold text-3xl'
+        >
+          Poliforum - Léon Guanajuato, México
         </p>
       </div>
     </div>
@@ -86,9 +86,10 @@ changeLanguage("en");
         >
           AMERICAS’ mobility of the future
         </p>
-        <p class='lg:text-2xl lg:text-left text-justify'>
-          {t('home.description')}
-        </p>
+        <p
+          class='lg:text-xl lg:text-left text-justify'
+          set:html={t('home.description')}
+        />
       </div>
     </div>
   </section>
