@@ -1,10 +1,12 @@
 ---
 import { MarqueeReact } from "../../components/MarqueeReact";
 import Layout from "../../layouts/Layout.astro";
+import Categories from "../../components/Categories.astro";
 import { changeLanguage, t } from "i18next";
 import { partners } from "../../logos_partners";
 import { Carousel3d } from "../../components/Carousel3d.jsx";
 import { PresenceSocial } from "../../components/PresenceSocial.jsx";
+import { Funnel_visitor } from "../../components/Funnel_visitor.jsx";
 
 changeLanguage("en");
 ---
@@ -195,7 +197,7 @@ changeLanguage("en");
       </li>
     </ul> */
       }
-      <img src='/img/grafica.png' alt='Amof toma de desiciones' class='w-96' />
+      <Funnel_visitor client:only />
     </div>
   </section>
   <section class='py-10 container mx-auto'>
@@ -229,108 +231,8 @@ changeLanguage("en");
       </div>
     </div>
   </section>
-  <section class='py-20 bg-[#032174] text-white' id='perfil-expositor'>
-    <p class='font-bold uppercase text-4xl text-center'>{t('home.title3')}</p>
-    <div class='grid place-content-center lg:grid-cols-4 grid-cols-1 gap-4 m-8'>
-      <div class='p-4 flex flex-col items-center justify-start text-white'>
-        <video
-          src='/video/Video_01.mp4'
-          autoplay
-          loop
-          muted
-          class='w-full h-52 object-cover rounded-xl'></video>
-        <p class='py-5 h-10 font-bold text-center text-2xl'>
-          {t('home.category1')}
-        </p>
-        <ul class='mt-20 ps-4 text-start list-disc text-lg'>
-          <li>{t('home.category1_1')}</li>
-          <li>{t('home.category1_2')}</li>
-          <li>{t('home.category1_3')}</li>
-          <li>{t('home.category1_4')}</li>
-          <li>{t('home.category1_5')}</li>
-          <li>{t('home.category1_6')}</li>
-          <li>{t('home.category1_7')}</li>
-          <li>{t('home.category1_8')}</li>
-          <li>{t('home.category1_9')}</li>
-          <li>{t('home.category1_10')}</li>
-          <li>{t('home.category1_11')}</li>
-          <li>{t('home.category1_12')}</li>
-          <li>{t('home.category1_13')}</li>
-          <li>{t('home.category1_14')}</li>
-          <li>{t('home.category1_15')}</li>
-          <li>{t('home.category1_16')}</li>
-          <li>{t('home.category1_17')}</li>
-        </ul>
-      </div>
-      <div class='p-4 flex flex-col items-center justify-start text-white'>
-        <video
-          src='/video/Video_02.mp4'
-          autoplay
-          loop
-          muted
-          class='w-full h-52 object-cover rounded-xl'></video>
-        <p class='py-5 h-10 font-bold text-center text-2xl'>
-          {t('home.category2')}
-        </p>
-        <ul class='mt-20 ps-4 text-start list-disc text-lg'>
-          <li>{t('home.category2_1')}</li>
-          <li>{t('home.category2_2')}</li>
-          <li>{t('home.category2_3')}</li>
-          <li>{t('home.category2_4')}</li>
-          <li>{t('home.category2_5')}</li>
-          <li>{t('home.category2_6')}</li>
-          <li>{t('home.category2_7')}</li>
-        </ul>
-      </div>
-      <div class='p-4 flex flex-col items-center justify-start text-white'>
-        <video
-          src='/video/Video_03.mp4'
-          autoplay
-          loop
-          muted
-          class='w-full h-52 object-cover rounded-xl'></video>
-        <p class='py-5 h-10 font-bold text-center text-2xl'>
-          {t('home.category3')}
-        </p>
-        <ul class='mt-20 ps-4 text-start list-disc text-lg'>
-          <li>{t('home.category3_1')}</li>
-          <li>{t('home.category3_2')}</li>
-          <li>{t('home.category3_3')}</li>
-          <li>{t('home.category3_4')}</li>
-          <li>{t('home.category3_5')}</li>
-          <li>{t('home.category3_6')}</li>
-          <li>{t('home.category3_7')}</li>
-          <li>{t('home.category3_8')}</li>
-          <li>{t('home.category3_9')}</li>
-          <li>{t('home.category3_10')}</li>
-          <li>{t('home.category3_11')}</li>
-        </ul>
-      </div>
-      <div class='p-4 flex flex-col items-center justify-start text-white'>
-        <video
-          src='/video/Video_04.mp4'
-          autoplay
-          loop
-          muted
-          class='w-full h-52 object-cover rounded-xl'></video>
-        <p class='py-5 h-10 font-bold text-center text-2xl'>
-          {t('home.category4')}
-        </p>
-        <ul class='mt-20 ps-4 text-start list-disc text-lg'>
-          <li>{t('home.category4_1')}</li>
-          <li>{t('home.category4_2')}</li>
-          <li>{t('home.category4_3')}</li>
-          <li>{t('home.category4_4')}</li>
-          <li>{t('home.category4_5')}</li>
-          <li>{t('home.category4_6')}</li>
-          <li>{t('home.category4_7')}</li>
-          <li>{t('home.category4_8')}</li>
-          <li>{t('home.category4_9')}</li>
-          <li>{t('home.category4_10')}</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+
+  <Categories />
   <section class='py-10 container mx-auto px-4'>
     <p class='text-center font-bold text-4xl uppercase text-gray-600'>
       {t('home.gallery')} 2023
@@ -445,11 +347,11 @@ changeLanguage("en");
           <div
             class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
           >
-            <h5 class='text-3xl font-bold text-white uppercase'>
-              {t('home.price1.title')}
-            </h5>
             <h5 class='mb-4 text-normal font-medium text-white uppercase'>
               {t('home.price1.type')}
+            </h5>
+            <h5 class='text-3xl font-bold text-white uppercase'>
+              {t('home.price1.title')}
             </h5>
             <div class='flex items-baseline justify-center text-white'>
               <span class='text-3xl font-semibold'>$</span>
@@ -492,11 +394,11 @@ changeLanguage("en");
           <div
             class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
           >
-            <h5 class='text-3xl font-bold text-white uppercase'>
-              {t('home.price2.title')}
-            </h5>
             <h5 class='mb-4 text-normal font-medium text-white uppercase'>
               {t('home.price1.type')}
+            </h5>
+            <h5 class='text-3xl font-bold text-white uppercase'>
+              {t('home.price2.title')}
             </h5>
             <div class='flex items-baseline justify-center text-white'>
               <span class='text-3xl font-semibold'>$</span>
@@ -567,8 +469,8 @@ changeLanguage("en");
   <section class='container mx-auto px-4' id='contactanos'>
     <div class='grid grid-cols-3 place-items-center'>
       <img
-        src='/img/AZUL-ICON.webp'
-        alt='Azul Ogazón'
+        src='/img/damian.webp'
+        alt='Damian'
         class='border shadow-xl rounded-2xl w-72'
       />
       <div class='w-full text-start'>
@@ -576,12 +478,12 @@ changeLanguage("en");
           {t('home.contact_us')}
         </p>
         <p class='mt-5 text-2xl'>
-          Azul Ogazón <br />
-          Tel: +52 (55) 7906-2162<br />
+          Damian Arias Ramirez <br />
+          Tel: +52 (55) 1952-0314<br />
           <a
-            href='mailto:azul.ogazon@igeco.mx'
+            href='mailto:damian.arias@igeco.mx'
             class='hover:text-blue-800 font-bold text-gray-600'
-            >azul.ogazon@igeco.mx</a
+            >damian.arias@igeco.mx</a
           >
         </p>
       </div>
