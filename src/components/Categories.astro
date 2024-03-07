@@ -6,13 +6,13 @@ import { t } from 'i18next'
   <p class='font-bold uppercase text-4xl text-center'>{t('home.title3')}</p>
   <div class='mt-10 home-activities text-center'>
     <div class='home-activities-wrapper'>
-      <div class='relative'>
+      <div class='relative grid place-items-center'>
         <video
           src='/video/Video_01.mp4'
           autoplay
           loop
           muted
-          class='w-full h-52 object-cover'></video>
+          class='w-full h-52 object-cover absolute z-[-1]'></video>
         <div class='info'>
           <p class='py-5 font-bold text-center text-xl'>
             {t('home.category1')}
@@ -44,7 +44,7 @@ import { t } from 'i18next'
           autoplay
           loop
           muted
-          class='w-full h-52 object-cover'></video>
+          class='w-full h-52 object-cover absolute z-[-1]'></video>
         <div class='info'>
           <p class='py-5 font-bold text-center text-xl'>
             {t('home.category2')}
@@ -66,7 +66,7 @@ import { t } from 'i18next'
           autoplay
           loop
           muted
-          class='w-full h-52 object-cover'></video>
+          class='w-full h-52 object-cover absolute z-[-1]'></video>
         <div class='info'>
           <p class='py-5 font-bold text-center text-xl'>
             {t('home.category3')}
@@ -92,7 +92,7 @@ import { t } from 'i18next'
           autoplay
           loop
           muted
-          class='w-full h-52 object-cover'></video>
+          class='w-full h-52 object-cover absolute z-[-1]'></video>
         <div class='info'>
           <p class='py-5 font-bold text-center text-xl'>
             {t('home.category4')}
@@ -142,7 +142,7 @@ import { t } from 'i18next'
     opacity: 0.7;
   }
 
-  .home-activities-wrapper div:hover {
+  .home-activities-wrapper > div:hover {
     cursor: crosshair;
     width: 300px;
     opacity: 1 !important;
@@ -157,23 +157,17 @@ import { t } from 'i18next'
 
   .home-activities-wrapper .info {
     width: 100%;
-    position: absolute;
-    bottom: 0;
     font-size: 23px;
     color: white;
     font-weight: bold;
     background: linear-gradient(to bottom, transparent, black);
-    height: 130px;
+    height: 100%;
     padding: 10px;
     transition: none;
     display: grid;
     place-content: center;
   }
-  .home-activities-wrapper :hover .info {
-    top: 0;
-    width: 100%;
-    height: 100%;
-  }
+
   @media (max-width: 768px) {
     .home-activities-wrapper .info {
       top: 0;
