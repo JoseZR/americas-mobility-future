@@ -4,9 +4,9 @@ import Layout from "../layouts/Layout.astro";
 import Categories from "../components/Categories.astro";
 import { changeLanguage, t } from "i18next";
 import { partners } from "../logos_partners";
-import { Carousel3d } from "../components/Carousel3d.jsx";
 import { PresenceSocial } from "../components/PresenceSocial.jsx";
 import { Funnel_visitor } from "../components/Funnel_visitor.jsx";
+import MouseOverZoom from "../components/MouseOverZoom.jsx";
 
 changeLanguage("es");
 ---
@@ -444,7 +444,7 @@ changeLanguage("es");
   <section class='container mx-auto px-4' id='contactanos'>
     <div class='grid md:grid-cols-3 place-items-center'>
       <img
-        src='/img/damian.webp'
+        src='/img/damianArias.webp'
         alt='Damian'
         class='border shadow-xl rounded-2xl w-72'
       />
@@ -469,15 +469,13 @@ changeLanguage("es");
         </a>
       </div>
     </div>
-    <div class='mt-20 grid md:flex md:w-3/4 mx-auto'>
+    <div class='mt-20 grid mx-auto'>
       <p class='my-10 mb-0 text-center text-gray-600 font-bold text-5xl'>
         {t('home.plain')}
       </p>
-      <img
-        src='/img/Plano-AMO.webp'
-        alt='IGECO'
-        class='w-full rounded-xl mx-auto'
-      />
+      <div class='image-zoom-container'>
+        <MouseOverZoom client:only imageSrc='/img/PLANOAMOF2024.jpg' />
+      </div>
     </div>
   </section>
   <section class='my-12'>
