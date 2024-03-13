@@ -3,7 +3,7 @@ import { MarqueeReact } from "../components/MarqueeReact";
 import Layout from "../layouts/Layout.astro";
 import Categories from "../components/Categories.astro";
 import { changeLanguage, t } from "i18next";
-import { partners, exhibitor} from "../logos_partners";
+import { partners, exhibitor } from "../logos_partners";
 import { PresenceSocial } from "../components/PresenceSocial.jsx";
 import { Funnel_visitor } from "../components/Funnel_visitor.jsx";
 import MouseOverZoom from "../components/MouseOverZoom.jsx";
@@ -100,7 +100,7 @@ changeLanguage("es");
         data-aos-duration='1000'
         class='text-5xl text-[#87F9F2] font-bold text-center'
       >
-        {t('home.title1')} & {t('home.title2')}
+        summit & expo
       </p>
       <p
         data-aos='zoom-in'
@@ -209,8 +209,8 @@ changeLanguage("es");
   <Categories />
 
   <section class='my-12'>
-    <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
-      EXHIBITORS 2023
+    <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
+      {t('home.exhibitors')} 2023
     </p>
     <MarqueeReact images={exhibitor} client:only />
   </section>
