@@ -449,37 +449,16 @@ changeLanguage("es");
     </div>
   </section>
   <section class='container mx-auto px-4' id='contactanos'>
-    <div class='grid md:grid-cols-3 place-items-center'>
-      <img
-        src='/img/damianArias.webp'
-        alt='Damian'
-        class='border shadow-xl rounded-2xl w-72'
-      />
-      <div class='w-full text-start'>
-        <p class='text-5xl font-bold text-black'>
-          {t('home.contact_us')}
-        </p>
-        <p class='mt-5 text-2xl'>
-          Damian Arias Ramirez <br />
-          Tel: +52 (55) 1952-0314<br />
-          <a
-            href='mailto:damian.arias@igeco.mx'
-            class='hover:text-blue-800 font-bold text-gray-600'
-            >damian.arias@igeco.mx</a
-          >
-        </p>
-      </div>
-      <div>
+    <div class='mt-20 grid mx-auto'>
+      <p class='my-10 mb-0 text-center text-gray-600 font-bold text-5xl'>
+        {t('home.plain')}
+      </p>
+      <div class='mt-5 grid place-items-center'>
         <p class='text-xl font-bold'>{t('home.simultanious_event')}</p>
         <a href='https://industrialtransformation.mx/' target='_blank'>
           <img src='/img/Logo_ITM.png' alt='IGECO' class='w-40' />
         </a>
       </div>
-    </div>
-    <div class='mt-20 grid mx-auto'>
-      <p class='my-10 mb-0 text-center text-gray-600 font-bold text-5xl'>
-        {t('home.plain')}
-      </p>
       <div class='image-zoom-container'>
         <MouseOverZoom client:only imageSrc='/img/PLANOAMOF2024.jpg' />
       </div>
