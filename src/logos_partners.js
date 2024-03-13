@@ -8,7 +8,42 @@ const partners = [
     { link: '', src: '/img/logos/dpl-news.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/global-industries.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/consultoria.webp', alt:'', width: 200, height: 190 },    
-
 ]
 
-export {partners}
+
+const exhibitor = [
+    { link: '', src: '/img/logos/exhibitors_3M.webp', alt:'', width: 200, height: 124 },
+    { link: '', src: '/img/logos/exhibitors_360.webp', alt:'', width: 130, height: 105 },
+    { link: '', src: '/img/logos/exhibitors_acsys.webp', alt:'', width: 200, height: 65 },
+    { link: '', src: '/img/logos/exhibitors_AirMobolity.webp', alt:'', width: 200, height: 64 },
+    { link: '', src: '/img/logos/exhibitors_AllRide.webp', alt:'', width: 170, height: 55.48 },
+    { link: '', src: '/img/logos/exhibitors_bendix.webp', alt:'', width: 140, height: 84.89 },
+    { link: '', src: '/img/logos/exhibitors_cenex.webp', alt:'', width: 140, height: 124.89 },
+    { link: '', src: '/img/logos/exhibitors_Centro_Emprendemos_Monterrey.webp', alt:'', width: 220, height: 61.14 },
+    { link: '', src: '/img/logos/exhibitors_CIIA.webp', alt:'', width: 160, height: 37.82 },
+    { link: '', src: '/img/logos/exhibitors_Fedex.webp', alt:'', width: 160, height: 70.88 },
+    { link: '', src: '/img/logos/exhibitors_filtermist.webp', alt:'', width: 200, height: 35.25 },
+    { link: '', src: '/img/logos/exhibitors_gobMonterrey.webp', alt:'', width: 200, height: 95.09 },
+    { link: '', src: '/img/logos/exhibitors_GSMautomotive.webp', alt:'', width: 240, height: 28.14 },
+    { link: '', src: '/img/logos/exhibitors_Hellmann.webp', alt:'', width: 170, height: 42.99 },
+    { link: '', src: '/img/logos/exhibitors_Hirst.webp', alt:'', width: 150, height: 79.52 },
+    { link: '', src: '/img/logos/exhibitors_Hitachi.webp', alt:'', width: 150, height: 75.05 },
+    { link: '', src: '/img/logos/exhibitors_idonis.webp', alt:'', width: 130, height: 59.8 },
+    { link: '', src: '/img/logos/exhibitors_Introid.webp', alt:'', width: 180, height: 30.39 },
+    { link: '', src: '/img/logos/exhibitors_Japma.webp', alt:'', width: 180, height: 179.95 },
+    { link: '', src: '/img/logos/exhibitors_Keysight.webp', alt:'', width: 200, height: 60.26 },
+    { link: '', src: '/img/logos/exhibitors_Kia.webp', alt:'', width: 180, height: 66 },
+    { link: '', src: '/img/logos/exhibitors_MachineCare.webp', alt:'', width: 200, height: 32.23 },
+    { link: '', src: '/img/logos/exhibitors_Mit.webp', alt:'', width: 160, height: 51.28 },
+    { link: '', src: '/img/logos/exhibitors_MTD.webp', alt:'', width: 80, height:80 },
+    { link: '', src: '/img/logos/exhibitors_Nemak.webp', alt:'', width: 200, height: 71.49 },
+    { link: '', src: '/img/logos/exhibitors_NL4.webp', alt:'', width: 220, height: 170 },
+    { link: '', src: '/img/logos/exhibitors_Pymatek.webp', alt:'', width: 200, height: 71.23 },
+    { link: '', src: '/img/logos/exhibitors_SGS.webp', alt:'', width: 200, height: 124.32 },
+    { link: '', src: '/img/logos/exhibitors_Siemens.webp', alt:'', width: 230, height: 97.29 },
+    { link: '', src: '/img/logos/exhibitors_Sliding.webp', alt:'', width: 200, height: 53.66 },
+    { link: '', src: '/img/logos/exhibitors_trifast.webp', alt:'', width: 90, height: 97.65 },
+    { link: '', src: '/img/logos/exhibitors_UANL.webp', alt:'', width: 80, height: 103.22 },
+    { link: '', src: '/img/logos/exhibitors_Voltway.webp', alt:'', width: 200, height: 154.5 },
+]
+export {partners, exhibitor}

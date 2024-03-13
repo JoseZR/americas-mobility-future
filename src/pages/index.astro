@@ -3,7 +3,7 @@ import { MarqueeReact } from "../components/MarqueeReact";
 import Layout from "../layouts/Layout.astro";
 import Categories from "../components/Categories.astro";
 import { changeLanguage, t } from "i18next";
-import { partners } from "../logos_partners";
+import { partners, exhibitor} from "../logos_partners";
 import { PresenceSocial } from "../components/PresenceSocial.jsx";
 import { Funnel_visitor } from "../components/Funnel_visitor.jsx";
 import MouseOverZoom from "../components/MouseOverZoom.jsx";
@@ -206,8 +206,15 @@ changeLanguage("es");
       </div>
     </div>
   </section>
-
   <Categories />
+
+  <section class='my-12'>
+    <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
+      EXHIBITORS 2023
+    </p>
+    <MarqueeReact images={exhibitor} client:only />
+  </section>
+
   <section class='py-10 container mx-auto px-4'>
     <p class='text-center font-bold text-4xl uppercase text-gray-600'>
       {t('home.gallery')} 2023
