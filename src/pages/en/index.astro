@@ -135,495 +135,498 @@ changeLanguage("en");
         <span class='text-8xl font-bold'>84%</span><br />
         {t('home.visitor_description')}
       </p>
-      <MarqueeReact images={visitors} client:only />
-    </div>
-  </section>
-  <section class='py-10 container mx-auto'>
-    <p class='text-3xl text-center font-bold text-gray-600 uppercase'>
-      {t('home.testimonial')}
-    </p>
-    <div class='mt-5 grid md:grid-cols-4'>
-      <div class='p-4'>
-        <lite-youtube
-          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
-          videoid='wjfs2AygD_U'
-          videotitle='CII IA'></lite-youtube>
-      </div>
-      <div class='p-4'>
-        <lite-youtube
-          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
-          videoid='RyWyLJzVM9s'
-          videotitle='Siemens'></lite-youtube>
-      </div>
-      <div class='p-4'>
-        <lite-youtube
-          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
-          videoid='e5cqOqNDdaE'
-          videotitle='Air mobility'></lite-youtube>
-      </div>
-      <div class='p-4'>
-        <lite-youtube
-          class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
-          videoid='183Ds-5BatU'
-          videotitle='Air mobility'></lite-youtube>
+      <div>
+        <MarqueeReact images={visitors} client:only />
+        <p class='text-center'>{t('home.buyers_2023')}</p>
       </div>
     </div>
-  </section>
-  <Categories />
+    <section class='mt-10 py-10 container mx-auto'>
+      <p class='text-3xl text-center font-bold text-gray-600 uppercase'>
+        {t('home.testimonial')}
+      </p>
+      <div class='mt-5 grid md:grid-cols-4'>
+        <div class='p-4'>
+          <lite-youtube
+            class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+            videoid='wjfs2AygD_U'
+            videotitle='CII IA'></lite-youtube>
+        </div>
+        <div class='p-4'>
+          <lite-youtube
+            class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+            videoid='RyWyLJzVM9s'
+            videotitle='Siemens'></lite-youtube>
+        </div>
+        <div class='p-4'>
+          <lite-youtube
+            class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+            videoid='e5cqOqNDdaE'
+            videotitle='Air mobility'></lite-youtube>
+        </div>
+        <div class='p-4'>
+          <lite-youtube
+            class='shadow-2xl shadow-white/10 rounded-lg md:h-96'
+            videoid='183Ds-5BatU'
+            videotitle='Air mobility'></lite-youtube>
+        </div>
+      </div>
+    </section>
+    <Categories />
 
-  <section class='my-12'>
-    <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
-      {t('home.exhibitors')} 2023
-    </p>
-    <MarqueeReact images={exhibitor} client:only />
-  </section>
+    <section class='my-12'>
+      <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
+        {t('home.exhibitors')} 2023
+      </p>
+      <MarqueeReact images={exhibitor} client:only />
+    </section>
 
-  <section class='py-10 container mx-auto px-4'>
-    <p class='text-center font-bold text-4xl uppercase text-gray-600'>
-      {t('home.gallery')} 2023
-    </p>
-    <div class='mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-4'>
-      <div class='grid gap-4'>
-        <div>
-          <img
-            class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery1.webp'
-            alt='Amof 2023 - 1'
-          />
+    <section class='py-10 container mx-auto px-4'>
+      <p class='text-center font-bold text-4xl uppercase text-gray-600'>
+        {t('home.gallery')} 2023
+      </p>
+      <div class='mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-4'>
+        <div class='grid gap-4'>
+          <div>
+            <img
+              class='h-96 w-full rounded-lg object-cover'
+              src='/img/gallery1.webp'
+              alt='Amof 2023 - 1'
+            />
+          </div>
+          <div>
+            <img
+              class='h-60 w-full rounded-lg object-cover'
+              src='/img/gallery2.webp'
+              alt='Amof 2023 - 2'
+            />
+          </div>
+          <div>
+            <img
+              class='h-96 max-w-full rounded-lg object-cover'
+              src='/img/gallery3.webp'
+              alt='Amof 2023 - 3'
+            />
+          </div>
         </div>
-        <div>
-          <img
-            class='h-60 w-full rounded-lg object-cover'
-            src='/img/gallery2.webp'
-            alt='Amof 2023 - 2'
-          />
+        <div class='grid gap-4'>
+          <div>
+            <img
+              class='h-full w-full rounded-lg object-cover'
+              src='/img/gallery4.webp'
+              alt='Amof 2023 - 4'
+            />
+          </div>
+          <div>
+            <img
+              class='h-96 w-full rounded-lg object-cover'
+              src='/img/gallery5.webp'
+              alt='Amof 2023 - 5'
+            />
+          </div>
+          <div>
+            <img
+              class='h-96 w-full rounded-lg object-cover'
+              src='/img/gallery6.webp'
+              alt='Amof 2023 - 6'
+            />
+          </div>
         </div>
-        <div>
-          <img
-            class='h-96 max-w-full rounded-lg object-cover'
-            src='/img/gallery3.webp'
-            alt='Amof 2023 - 3'
-          />
+        <div class='grid gap-4'>
+          <div>
+            <img
+              class='h-96 w-full rounded-lg object-cover'
+              src='/img/gallery7.webp'
+              alt='Amof 2023 - 7'
+            />
+          </div>
+          <div>
+            <img
+              class='h-64 w-full rounded-lg object-cover'
+              src='/img/gallery8.webp'
+              alt='Amof 2023 - 8'
+            />
+          </div>
+          <div>
+            <img
+              class='h-96 w-full rounded-lg object-cover'
+              src='/img/gallery9.webp'
+              alt='Amof 2023 - 9'
+            />
+          </div>
         </div>
-      </div>
-      <div class='grid gap-4'>
-        <div>
-          <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery4.webp'
-            alt='Amof 2023 - 4'
-          />
-        </div>
-        <div>
-          <img
-            class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery5.webp'
-            alt='Amof 2023 - 5'
-          />
-        </div>
-        <div>
-          <img
-            class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery6.webp'
-            alt='Amof 2023 - 6'
-          />
-        </div>
-      </div>
-      <div class='grid gap-4'>
-        <div>
-          <img
-            class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery7.webp'
-            alt='Amof 2023 - 7'
-          />
-        </div>
-        <div>
-          <img
-            class='h-64 w-full rounded-lg object-cover'
-            src='/img/gallery8.webp'
-            alt='Amof 2023 - 8'
-          />
-        </div>
-        <div>
-          <img
-            class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery9.webp'
-            alt='Amof 2023 - 9'
-          />
-        </div>
-      </div>
-      <div class='grid gap-4'>
-        <div>
-          <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery10.webp'
-            alt='Amof 2023 - 10'
-          />
-        </div>
-        <div>
-          <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery11.webp'
-            alt='Amof 2023 - 11'
-          />
-        </div>
-        <div>
-          <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery12.webp'
-            alt='Amof 2023 - 12'
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class='my-10' id='tarifas'>
-    <p class='font-bold uppercase text-4xl text-center text-gray-600'>
-      {t('home.exhibitor_floor')}
-    </p>
-    <p class='font-bold uppercase text-normal text-center pt-4'>
-      {t('home.price-title')}
-    </p>
-    <div
-      class='lg:flex grid lg:grid-cols-2 grid-cols-1 gap-16 items-start justify-center lg:m-16 m-4'
-    >
-      <div class='flex items-center justify-center lg:w-[400px] w-auto'>
-        <div class='flex items-center justify-center'>
-          <div
-            class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
-          >
-            <h5 class='mb-4 text-normal font-medium text-white uppercase'>
-              {t('home.price1.type')}
-            </h5>
-            <h5 class='text-3xl font-bold text-white uppercase'>
-              {t('home.price1.title')}
-            </h5>
-            <div class='flex items-baseline justify-center text-white'>
-              <span class='text-3xl font-semibold'>$</span>
-              <span class='text-6xl font-extrabold'>263</span>
-            </div>
-            <p class='text-white text-xl font-semibold'>
-              {t('home.price1.characteristics.coin-type')}
-            </p>
-
-            <ul role='list' class='space-y-5 my-7'>
-              <li
-                class='flex items-center justify-center py-4 border-y border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price1.characteristics.item1')}
-                />
-              </li>
-              <li class='flex items-center justify-center py-4'>
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price1.characteristics.item2')}
-                />
-              </li>
-            </ul>
-            <a
-              href='mailto:damian.arias@igeco.mx'
-              class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
-              >{t('home.price1.characteristics.item-button')}
-            </a>
-            <span
-              class='text-base font-normal leading-tight text-white ms-3'
-              set:html={t('home.price1.characteristics.item3')}
+        <div class='grid gap-4'>
+          <div>
+            <img
+              class='h-full w-full rounded-lg object-cover'
+              src='/img/gallery10.webp'
+              alt='Amof 2023 - 10'
+            />
+          </div>
+          <div>
+            <img
+              class='h-full w-full rounded-lg object-cover'
+              src='/img/gallery11.webp'
+              alt='Amof 2023 - 11'
+            />
+          </div>
+          <div>
+            <img
+              class='h-full w-full rounded-lg object-cover'
+              src='/img/gallery12.webp'
+              alt='Amof 2023 - 12'
             />
           </div>
         </div>
       </div>
-      <div class='flex items-center justify-center lg:w-[400px] w-auto'>
-        <div class='flex items-center justify-center'>
-          <div
-            class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
-          >
-            <h5 class='mb-4 text-normal font-medium text-white uppercase'>
-              {t('home.price1.type')}
-            </h5>
-            <h5 class='text-3xl font-bold text-white uppercase'>
-              {t('home.price2.title')}
-            </h5>
-            <div class='flex items-baseline justify-center text-white'>
-              <span class='text-3xl font-semibold'>$</span>
-              <span class='text-6xl font-extrabold'>368</span>
-            </div>
-            <p class='text-white text-xl font-semibold'>
-              {t('home.price1.characteristics.coin-type')}
-            </p>
+    </section>
+    <section class='my-10' id='tarifas'>
+      <p class='font-bold uppercase text-4xl text-center text-gray-600'>
+        {t('home.exhibitor_floor')}
+      </p>
+      <p class='font-bold uppercase text-normal text-center pt-4'>
+        {t('home.price-title')}
+      </p>
+      <div
+        class='lg:flex grid lg:grid-cols-2 grid-cols-1 gap-16 items-start justify-center lg:m-16 m-4'
+      >
+        <div class='flex items-center justify-center lg:w-[400px] w-auto'>
+          <div class='flex items-center justify-center'>
+            <div
+              class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
+            >
+              <h5 class='mb-4 text-normal font-medium text-white uppercase'>
+                {t('home.price1.type')}
+              </h5>
+              <h5 class='text-3xl font-bold text-white uppercase'>
+                {t('home.price1.title')}
+              </h5>
+              <div class='flex items-baseline justify-center text-white'>
+                <span class='text-3xl font-semibold'>$</span>
+                <span class='text-6xl font-extrabold'>263</span>
+              </div>
+              <p class='text-white text-xl font-semibold'>
+                {t('home.price1.characteristics.coin-type')}
+              </p>
 
-            <ul role='list' class='space-y-5 my-7'>
-              <li
-                class='flex items-center justify-center py-4 border-y border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item1')}
-                />
-              </li>
-              <li
-                class='flex items-center justify-center py-2 border-b border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item2')}
-                />
-              </li>
-              <li
-                class='flex items-center justify-center py-2 border-b border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item3')}
-                />
-              </li>
-              <li
-                class='flex items-center justify-center py-2 border-b border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item4')}
-                />
-              </li>
-              <li
-                class='flex items-center justify-center py-2 border-b border-white'
-              >
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item5')}
-                />
-              </li>
-              <li class='flex items-center justify-center py-2'>
-                <span
-                  class='text-normal font-normal leading-tight text-white ms-3'
-                  set:html={t('home.price2.characteristics.item6')}
-                />
-              </li>
-            </ul>
-            <a
-              href='mailto:damian.arias@igeco.mx'
-              class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
-              >{t('home.price1.characteristics.item-button')}
-            </a>
+              <ul role='list' class='space-y-5 my-7'>
+                <li
+                  class='flex items-center justify-center py-4 border-y border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price1.characteristics.item1')}
+                  />
+                </li>
+                <li class='flex items-center justify-center py-4'>
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price1.characteristics.item2')}
+                  />
+                </li>
+              </ul>
+              <a
+                href='mailto:damian.arias@igeco.mx'
+                class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
+                >{t('home.price1.characteristics.item-button')}
+              </a>
+              <span
+                class='text-base font-normal leading-tight text-white ms-3'
+                set:html={t('home.price1.characteristics.item3')}
+              />
+            </div>
+          </div>
+        </div>
+        <div class='flex items-center justify-center lg:w-[400px] w-auto'>
+          <div class='flex items-center justify-center'>
+            <div
+              class='w-full max-w-sm p-4 rounded-lg shadow sm:p-8 bg-blue-950 text-center h-[700px]'
+            >
+              <h5 class='mb-4 text-normal font-medium text-white uppercase'>
+                {t('home.price1.type')}
+              </h5>
+              <h5 class='text-3xl font-bold text-white uppercase'>
+                {t('home.price2.title')}
+              </h5>
+              <div class='flex items-baseline justify-center text-white'>
+                <span class='text-3xl font-semibold'>$</span>
+                <span class='text-6xl font-extrabold'>368</span>
+              </div>
+              <p class='text-white text-xl font-semibold'>
+                {t('home.price1.characteristics.coin-type')}
+              </p>
+
+              <ul role='list' class='space-y-5 my-7'>
+                <li
+                  class='flex items-center justify-center py-4 border-y border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item1')}
+                  />
+                </li>
+                <li
+                  class='flex items-center justify-center py-2 border-b border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item2')}
+                  />
+                </li>
+                <li
+                  class='flex items-center justify-center py-2 border-b border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item3')}
+                  />
+                </li>
+                <li
+                  class='flex items-center justify-center py-2 border-b border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item4')}
+                  />
+                </li>
+                <li
+                  class='flex items-center justify-center py-2 border-b border-white'
+                >
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item5')}
+                  />
+                </li>
+                <li class='flex items-center justify-center py-2'>
+                  <span
+                    class='text-normal font-normal leading-tight text-white ms-3'
+                    set:html={t('home.price2.characteristics.item6')}
+                  />
+                </li>
+              </ul>
+              <a
+                href='mailto:damian.arias@igeco.mx'
+                class='text-white bg-blue-400 hover:bg-blue-200 hover:text-blue-950 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center mb-8'
+                >{t('home.price1.characteristics.item-button')}
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class='container mx-auto px-4' id='contactanos'>
-    <div class='mt-20 grid mx-auto'>
-      <p class='my-10 mb-0 text-center text-gray-600 font-bold text-5xl'>
-        {t('home.plain')}
+    </section>
+    <section class='container mx-auto px-4' id='contactanos'>
+      <div class='mt-20 grid mx-auto'>
+        <p class='my-10 mb-0 text-center text-gray-600 font-bold text-5xl'>
+          {t('home.plain')}
+        </p>
+        <div class='mt-5 grid place-items-center'>
+          <p class='text-xl font-bold'>{t('home.simultanious_event')}</p>
+          <a href='https://industrialtransformation.mx/' target='_blank'>
+            <img src='/img/Logo_ITM.png' alt='IGECO' class='w-40' />
+          </a>
+        </div>
+        <div class='image-zoom-container'>
+          <MouseOverZoom client:only imageSrc='/img/PLANOAMOF2024.jpg' />
+        </div>
+      </div>
+    </section>
+    <section class='my-12'>
+      <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
+        MEDIA PARTNERS
       </p>
-      <div class='mt-5 grid place-items-center'>
-        <p class='text-xl font-bold'>{t('home.simultanious_event')}</p>
-        <a href='https://industrialtransformation.mx/' target='_blank'>
-          <img src='/img/Logo_ITM.png' alt='IGECO' class='w-40' />
+      <MarqueeReact images={partners} client:only />
+    </section>
+    <section class='py-10 container px-4 mx-auto grid place-items-center'>
+      <div
+        class='grid place-items-center md:flex justify-center w-full md:w-8/12'
+      >
+        <img src='/img/movilSocial.webp' alt='AMOF Redes' class='w-96' />
+        <PresenceSocial
+          client:only
+          title={t('home.presence_social')}
+          followers={t('home.followers')}
+          network={t('home.network')}
+          people={t('home.people')}
+          reach={t('home.reach')}
+          coverage={t('home.coverage')}
+          allsocial={t('home.allsocial')}
+        />
+      </div>
+      <p class='text-[#007bff] text-3xl font-bold mt-10'>
+        {t('home.follow_us')}
+      </p>
+      <div class='flex justify-center items-center my-4'>
+        <a
+          href='https://www.facebook.com/AmericasMobilityOfTheFuture'
+          target='_blank'
+        >
+          <svg
+            class='w-8 h-8 mx-4 text-[#007BFF] hover:text-blue-800'
+            aria-hidden='true'
+            xmlns='http://www.w3.org/2000/svg'
+            fill='currentColor'
+            viewBox='0 0 24 24'
+          >
+            <path
+              fill-rule='evenodd'
+              d='M13.1 6H15V3h-1.9A4.1 4.1 0 0 0 9 7.1V9H7v3h2v10h3V12h2l.6-3H12V6.6a.6.6 0 0 1 .6-.6h.5Z'
+              clip-rule='evenodd'></path>
+          </svg>
+        </a>
+        <a
+          href='https://www.instagram.com/americas.mobility.ofthefuture/'
+          target='_blank'
+        >
+          <svg
+            class='w-10 h-10 mx-4 text-[#007BFF] hover:text-blue-800'
+            xmlns='http://www.w3.org/2000/svg'
+            x='0px'
+            y='0px'
+            width='100'
+            height='100'
+            viewBox='0,0,256,256'
+          >
+            <g
+              fill='#007BFF'
+              class='hover:fill-blue-800'
+              fill-rule='nonzero'
+              stroke='none'
+              stroke-width='1'
+              stroke-linecap='butt'
+              stroke-linejoin='miter'
+              stroke-miterlimit='10'
+              stroke-dasharray=''
+              stroke-dashoffset='0'
+              font-family='none'
+              font-weight='none'
+              font-size='none'
+              text-anchor='none'
+              style='mix-blend-mode: normal'
+            >
+              <g transform='scale(8,8)'>
+                <path
+                  d='M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z'
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a
+          href='https://www.linkedin.com/company/mobility-of-the-future/'
+          target='_blank'
+        >
+          <svg
+            class='w-10 h-10 text-[#007BFF] hover:text-blue-800 mx-4'
+            aria-hidden='true'
+            xmlns='http://www.w3.org/2000/svg'
+            fill='currentColor'
+            viewBox='0 0 24 24'
+          >
+            <path
+              fill-rule='evenodd'
+              d='M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z'
+              clip-rule='evenodd'></path>
+            <path d='M7.2 8.8H4v10.7h3.2V8.8Z'></path>
+          </svg>
         </a>
       </div>
-      <div class='image-zoom-container'>
-        <MouseOverZoom client:only imageSrc='/img/PLANOAMOF2024.jpg' />
+      <div class='grid md:flex md:flex-wrap mt-5'>
+        <img
+          src='/img/siguenos1.webp'
+          class='w-full md:w-1/3'
+          alt='Americas mobility of the future - 1'
+        />
+        <img
+          src='/img/siguenos2.webp'
+          class='w-full md:w-1/3'
+          alt='Americas mobility of the future - 2'
+        />
+        <img
+          src='/img/siguenos3.webp'
+          class='w-full md:w-1/3'
+          alt='Americas mobility of the future - 3'
+        />
       </div>
-    </div>
+    </section>
+
+    <style>
+      .home-text-agro {
+        text-shadow: 4px 4px 4px black;
+      }
+      .filter-shadow {
+        filter: drop-shadow(4px 4px 4px black);
+      }
+
+      .card {
+        width: 100%;
+        max-height: 600px;
+        border-radius: inherit;
+        border: none; /* Eliminamos el borde */
+      }
+
+      .card .front-content {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      .card .front-content p {
+        font-weight: 800;
+        opacity: 1;
+        /* background: #288705; */
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      .card .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        background: rgb(23, 101, 179);
+        background: linear-gradient(
+          112deg,
+          rgb(22, 139, 206) 0%,
+          rgb(16, 109, 171) 100%
+        );
+        color: #ffffff;
+        padding: 5px 10px;
+        line-height: 1.5;
+        border-radius: 5px;
+        pointer-events: none;
+        transform: translateY(-100%);
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      .card .content .heading {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 5px 15px;
+      }
+
+      .card:hover .content {
+        transform: translateY(0);
+      }
+
+      .card:hover .front-content {
+        transform: translateY(30%);
+      }
+
+      .card:hover .front-content p {
+        opacity: 0;
+      }
+    </style>
+    <script>
+      import '@justinribeiro/lite-youtube'
+    </script>
   </section>
-  <section class='my-12'>
-    <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
-      MEDIA PARTNERS
-    </p>
-    <MarqueeReact images={partners} client:only />
-  </section>
-  <section class='py-10 container px-4 mx-auto grid place-items-center'>
-    <div
-      class='grid place-items-center md:flex justify-center w-full md:w-8/12'
-    >
-      <img src='/img/movilSocial.webp' alt='AMOF Redes' class='w-96' />
-      <PresenceSocial
-        client:only
-        title={t('home.presence_social')}
-        followers={t('home.followers')}
-        network={t('home.network')}
-        people={t('home.people')}
-        reach={t('home.reach')}
-        coverage={t('home.coverage')}
-        allsocial={t('home.allsocial')}
-      />
-    </div>
-    <p class='text-[#007bff] text-3xl font-bold mt-10'>
-      {t('home.follow_us')}
-    </p>
-    <div class='flex justify-center items-center my-4'>
-      <a
-        href='https://www.facebook.com/AmericasMobilityOfTheFuture'
-        target='_blank'
-      >
-        <svg
-          class='w-8 h-8 mx-4 text-[#007BFF] hover:text-blue-800'
-          aria-hidden='true'
-          xmlns='http://www.w3.org/2000/svg'
-          fill='currentColor'
-          viewBox='0 0 24 24'
-        >
-          <path
-            fill-rule='evenodd'
-            d='M13.1 6H15V3h-1.9A4.1 4.1 0 0 0 9 7.1V9H7v3h2v10h3V12h2l.6-3H12V6.6a.6.6 0 0 1 .6-.6h.5Z'
-            clip-rule='evenodd'></path>
-        </svg>
-      </a>
-      <a
-        href='https://www.instagram.com/americas.mobility.ofthefuture/'
-        target='_blank'
-      >
-        <svg
-          class='w-10 h-10 mx-4 text-[#007BFF] hover:text-blue-800'
-          xmlns='http://www.w3.org/2000/svg'
-          x='0px'
-          y='0px'
-          width='100'
-          height='100'
-          viewBox='0,0,256,256'
-        >
-          <g
-            fill='#007BFF'
-            class='hover:fill-blue-800'
-            fill-rule='nonzero'
-            stroke='none'
-            stroke-width='1'
-            stroke-linecap='butt'
-            stroke-linejoin='miter'
-            stroke-miterlimit='10'
-            stroke-dasharray=''
-            stroke-dashoffset='0'
-            font-family='none'
-            font-weight='none'
-            font-size='none'
-            text-anchor='none'
-            style='mix-blend-mode: normal'
-          >
-            <g transform='scale(8,8)'>
-              <path
-                d='M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z'
-              ></path>
-            </g>
-          </g>
-        </svg>
-      </a>
-      <a
-        href='https://www.linkedin.com/company/mobility-of-the-future/'
-        target='_blank'
-      >
-        <svg
-          class='w-10 h-10 text-[#007BFF] hover:text-blue-800 mx-4'
-          aria-hidden='true'
-          xmlns='http://www.w3.org/2000/svg'
-          fill='currentColor'
-          viewBox='0 0 24 24'
-        >
-          <path
-            fill-rule='evenodd'
-            d='M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z'
-            clip-rule='evenodd'></path>
-          <path d='M7.2 8.8H4v10.7h3.2V8.8Z'></path>
-        </svg>
-      </a>
-    </div>
-    <div class='grid md:flex md:flex-wrap mt-5'>
-      <img
-        src='/img/siguenos1.webp'
-        class='w-full md:w-1/3'
-        alt='Americas mobility of the future - 1'
-      />
-      <img
-        src='/img/siguenos2.webp'
-        class='w-full md:w-1/3'
-        alt='Americas mobility of the future - 2'
-      />
-      <img
-        src='/img/siguenos3.webp'
-        class='w-full md:w-1/3'
-        alt='Americas mobility of the future - 3'
-      />
-    </div>
-  </section>
-
-  <style>
-    .home-text-agro {
-      text-shadow: 4px 4px 4px black;
-    }
-    .filter-shadow {
-      filter: drop-shadow(4px 4px 4px black);
-    }
-
-    .card {
-      width: 100%;
-      max-height: 600px;
-      border-radius: inherit;
-      border: none; /* Eliminamos el borde */
-    }
-
-    .card .front-content {
-      width: 100%;
-      height: 100%;
-      display: inline-block;
-      transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .card .front-content p {
-      font-weight: 800;
-      opacity: 1;
-      /* background: #288705; */
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .card .content {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: fit-content;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      gap: 10px;
-      background: rgb(23, 101, 179);
-      background: linear-gradient(
-        112deg,
-        rgb(22, 139, 206) 0%,
-        rgb(16, 109, 171) 100%
-      );
-      color: #ffffff;
-      padding: 5px 10px;
-      line-height: 1.5;
-      border-radius: 5px;
-      pointer-events: none;
-      transform: translateY(-100%);
-      transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-    }
-
-    .card .content .heading {
-      font-size: 16px;
-      font-weight: 700;
-      margin: 5px 15px;
-    }
-
-    .card:hover .content {
-      transform: translateY(0);
-    }
-
-    .card:hover .front-content {
-      transform: translateY(30%);
-    }
-
-    .card:hover .front-content p {
-      opacity: 0;
-    }
-  </style>
-  <script>
-    import '@justinribeiro/lite-youtube'
-  </script>
 </Layout>
