@@ -1,14 +1,14 @@
 ---
-import { MarqueeReact } from "../components/MarqueeReact";
-import Layout from "../layouts/Layout.astro";
-import Categories from "../components/Categories.astro";
-import { changeLanguage, t } from "i18next";
-import { partners, exhibitor } from "../logos_partners";
-import { PresenceSocial } from "../components/PresenceSocial.jsx";
-import { Funnel_visitor } from "../components/Funnel_visitor.jsx";
-import MouseOverZoom from "../components/MouseOverZoom.jsx";
+import { MarqueeReact } from '../components/MarqueeReact'
+import Layout from '../layouts/Layout.astro'
+import Categories from '../components/Categories.astro'
+import { changeLanguage, t } from 'i18next'
+import { partners, exhibitor, visitors } from '../logos_partners'
+import { PresenceSocial } from '../components/PresenceSocial.jsx'
+import MouseOverZoom from '../components/MouseOverZoom.jsx'
+import Marquee from 'react-fast-marquee'
 
-changeLanguage("es");
+changeLanguage('es')
 ---
 
 <Layout title='AMOF | Inicio'>
@@ -135,44 +135,7 @@ changeLanguage("es");
         <span class='text-8xl font-bold'>84%</span><br />
         {t('home.visitor_description')}
       </p>
-      {
-        /*<ul class='mt-5 list-disc'>
-      <li>
-        {t('home.visitor_profile1')}
-      </li>
-      <li>
-        {t('home.visitor_profile2')}
-      </li>
-      <li>
-        {t('home.visitor_profile3')}
-      </li>
-      <li>
-        {t('home.visitor_profile4')}
-      </li>
-      <li>
-        {t('home.visitor_profile5')}
-      </li>
-      <li>
-        {t('home.visitor_profile6')}
-      </li>
-      <li>
-        {t('home.visitor_profile7')}
-      </li>
-      <li>
-        {t('home.visitor_profile8')}
-      </li>
-      <li>
-        {t('home.visitor_profile9')}
-      </li>
-      <li>
-        {t('home.visitor_profile10')}
-      </li>
-      <li>
-        {t('home.visitor_profile11')}
-      </li>
-    </ul> */
-      }
-      <Funnel_visitor client:only />
+      <MarqueeReact images={visitors} client:only />
     </div>
   </section>
   <section class='py-10 container mx-auto'>

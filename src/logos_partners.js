@@ -1,3 +1,15 @@
+const visitors = [
+    { link: '', src: '/img/logos/grupoPosadas.webp', alt:'Grupo Posadas', width: 200, height: 190 },
+    { link: '', src: '/img/logos/femsa.webp', alt:'Interjet', width: 200, height: 190 },
+    { link: '', src: '/img/logos/tecMonterrery.webp', alt:'Latam', width: 150, height: 190 },
+    { link: '', src: '/img/logos/cemex.webp', alt:'Tec de Monterrey', width: 200, height: 190 },
+    { link: '', src: '/img/logos/ternium.webp', alt:'Cemex', width: 200, height: 190 },
+    { link: '', src: '/img/logos/exhibitors_Siemens.webp', alt:'', width: 230, height: 97.29 },
+    { link: '', src: '/img/logos/exhibitors_3M.webp', alt:'', width: 150, height: 124 },
+    { link: '', src: '/img/logos/deloitte.webp', alt:'', width: 200, height: 124 },
+
+]
+
 const partners = [
     { link: '', src: '/img/logos/cluster-industrial.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/heraldo_group.webp', alt:'', width: 200, height: 190 },
@@ -46,4 +58,4 @@ const exhibitor = [
     { link: '', src: '/img/logos/exhibitors_UANL.webp', alt:'', width: 80, height: 103.22 },
     { link: '', src: '/img/logos/exhibitors_Voltway.webp', alt:'', width: 200, height: 154.5 },
 ]
-export {partners, exhibitor}
+export {partners, exhibitor, visitors}
