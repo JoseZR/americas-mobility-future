@@ -19,7 +19,10 @@ const partners = [
     { link: '', src: '/img/logos/logistic-delivery.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/dpl-news.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/global-industries.webp', alt:'', width: 200, height: 190 },
-    { link: '', src: '/img/logos/consultoria.webp', alt:'', width: 200, height: 190 },    
+    { link: '', src: '/img/logos/consultoria.webp', alt:'', width: 200, height: 190 }, 
+    { link: '', src: '/img/logos/global-energy.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/energia-hoy.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/empresas-verdes.webp', alt:'', width: 200, height: 190 },
 ]
 
 
