@@ -147,7 +147,9 @@
       "exhibitors":"EXHIBITORS",
       "simultanious_event":"Simultaneous event with:",
       "plain":"Floor Plan",
-      "buyers_2023": "* Visitors in 2023"
+      "buyers_2023": "* Visitors in 2023",
+      "organized":"Organized by",
+      "allies":"Strategic Allies"
     },
     "about_amof":{
       "title":"Future Mobility Exhibition",

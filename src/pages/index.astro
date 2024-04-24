@@ -57,6 +57,22 @@ changeLanguage("es");
         >
           Poliforum - Léon Guanajuato, México
         </p>
+        <div
+          data-aos='fade-up'
+          data-aos-duration='1000'
+          class='mt-10 flex gap-4 justify-center'
+        >
+          <img
+            src='/img/igeco_bn.webp'
+            alt='Italian Exhibition Group'
+            class='w-40'
+          />
+          <img
+            src='/img/deutsche_messe_bn.webp'
+            alt='Deutsche Messe'
+            class='w-40'
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -102,20 +118,23 @@ changeLanguage("es");
       >
         summit & expo
       </p>
-      <p
-        data-aos='zoom-in'
-        data-aos-duration='1000'
-        class='mt-5 text-white text-center font-bold text-lg'
-      >
-        {t('home.description1')}
-      </p>
-      <p
-        data-aos='zoom-in'
-        data-aos-duration='1000'
-        class='text-white text-center font-bold text-lg'
-      >
-        {t('home.description2')}
-      </p>
+      <div class='mt-5 grid md:grid-cols-2'>
+        <p
+          data-aos='zoom-in'
+          data-aos-duration='1000'
+          class='text-white text-center font-bold text-lg'
+        >
+          {t('home.description1')}
+        </p>
+        <p
+          data-aos='zoom-in'
+          data-aos-duration='1000'
+          class='text-white text-center font-bold text-lg'
+        >
+          {t('home.description2')}
+        </p>
+      </div>
+
       <video
         src='/video/SUMMIT-amofv1-opt.mp4'
         class='w-full md:w-2/4 mt-5 rounded-xl shadow-2xl flex mx-auto'
@@ -171,15 +190,51 @@ changeLanguage("es");
         </div>
       </div>
     </section>
-    <Categories />
+  </section>
+  <Categories />
+  <p class='mt-20 font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
+    {t('home.organized')}
+  </p>
+  <div class='mt-10 container mx-auto'>
+    <div class='sm:flex grid gap-8 justify-center'>
+      <a href='https://www.iegexpo.it/en/' target='_blank' rel='noreferrer'>
+        <img
+          src='/img/italianExhibitionGroup.webp'
+          width={150}
+          height={82}
+          loading='lazy'
+          alt='italianExhibitionGroup'
+        />
+      </a>
 
-    <section class='my-12'>
+      <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
+        <img
+          src='/img/deutscheMesse.webp'
+          width={250}
+          height={54}
+          loading='lazy'
+          alt='deutscheMesse'
+        />
+      </a>
+    </div>
+  </div>
+  <p class='mt-20 font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
+    {t('home.allies')}
+  </p>
+  <img src='/img/logo_INA-vertical.webp' alt='INA' class='w-60 mx-auto' />
+  <section class='py-10 container mx-auto px-4'>
+    <div class='my-12'>
       <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
         {t('home.exhibitors')} 2023
       </p>
       <MarqueeReact images={exhibitor} client:only />
+    </div>
+    <section class='my-12'>
+      <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
+        MEDIA PARTNERS
+      </p>
+      <MarqueeReact images={partners} client:only />
     </section>
-
     <section class='py-10 container mx-auto px-4'>
       <p class='text-center font-bold text-4xl uppercase text-gray-600'>
         {t('home.gallery')} 2023
@@ -429,12 +484,7 @@ changeLanguage("es");
         </div>
       </div>
     </section>
-    <section class='my-12'>
-      <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
-        MEDIA PARTNERS
-      </p>
-      <MarqueeReact images={partners} client:only />
-    </section>
+
     <section class='py-10 container px-4 mx-auto grid place-items-center'>
       <div
         class='grid place-items-center md:flex justify-center w-full md:w-8/12'
@@ -547,86 +597,85 @@ changeLanguage("es");
         />
       </div>
     </section>
-
-    <style>
-      .home-text-agro {
-        text-shadow: 4px 4px 4px black;
-      }
-      .filter-shadow {
-        filter: drop-shadow(4px 4px 4px black);
-      }
-
-      .card {
-        width: 100%;
-        max-height: 600px;
-        border-radius: inherit;
-        border: none; /* Eliminamos el borde */
-      }
-
-      .card .front-content {
-        width: 100%;
-        height: 100%;
-        display: inline-block;
-        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-      }
-
-      .card .front-content p {
-        font-weight: 800;
-        opacity: 1;
-        /* background: #288705; */
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-      }
-
-      .card .content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 10px;
-        background: rgb(23, 101, 179);
-        background: linear-gradient(
-          112deg,
-          rgb(22, 139, 206) 0%,
-          rgb(16, 109, 171) 100%
-        );
-        color: #ffffff;
-        padding: 5px 10px;
-        line-height: 1.5;
-        border-radius: 5px;
-        pointer-events: none;
-        transform: translateY(-100%);
-        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-      }
-
-      .card .content .heading {
-        font-size: 16px;
-        font-weight: 700;
-        margin: 5px 15px;
-      }
-
-      .card:hover .content {
-        transform: translateY(0);
-      }
-
-      .card:hover .front-content {
-        transform: translateY(30%);
-      }
-
-      .card:hover .front-content p {
-        opacity: 0;
-      }
-    </style>
-    <script>
-      import '@justinribeiro/lite-youtube'
-    </script>
   </section>
 </Layout>
+<style>
+  .home-text-agro {
+    text-shadow: 4px 4px 4px black;
+  }
+  .filter-shadow {
+    filter: drop-shadow(4px 4px 4px black);
+  }
+
+  .card {
+    width: 100%;
+    max-height: 600px;
+    border-radius: inherit;
+    border: none; /* Eliminamos el borde */
+  }
+
+  .card .front-content {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card .front-content p {
+    font-weight: 800;
+    opacity: 1;
+    /* background: #288705; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background: rgb(23, 101, 179);
+    background: linear-gradient(
+      112deg,
+      rgb(22, 139, 206) 0%,
+      rgb(16, 109, 171) 100%
+    );
+    color: #ffffff;
+    padding: 5px 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translateY(-100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card .content .heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 15px;
+  }
+
+  .card:hover .content {
+    transform: translateY(0);
+  }
+
+  .card:hover .front-content {
+    transform: translateY(30%);
+  }
+
+  .card:hover .front-content p {
+    opacity: 0;
+  }
+</style>
+<script>
+  import '@justinribeiro/lite-youtube'
+</script>

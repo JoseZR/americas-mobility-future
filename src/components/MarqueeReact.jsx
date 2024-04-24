@@ -5,15 +5,15 @@ export function MarqueeReact({ images, direction = 'right' }) {
     <Marquee gradient direction={direction}>
       {images.map((image, index) => (
         <div key={index} className='m-4 text-center h-100'>
-          {image.link==='' ?
+          {image.link === '' ? (
             <img
-            src={image.src}
-            alt={image.alt}
-            width={image.width}
-            height={image.height}
-            loading='lazy'
-            /> 
-          :
+              src={image.src}
+              alt={image.alt}
+              width={image.width}
+              height={image.height}
+              loading='lazy'
+            />
+          ) : (
             <a href={image.link} target='_blank'>
               <img
                 src={image.src}
@@ -23,8 +23,7 @@ export function MarqueeReact({ images, direction = 'right' }) {
                 loading='lazy'
               />
             </a>
-          }
-          
+          )}
         </div>
       ))}
     </Marquee>
