@@ -7,6 +7,7 @@ import { partners, exhibitor, visitors } from "../../logos_partners";
 import { PresenceSocial } from "../../components/PresenceSocial.jsx";
 import MouseOverZoom from "../../components/MouseOverZoom.jsx";
 import Marquee from "react-fast-marquee";
+import Program from "../../components/Program.astro";
 
 changeLanguage("en");
 ---
@@ -334,6 +335,7 @@ changeLanguage("en");
         </div>
       </div>
     </section>
+    <Program />
     <section class='my-10' id='tarifas'>
       <p class='font-bold uppercase text-4xl text-center text-gray-600'>
         {t('home.exhibitor_floor')}

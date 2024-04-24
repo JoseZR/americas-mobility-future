@@ -186,6 +186,10 @@
     },
     "widgetsocial":{
       "description":"Evento celebrado simultáneamente con ITM"
+    },
+    "program":{
+      "title": "PROXIMAMENTE MÁS INFORMACIÓN...",
+      "schedule_summit":"Agenda Summit 2024"
     }
 }
   
