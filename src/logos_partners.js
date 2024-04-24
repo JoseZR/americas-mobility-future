@@ -23,6 +23,7 @@ const partners = [
     { link: '', src: '/img/logos/global-energy-v2.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/energia-hoy.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/empresas-verdes.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/Energy-Commerce.webp', alt:'', width: 200, height: 190 },
 ]
 
 
