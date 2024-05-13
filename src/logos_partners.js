@@ -26,6 +26,7 @@ const partners = [
     { link: '', src: '/img/logos/Energy-Commerce.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/directorioauto.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/Milenio.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/Industria360.webp', alt:'', width: 250, height: 190 },
 ]
 
 
