@@ -1,15 +1,15 @@
 ---
-import { MarqueeReact } from "../components/MarqueeReact";
-import Layout from "../layouts/Layout.astro";
-import Categories from "../components/Categories.astro";
-import { changeLanguage, t } from "i18next";
-import { partners, exhibitor, visitors } from "../logos_partners";
-import { PresenceSocial } from "../components/PresenceSocial.jsx";
-import MouseOverZoom from "../components/MouseOverZoom.jsx";
-import Marquee from "react-fast-marquee";
-import Program from "../components/Program.astro";
+import { MarqueeReact } from '../components/MarqueeReact'
+import Layout from '../layouts/Layout.astro'
+import Categories from '../components/Categories.astro'
+import { changeLanguage, t } from 'i18next'
+import { partners, exhibitor, visitors } from '../logos_partners'
+import { PresenceSocial } from '../components/PresenceSocial.jsx'
+import MouseOverZoom from '../components/MouseOverZoom.jsx'
+import Marquee from 'react-fast-marquee'
+import Program from '../components/Program.astro'
 
-changeLanguage("es");
+changeLanguage('es')
 ---
 
 <Layout title='AMOF | Inicio'>
@@ -228,7 +228,12 @@ changeLanguage("es");
       <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
         {t('home.exhibitors')} 2023
       </p>
-      <MarqueeReact images={exhibitor} client:only direction='left' />
+      <MarqueeReact
+        client:visible
+        images={exhibitor}
+        client:only
+        direction='left'
+      />
     </div>
     <section class='my-12'>
       <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
@@ -493,7 +498,7 @@ changeLanguage("es");
       >
         <img src='/img/movilSocial.webp' alt='AMOF Redes' class='w-96' />
         <PresenceSocial
-          client:only
+          client:visible
           title={t('home.presence_social')}
           followers={t('home.followers')}
           network={t('home.network')}
