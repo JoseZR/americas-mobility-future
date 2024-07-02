@@ -3,7 +3,7 @@ import i18next, { t } from 'i18next'
 import { LanguageSelector } from 'astro-i18next/components'
 
 const lang = i18next.language
-const base = lang === 'es' ? '' : `/${lang}`
+const base = i18next.language === 'es' ? '' : `/${lang}`
 ---
 
 <nav class='bg-gray-100'>
