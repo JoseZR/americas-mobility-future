@@ -8,7 +8,7 @@ import astroI18next from "astro-i18next";
 // https://astro.build/config
 export default defineConfig({
   site: "https://americas-mobility-future",
-  integrations: [sitemap({
+  integrations: [tailwind(), react(), astroI18next(),sitemap({
     i18n: {
       defaultLocale: "es",
       locales: {
@@ -16,5 +16,5 @@ export default defineConfig({
         es: "es"
       }
     }
-  }), tailwind(), react(), astroI18next()]
+  }),]
 });

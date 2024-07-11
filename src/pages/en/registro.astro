@@ -1,0 +1,30 @@
+---
+import i18next, { changeLanguage, t } from "i18next";
+import { RegisterForm } from "../../components/register/RegisterForm.jsx";
+import LayoutRegister from "../../layouts/LayoutRegister.astro";
+
+changeLanguage("en");
+
+const registerTranslations = t("register", { returnObjects: true });
+const currentLanguage = i18next.language;
+---
+
+<LayoutRegister title='ITM | Registro 2024'>
+  <main
+    class='py-5 grid place-items-center place-content-center h-full container mx-auto px-4'
+  >
+    <section>
+      <h1 class='text-center font-extrabold text-4xl'>
+        {t('register.title')}
+      </h1>
+      <p class='text-center text-2xl font-bold'>
+        {t('register.description')}
+      </p>
+    </section>
+    <RegisterForm
+      translates={registerTranslations}
+      currentLanguage={currentLanguage}
+      client:only='react'
+    />
+  </main>
+</LayoutRegister>
