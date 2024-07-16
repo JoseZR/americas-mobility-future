@@ -71,8 +71,8 @@ export function StepThree({ translates, currentLanguage }) {
     formState: { errors },
   } = useForm({})
 
-  //const urlbase = 'https://demo.industrialtransformation.mx/server/'
-  const urlbase = 'http://localhost:3010/'
+  const urlbase = 'https://demo.industrialtransformation.mx/server/'
+  //const urlbase = 'http://localhost:3010/'
 
   const handleRegister = async () => {
     setProcessing(true)
