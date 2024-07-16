@@ -60,6 +60,7 @@ export function StepTwo({ translates }) {
   const [messagePostalCode, setMessagePostalCode] = useState('')
   const urlbase = 'https://industrialtransformation.mx/server/'
   //const urlbase = 'http://localhost:3010/'
+
   const handlePostalCode = async (e) => {
     setPostalCode(e)
     if (e.length === 5 && country === 'Mexico') {

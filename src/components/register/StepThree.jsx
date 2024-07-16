@@ -71,12 +71,12 @@ export function StepThree({ translates, currentLanguage }) {
     formState: { errors },
   } = useForm({})
 
-  const urlbase = 'https://demo.industrialtransformation.mx/server/'
-  //const urlbase = 'http://localhost:3010/'
+  //const urlbase = 'https://demo.industrialtransformation.mx/server/'
+  const urlbase = 'http://localhost:3010/'
 
   const handleRegister = async () => {
     setProcessing(true)
-    const response = await fetch(urlbase + 'free-register', {
+    const response = await fetch(urlbase + 'free-register-amof', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -116,7 +116,7 @@ export function StepThree({ translates, currentLanguage }) {
     })
     const orderData = await response.json()
     if (orderData.status) {
-      clear()
+      //clear()
       setCompleteRegister(true)
       setInvoiceDownToLoad(orderData?.invoice)
       currentLanguage === 'es'

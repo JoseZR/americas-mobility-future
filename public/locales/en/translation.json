@@ -321,6 +321,12 @@
         "position_2": "DIRECTOR / AREA COORDINATOR",
         "position_3": "CHIEF / AREA MANAGER",
         "position_4": "OPERATING PERSONNEL"
+    },
+    "thanks_page":{
+        "title": "Thank you for registering",
+        "title2": "Thank_you_for_registering",
+        "description": "Your registration has been successfully completed. We will send you an email with your access to the event.<br /> <br /> We look forward to seeing you at AMERICAS´ mobility of the future 2024.",
+        "download_pass": "Download your pass"        
     }
   }
   

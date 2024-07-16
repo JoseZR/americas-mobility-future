@@ -321,6 +321,12 @@
         "position_2": "DIRECTOR / COORDINADOR DE AREA",
         "position_3": "JEFE / GERENTE DE AREA",
         "position_4": "PERSONAL OPERATIVO"
+    },
+    "thanks_page":{
+        "title": "Gracias por registrarte",
+        "title2": "Gracias_por_registrarte",
+        "description": "Tu registro ha sido exitoso, te hemos enviado un correo con tu gafete de acceso al evento. <br /> <br /> ¡Nos vemos en AMERICAS´ mobility of the future 2024!",
+        "download_pass": "Descargar tu gafete"        
     }
 }
   

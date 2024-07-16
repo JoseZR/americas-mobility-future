@@ -122,7 +122,7 @@ const useRegisterForm = create(
             })
 
         }), 
-        { name: "register-form" }
+        { name: "register-form-amof" }
     )
 )
 
