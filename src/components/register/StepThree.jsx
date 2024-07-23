@@ -116,7 +116,7 @@ export function StepThree({ translates, currentLanguage }) {
     })
     const orderData = await response.json()
     if (orderData.status) {
-      //clear()
+      clear()
       setCompleteRegister(true)
       setInvoiceDownToLoad(orderData?.invoice)
       currentLanguage === 'es'
