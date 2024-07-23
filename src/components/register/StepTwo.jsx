@@ -203,6 +203,8 @@ export function StepTwo({ translates }) {
             <option value='BIOTECNOLOGÍA Y FARMACÉUTICA'>
               {translates.industry_option_18}
             </option>
+            <option value='TRANSPORTE'>TRANSPORTE</option>
+            <option value='IT'>IT</option>
           </select>
           {errors.industry && (
             <p className='text-red-600 font-light'>{errors.industry.message}</p>

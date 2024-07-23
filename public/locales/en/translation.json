@@ -281,13 +281,10 @@
             "SECRETARIAT"
         ],
         "list_interest_product": [
-            "AUTOMATION, ROBOTISATION AND POWER TRANSMISSION",
-            "DIGITAL FACTORY",
-            "MACHINES AND TOOLS",
-            "SMART LOGISTICS",
-            "MOBILITY OF THE FUTURE",
-            "RESEARCH INSTITUTES",
-            "GOVERNMENTAL BODIES"
+            "MOBILITY OF THE FUTURE, TRANSPORT AND VEHICLES",
+            "INFRASTRUCTURE AND SUSTAINABILITY",
+            "MOBILITY SERVICES AND INNOVATIONS",
+            "MOBILITY ECOMSYSTEMS AND SERVICE PROVIDERS"        
         ],
         "spectacular": "SPECTACULAR",
         "webpage": "WEBPAGE",
@@ -317,6 +314,7 @@
         "industry_option_16": "CHAMBERS AND ASSOCIATIONS",
         "industry_option_17": "PACKAGING",
         "industry_option_18": "BIOTECHNOLOGY & PHARMACEUTICALS",
+        "industry_option_19": "TRANSPORT",
         "position_1": "CEO / PRESIDENT",
         "position_2": "DIRECTOR / AREA COORDINATOR",
         "position_3": "CHIEF / AREA MANAGER",

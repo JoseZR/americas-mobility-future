@@ -1,5 +1,5 @@
 ---
-import { changeLanguage, t } from "i18next";
+import i18next, { changeLanguage, t } from "i18next";
 import { MarqueeReact } from "../../components/MarqueeReact";
 import Layout from "../../layouts/Layout.astro";
 import Categories from "../../components/Categories.astro";
@@ -9,6 +9,9 @@ import MouseOverZoom from "../../components/MouseOverZoom.jsx";
 import Program from "../../components/Program.astro";
 
 changeLanguage("en");
+
+const lang = i18next.language;
+const base = i18next.language === "es" ? "" : `/${lang}`;
 ---
 
 <Layout title='AMOF | Inicio'>
@@ -57,6 +60,16 @@ changeLanguage("en");
         >
           Poliforum - Léon Guanajuato, México
         </p>
+
+        <a
+          href={`${base}/registro`}
+          data-aos='fade-up'
+          data-aos-duration='1000'
+          class='mt-10 bg-[#03CAFE] hover:bg-[#001A78] text-white font-bold text-2xl py-3 px-6 rounded-lg block text-center w-fit mx-auto uppercase'
+        >
+          {t('register.title')}
+        </a>
+
         <div
           data-aos='fade-up'
           data-aos-duration='1000'

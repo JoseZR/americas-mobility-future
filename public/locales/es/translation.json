@@ -281,13 +281,10 @@
             "SECRETARÍA"
         ],
         "list_interest_product": [
-            "AUTOMATIZACIÓN, ROBOTIZACIÓN Y TRANSMISIÓN DE PODER",
-            "FÁBRICA DIGITAL",
-            "MÁQUINAS Y HERRAMIENTAS",
-            "LOGÍSTICA INTELIGENTE",
-            "MOVILIDAD DEL FUTURO",
-            "INSTITUTOS DE INVESTIGACIÓN",
-            "INSTANCIAS DE GOBIERNO"
+            "MOVILIDAD DEL FUTURO, TRANSPORTES Y VEHÍCULOS",
+            "INFRAESTRUCTURA Y SUSTENTABILIDAD",
+            "SERVICIOS DE MOVILIDAD E INNOVACIONES",
+            "ECOMSISTEMAS DE MOVILIDAD Y PROVEEDORES DE SERVICIOS"            
         ],
         "spectacular": "ESPECTACULAR",
         "webpage": "PÁGINA WEB",        
@@ -317,6 +314,7 @@
         "industry_option_16": "CÁMARAS Y ASOCIACIONES",
         "industry_option_17": "EMBALAJE",
         "industry_option_18": "BIOTECNOLOGÍA Y FARMACÉUTICA",
+        "industry_option_19": "TRANSPORTE",
         "position_1": "CEO / PRESIDENTE",
         "position_2": "DIRECTOR / COORDINADOR DE AREA",
         "position_3": "JEFE / GERENTE DE AREA",
