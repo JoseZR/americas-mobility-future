@@ -47,22 +47,15 @@ export function StepThree({ translates, currentLanguage }) {
   const [processing, setProcessing] = useState(false)
 
   const options = [
-    { label: 'Expo Manufactura', value: 'Expo Manufactura' },
-    { label: 'Expomaq', value: 'Expomaq' },
-    { label: 'Fabtech', value: 'Fabtech' },
-    { label: 'Tecma', value: 'Tecma' },
+    { label: 'Smartcities', value: 'Smartcities' },
     { label: 'The Logistics World', value: 'The Logistics World' },
-    { label: 'Automate', value: 'Automate' },
     {
-      label: 'Expo Logística y Transporte',
-      value: 'Expo Logística y Transporte',
+      label: 'Expo del transporte y logística',
+      value: 'Expo del transporte y logística',
     },
-    { label: 'Expo Pack', value: 'Expo Pack' },
-    { label: 'Expo Eléctrica', value: 'Expo Eléctrica' },
-    { label: 'Meximold', value: 'Meximold' },
-    { label: 'Fitma', value: 'Fitma' },
-    { label: 'ITMS', value: 'ITMS' },
-    { label: 'Hannover Messe (Alemania)', value: 'Hannover Messe (Alemania)' },
+    { label: 'Expo foro movilidad', value: 'Expo foro movilidad' },
+    { label: 'Latam Mobility', value: 'Latam Mobility' },
+    { label: 'International Automotive', value: 'International Automotive' },
   ]
 
   const {
