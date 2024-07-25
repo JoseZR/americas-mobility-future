@@ -27,6 +27,8 @@ const partners = [
     { link: '', src: '/img/logos/directorioauto.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/Milenio.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/Industria360.webp', alt:'', width: 250, height: 190 },
+    { link: '', src: '/img/logos/cuatrocero_v2.webp', alt:'', width: 200, },
+    { link: '', src: '/img/logos/mexicoindustry.webp', alt:'', width: 200,  },
 ]
 
 
