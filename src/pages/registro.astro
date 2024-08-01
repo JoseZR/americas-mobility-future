@@ -2,11 +2,27 @@
 import i18next, { changeLanguage, t } from "i18next";
 import { RegisterForm } from "../components/register/RegisterForm.jsx";
 import LayoutRegister from "../layouts/LayoutRegister.astro";
+import { MarqueeReact } from "../components/MarqueeReact";
 
 changeLanguage("es");
 
 const registerTranslations = t("register", { returnObjects: true });
 const currentLanguage = i18next.language;
+const logos = [
+    { src: "/img/logo_amof_v4.webp", alt: "Amof", width: 150 },
+    { src: "/img/logo_INA-vertical.webp", alt: "INA", width: 120 },
+    {
+        src: "/img/CLAUGTO-LOGO.webp",
+        alt: "CLAUGTO",
+        width: 220,
+    },
+    {
+        src: "/img/italianExhibitionGroup.webp",
+        alt: "Italian Exhibiton Group",
+        width: 120,
+    },
+    { src: "/img/deutscheMesse.webp", alt: "Deutsche Messe", width: 300 },
+];
 ---
 
 <LayoutRegister title='AMOF | Registro 2024'>
@@ -14,7 +30,10 @@ const currentLanguage = i18next.language;
     class='py-5 grid place-items-center place-content-center h-full container mx-auto px-4'
   >
     <section>
-      <h1 class='text-center font-extrabold text-4xl'>
+      <div class='mx-auto w-9/12'>
+        <MarqueeReact images={logos} client:only />
+      </div>
+      <h1 class='mt-10 text-center font-extrabold text-4xl'>
         {t('register.title')}
       </h1>
       <p class='text-center text-2xl font-bold'>
