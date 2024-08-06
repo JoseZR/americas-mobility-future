@@ -1,63 +1,244 @@
 ---
-import { t } from 'i18next'
+import i18next, { t } from 'i18next'
+import programs from '../data/constans_program_vip.js'
+import Button from '../components/schedule/Button.astro'
+import Conference from '../components/schedule/Conference.astro'
+
+const base = i18next.language === 'es' ? '' : `/${i18next.language}`
+const logosProgramVip = [
+  {
+    src: '/img/logocce.webp',
+    alt: 'program vip 1',
+    width: 200,
+    link: 'https://cce.org.mx/',
+  },
+  {
+    src: '/img/concamin.webp',
+    alt: 'program vip 2',
+    width: 180,
+    link: 'https://www.concamin.org.mx/inicio',
+  },
+  {
+    src: '/img/italianExhibitionGroup.webp',
+    alt: 'program vip 3',
+    width: 150,
+    link: 'https://www.iegexpo.it/en/',
+  },
+  {
+    src: '/img/deutscheMesse.webp',
+    alt: 'program vip 4',
+    width: 200,
+    link: 'https://www.messe.de/en/',
+  },
+]
 ---
 
-<section class='mt-5'>
-  <p class='font-bold uppercase text-4xl text-center text-gray-600'>
-    {t('program.schedule_summit')}
-  </p>
-  <!-- <p class='text-center text-xl text-gray-600'>11:00 AM - 6:50 PM</p> -->
-  <div class='mb-4 border-b border-gray-200 dark:border-gray-700'>
-    <ul
-      class='flex flex-wrap -mb-px text-sm font-medium text-center justify-center'
-      id='default-tab'
-      data-tabs-toggle='#default-tab-content'
-      role='tablist'
-    >
-      <li class='me-2' role='presentation'>
-        <button
-          class='inline-block p-4 border-b-2 rounded-t-lg'
-          id='profile-tab'
-          data-tabs-target='#profile'
-          type='button'
-          role='tab'
-          aria-controls='profile'
-          aria-selected='false'>miercoles 9 octubre</button
-        >
-      </li>
-      <li class='me-2' role='presentation'>
-        <button
-          class='inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300'
-          id='dashboard-tab'
-          data-tabs-target='#dashboard'
-          type='button'
-          role='tab'
-          aria-controls='dashboard'
-          aria-selected='false'>jueves 10 octubre</button
-        >
-      </li>
-    </ul>
-  </div>
-  <div id='default-tab-content'>
-    <div
-      class='hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800'
-      id='profile'
-      role='tabpanel'
-      aria-labelledby='profile-tab'
-    >
-      <p class='uppercase text-xl text-center text-white'>
-        {t('program.title')}
-      </p>
-    </div>
-    <div
-      class='hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800'
-      id='dashboard'
-      role='tabpanel'
-      aria-labelledby='dashboard-tab'
-    >
-      <p class='uppercase text-xl text-center text-white'>
-        {t('program.title')}
-      </p>
-    </div>
-  </div>
+<section class='mb-10 max-w-screen-lg mx-auto flex gap-6'>
+  {
+    logosProgramVip.map((logo) => (
+      <a
+        href={logo.link}
+        target='_blank'
+        class='bg-white rounded-2xl grid place-items-center p-2'
+      >
+        <img src={logo.src} alt={logo.alt} width='200' />
+      </a>
+    ))
+  }
 </section>
+<section class='mt-20'>
+  <h1
+    class='text-[#03CAFE] text-3xl md:text-5xl leading-snug font-extrabold text-center uppercase'
+  >
+    {t('programaSummiTCCE.title')}
+    <br />CCE - CONCAMIN - ITM - AMOF
+  </h1>
+  <p class='mt-5 text-center font-bold text-lg md:text-2xl uppercase'>
+    {t('programaSummiTCCE.text_1')}
+  </p>
+  <p class='text-[#E42128] text-center font-bold text-lg md:text-2xl uppercase'>
+    {t('programaSummiTCCE.text_2')}
+  </p>
+  <p class='text-center uppercase'>{t('programaSummiTCCE.text_3')}</p>
+  <a
+    href='https://industrialtransformation.mx/acceso-programa/'
+    target='_blank'
+    class='card p-5 hover:scale-105 ease-in-out duration-300 mx-auto mt-10'
+  >
+    <span class='text-white z-10 font-extrabold text-xl'>
+      {t('programaSummiTCCE.get_vip')}</span
+    >
+  </a>
+</section>
+<section class='mt-20'>
+  <div class='md:ml-5'>
+    <Button id='stage-1'>{t('programaSummiTCCE.room_1')}</Button>
+    <Button id='stage-2'>{t('programaSummiTCCE.room_2')}</Button>
+  </div>
+  <div
+    class='w-full bg-gradient-to-br from-[#E42128] to-[#CF1363] h-[1px] mt-1 mb-3 rounded-sm'
+  >
+  </div>
+  <div class='md:ml-5 *:w-full md:*:w-fit'>
+    <Button id='day-1'
+      >{t('program.day')} 1<br />{t('program.day_1')}, 9 {
+        t('program.month')
+      }</Button
+    >
+    <Button id='day-2'
+      >{t('program.day')} 2<br />{t('program.day_2')}, 10 {
+        t('program.month')
+      }</Button
+    >
+  </div>
+  {
+    programs.map((program) => (
+      <section
+        class='mt-5 hidden'
+        id={`program-${program.stage}-${program.day}`}
+      >
+        {program.conferences.map((item, key) => (
+          <Conference
+            item={item}
+            key={program.stage + '-' + program.day + '-' + key}
+          />
+        ))}
+      </section>
+    ))
+  }
+</section>
+<style>
+  .card {
+    width: fit-content;
+    background: #f6f6f6;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    background-image: linear-gradient(45deg, rgb(0, 183, 255), #e42128);
+    height: 30px;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .card::after {
+    content: '';
+    position: absolute;
+    background: #e42128;
+    inset: 5px;
+    border-radius: 15px;
+  }
+</style>
+
+<script>
+  const state = {
+    stage: 1,
+    day: 1,
+  }
+  const url = new URL(window.location.href)
+
+  function showProgram(stage: number, day: number) {
+    if (state.stage === stage && state.day === day) return
+
+    let programElement
+    programElement = document.getElementById(
+      `program-${state.stage}-${state.day}`
+    )
+    if (programElement !== null) {
+      programElement.style.display = 'none'
+    }
+    programElement = document.getElementById(`program-${stage}-${day}`)
+    if (programElement !== null) {
+      programElement.style.display = 'block'
+    }
+
+    url.searchParams.set('stage', stage.toString())
+    url.searchParams.set('day', day.toString())
+    window.history.pushState({}, '', url)
+
+    state.stage = stage
+    state.day = day
+  }
+
+  function changeOpacityStageBts(stage: number) {
+    document
+      .getElementById('stage-1')
+      ?.firstElementChild?.classList.remove('bg-opacity-0')
+    document
+      .getElementById('stage-2')
+      ?.firstElementChild?.classList.remove('bg-opacity-0')
+    document
+      .getElementById(`stage-${stage}`)
+      ?.firstElementChild?.classList.add('bg-opacity-0')
+  }
+
+  function changeOpacityDayBts(day: number) {
+    document
+      .getElementById('day-1')
+      ?.firstElementChild?.classList.remove('bg-opacity-0')
+    document
+      .getElementById('day-2')
+      ?.firstElementChild?.classList.remove('bg-opacity-0')
+    document
+      .getElementById(`day-${day}`)
+      ?.firstElementChild?.classList.add('bg-opacity-0')
+  }
+
+  function initProgram() {
+    const stage = Number(url.searchParams.get('stage')) || 1
+    const day = Number(url.searchParams.get('day')) || 1
+
+    state.stage = stage
+    state.day = day
+
+    const programElement = document.getElementById(`program-${stage}-${day}`)
+    if (programElement) {
+      programElement.style.display = 'block'
+    }
+
+    changeOpacityStageBts(stage)
+    changeOpacityDayBts(day)
+  }
+
+  function main() {
+    initProgram()
+
+    document.getElementById('stage-1')?.addEventListener('click', (e) => {
+      changeOpacityStageBts(1)
+      showProgram(1, state.day)
+    })
+    document.getElementById('stage-2')?.addEventListener('click', (e) => {
+      changeOpacityStageBts(2)
+      showProgram(2, state.day)
+    })
+
+    document.getElementById('day-1')?.addEventListener('click', (e) => {
+      changeOpacityDayBts(1)
+      showProgram(state.stage, 1)
+    })
+    document.getElementById('day-2')?.addEventListener('click', (e) => {
+      changeOpacityDayBts(2)
+      showProgram(state.stage, 2)
+    })
+  }
+
+  document.addEventListener('astro:page-load', main)
+</script>

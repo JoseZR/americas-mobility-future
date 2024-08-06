@@ -1,0 +1,114 @@
+---
+interface Props {
+    speakers: Array<{
+        name: string;
+        position: string;
+        company: string;
+        image?: string;
+    }>;
+    key: string;
+}
+
+function formatString(input: string): string {
+    return input
+        .trim()
+        .trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "-");
+}
+
+const { speakers, key } = Astro.props as Props;
+---
+
+<div class="py-4" id={`marquee-${key}`}>
+    <div class="relative flex overflow-hidden select-none">
+        {
+            [1, 2].map((i) => (
+                <div class="marquee-content shrink-0 flex justify-start items-center min-w-full">
+                    {speakers.map((speaker) => (
+                        <a
+                            href={`/ponentes/${formatString(speaker.name)}`}
+                            class="mx-2 relative inline-flex items-center justify-center p-0.5 overflow-hidden rounded-lg group bg-gradient-to-br from-[#2F4858] to-[#354E79] focus:outline-none h-full"
+                        >
+                            <div class="flex relative px-3 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 h-full">
+                                {speaker.image && (
+                                    <div class="w-16 h-16">
+                                        <img
+                                            transition:name={i === 1 ? `speaker-${formatString(speaker.name || "")}` : ''}
+                                            class="w-16 h-16 object-cover rounded-full"
+                                            src={speaker.image}
+                                            alt={speaker.name}
+                                        />
+                                    </div>
+                                )}
+                                <div class="pl-3 flex flex-col justify-center">
+                                    <p class="font-medium whitespace-nowrap">
+                                        {speaker.name}
+                                    </p>
+                                    <p class="text-xs whitespace-nowrap">
+                                        {speaker.position}
+                                    </p>
+                                    <p class="text-xs whitespace-nowrap">
+                                        {speaker.company}
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+            ))
+        }
+    </div>
+</div>
+<style>
+    @keyframes scroll {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .marquee-content {
+            animation-play-state: paused !important;
+        }
+    }
+
+    .enable-animation .marquee-content {
+        animation: scroll 30s linear infinite;
+    }
+</style>
+<script is:inline define:vars={{ key }}>
+    const container = document.getElementById(`marquee-${key}`);
+    function enableMarqueeAnimation() {
+        let speakers = Array.from(
+            container.querySelectorAll(".marquee-content > a"),
+        );
+        speakers = speakers.slice(0, speakers.length / 2);
+
+        setTimeout(() => {
+            const containerWidth = container.offsetWidth;
+            const speakersWidth = speakers.reduce(
+                (total, speaker) => total + speaker.offsetWidth,
+                0,
+            );
+            if (speakersWidth > containerWidth) {
+                container.classList.add("enable-animation");
+            }
+        }, 200);
+    }
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                enableMarqueeAnimation();
+            }
+        });
+    });
+
+    observer.observe(container);
+</script>

@@ -189,8 +189,19 @@
       "description":"Evento celebrado simultáneamente con ITM"
     },
     "program":{
-      "title": "PROXIMAMENTE MÁS INFORMACIÓN...",
-      "schedule_summit":"Agenda Summit 2024"
+      "title": "Conferencias",
+      "schedule_summit":"Agenda Summit 2024",
+      "description": "Estamos encantados de presentarles un innovador programa diseñado para potenciar el desarrollo personal y profesional de nuestros participantes. Nuestro enfoque se centra en dos áreas clave que creemos fundamentales para el éxito en el mundo moderno: la Transformation Area y la Leaders of Tomorrow Area",
+      "title_s": "Ponentes",
+      "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",
+      "day": "Día",
+      "month": "de octubre",
+      "day_1": "miércoles",
+      "day_2": "jueves",
+      "day_3": "viernes",
+      "stages": "Escenarios",        
+      "about": "Acerca de",
+      "speech": "Ponencia"
     },
     "register":{
         "title": "REGISTRO GRATUITO",
@@ -325,6 +336,17 @@
         "title2": "Gracias_por_registrarte",
         "description": "Tu registro ha sido exitoso, te hemos enviado un correo con tu gafete de acceso al evento. <br /> <br /> ¡Nos vemos en AMERICAS´ mobility of the future 2024!",
         "download_pass": "Descargar tu gafete"        
+    },
+    "programaSummiTCCE": {
+        "title": "PROGRAMA DE CONFERENCIAS",
+        "text_1": "FIRST GLOBAL SUMMIT MEXICO",
+        "text_2": "CONSTRUYENDO EL MÉXICO DEL FUTURO",
+        "text_3": "Hacia una Prosperidad Tecnológica e Inclusiva",
+        "room_1": "SALÓN MAGISTRAL",
+        "room_2": "SALÓN AMOF",
+        "room_3": "SALÓN ITM",
+        "get_vip": "Obtén tu acceso",
+        "programAmog": "Consulta el programa de AMOF"
     }
 }
   

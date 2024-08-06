@@ -6,7 +6,6 @@ import Categories from "../../components/Categories.astro";
 import { partners, exhibitor, visitors } from "../../logos_partners";
 import { PresenceSocial } from "../../components/PresenceSocial.jsx";
 import MouseOverZoom from "../../components/MouseOverZoom.jsx";
-import Program from "../../components/Program.astro";
 
 changeLanguage("en");
 
@@ -155,6 +154,13 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
         muted
         loop></video>
     </div>
+    <a
+      href='https://industrialtransformation.mx/programa-summit-cce-itm-amof/?stage=2&day=1'
+      target='_blank'
+      class='bg-[#03CAFE] hover:bg-[#05070c] text-white font-bold text-2xl py-3 px-6 mt-5 rounded-lg block text-center w-fit mx-auto uppercase'
+    >
+      {t('programaSummiTCCE.programAmog')}
+    </a>
   </section>
   <section class='py-10 container mx-auto px-4' id='visitantes'>
     <p class='font-bold text-3xl text-gray-600 uppercase text-center'>
@@ -358,7 +364,7 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
       </div>
     </div>
   </section>
-  <Program />
+
   <section class='my-10' id='tarifas'>
     <p class='font-bold uppercase text-4xl text-center text-gray-600'>
       {t('home.exhibitor_floor')}

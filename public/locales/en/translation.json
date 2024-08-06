@@ -188,9 +188,20 @@
       "suscribe":"Subscribe to our newsletter",
       "button_suscribe":"Subscribe"
     },
-    "program":{
-      "title": "COMING SOON MORE INFORMATION...",
-      "schedule_summit":"Summit Schedule 2024"
+    "program":{      
+      "schedule_summit":"Summit Schedule 2024",      
+      "title": "Conferences",
+      "description": "We are delighted to present an innovative program designed to enhance the personal and professional development of our participants. Our focus is on two key areas that we believe are fundamental to success in the modern world: the Transformation Area and the Leaders of Tomorrow Area.",
+      "title_s": "Speakers",
+      "subtitle_s": "Get inspired by our amazing speakers.",
+      "day": "Day",
+      "month": "October",
+      "day_1": "Wednesday",
+      "day_2": "Thursday",
+      "day_3": "Friday",
+      "stages": "Stages",
+      "about": "About",
+      "speech": "Speech"    
     },
      "register":{
         "title": "Free registration",
@@ -325,6 +336,17 @@
         "title2": "Thank_you_for_registering",
         "description": "Your registration has been successfully completed. We will send you an email with your access to the event.<br /> <br /> We look forward to seeing you at AMERICAS´ mobility of the future 2024.",
         "download_pass": "Download your pass"        
+    },
+    "programaSummiTCCE": {
+        "title": "CONFERENCE PROGRAM",
+        "text_1": "FIRST GLOBAL SUMMIT MEXICO",
+        "text_2": "BUILDING THE MEXICO OF THE FUTURE",
+        "text_3": "Towards a Technological and Inclusive Prosperity",
+        "room_1": "ROOM MAGISTRAL",
+        "room_2": "ROOM AMOF",
+        "room_3": "ROOM ITM",
+        "get_vip": "Get access",
+        "programAmog": "AMOF PROGRAM"
     }
   }
   
