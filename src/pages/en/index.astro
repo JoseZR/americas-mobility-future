@@ -6,6 +6,7 @@ import Categories from "../../components/Categories.astro";
 import { partners, exhibitor, visitors } from "../../logos_partners";
 import { PresenceSocial } from "../../components/PresenceSocial.jsx";
 import MouseOverZoom from "../../components/MouseOverZoom.jsx";
+import FreeRegisterster from "../../components/FreeRegister.astro";
 
 changeLanguage("en");
 
@@ -60,15 +61,6 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
           Poliforum - Léon Guanajuato, México
         </p>
 
-        <a
-          href={`${base}/registro`}
-          data-aos='fade-up'
-          data-aos-duration='1000'
-          class='mt-10 bg-[#03CAFE] hover:bg-[#001A78] text-white font-bold text-2xl py-3 px-6 rounded-lg block text-center w-fit mx-auto uppercase'
-        >
-          {t('register.title')}
-        </a>
-
         <div
           data-aos='fade-up'
           data-aos-duration='1000'
@@ -88,6 +80,7 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
       </div>
     </div>
   </section>
+  <FreeRegisterster />
   <section
     class='relative grid place-items-center bg-[url(/img/bg_amof_desc1.webp)] bg-fixed bg-cover bg-center pt-32'
     id='acerca-de-amof'
@@ -154,13 +147,6 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
         muted
         loop></video>
     </div>
-    <a
-      href='https://industrialtransformation.mx/programa-summit-cce-itm-amof/?stage=2&day=1'
-      target='_blank'
-      class='bg-[#03CAFE] hover:bg-[#05070c] text-white font-bold text-2xl py-3 px-6 mt-5 rounded-lg block text-center w-fit mx-auto uppercase'
-    >
-      {t('programaSummiTCCE.programAmog')}
-    </a>
   </section>
   <section class='py-10 container mx-auto px-4' id='visitantes'>
     <p class='font-bold text-3xl text-gray-600 uppercase text-center'>
@@ -249,7 +235,7 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
   <section class='py-10 container mx-auto px-4'>
     <div class='my-12'>
       <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
-        {t('home.exhibitors')} 2023
+        {t('home.exhibitors')}
       </p>
       <MarqueeReact
         client:visible

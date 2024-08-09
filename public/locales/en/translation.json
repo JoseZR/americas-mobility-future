@@ -38,7 +38,16 @@
         "title":"CONTACT US"
       }
     },
-    "home":{      
+    "home":{
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds",
+      "titleITM": "THE INDUSTRY'S MOST IMPORTANT WEEK IS APPROACHING",
+      "titleCounter": "October 9 - 11",
+      "button": "TIC & ITZAMNÁ Awards",
+      "leyend": "Registration with cost from October 9th $300 MXN",   
+      "student": "Admission for students Friday from 3:00 pm", 
       "event_date_video": "9 – 11 de octubre de 2024",
       "slogan": "The Fair of the <span>Mobility of the Future",
       "about_title":"About us",
@@ -144,7 +153,7 @@
         }
       },
       "contact_us":"Contact",
-      "exhibitors":"EXHIBITORS",
+      "exhibitors":"EXHIBITORS WHO HAVE TRUSTED US",
       "simultanious_event":"Simultaneous event with:",
       "plain":"Floor Plan",
       "buyers_2023": "* Visitors in 2023",
