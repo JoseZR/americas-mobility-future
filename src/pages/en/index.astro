@@ -159,7 +159,7 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
         <span class='text-8xl font-bold'>84%</span><br />
         {t('home.visitor_description')}
       </p>
-      <div>
+      <div class='overflow-x-hidden w-full'>
         <MarqueeReact images={visitors} client:only />
         <p class='text-center'>{t('home.buyers_2023')}</p>
       </div>
