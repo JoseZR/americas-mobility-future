@@ -1,0 +1,46 @@
+---
+import i18next, { changeLanguage } from "i18next";
+import { speakers_vip } from "../../data/constans_speakers_vip.js";
+import Layout from "../../layouts/Layout.astro";
+
+changeLanguage("es");
+
+const { id } = Astro.params;
+export function getStaticPaths() {
+    return speakers_vip.map((speaker) => ({
+        params: {
+            id: speaker?.id ? speaker.id.toString() : "0",
+        },
+    }));
+}
+const speaker = speakers_vip.find((speaker) => speaker.id === id);
+---
+
+<Layout title='Ponentes'>
+  <main>
+    <section class='mx-auto py-10 container px-4 flex justify-center'>
+      <div
+        class='w-auto grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 justify-center items-center'
+      >
+        <div class='md:w-[500px] sm:w-[500px] flex justify-center'>
+          <img src={speaker?.image} alt={speaker?.name} class='h-[400px]' />
+        </div>
+        <div class='sm:w-[500px]'>
+          <h1
+            class='text-black
+              text-3xl md:text-5xl leading-snug font-extrabold text-center uppercase'
+          >
+            {speaker?.name}
+          </h1>
+          <p class='text-lg text-justify mt-10'>
+            {
+              i18next.language === 'es'
+                ? speaker?.description
+                : speaker?.description_en
+            }
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

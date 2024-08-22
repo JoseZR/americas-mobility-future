@@ -2,6 +2,7 @@
 import i18next from 'i18next'
 
 interface Speaker {
+  id?: string
   name: string
   position: string
   company: string
@@ -21,6 +22,16 @@ interface Program {
 interface Props {
   item: Program
   key: string
+}
+
+function formatString(input: string): string {
+  return input
+    .trim()
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, '-')
 }
 
 const { item, key } = Astro.props as Props
@@ -51,7 +62,7 @@ const { item, key } = Astro.props as Props
   </div>
   <div class='xl:w-[90%] xl:pl-5 pt-5'>
     <div
-      class='font-semibold text-[#E42128] text-lg pb-2 uppercase'
+      class='font-semibold text-[#04C3F5] text-lg pb-2 uppercase'
       set:html={i18next.language === 'es' ? item.title : item.title_en}
     />
     {
@@ -70,16 +81,38 @@ const { item, key } = Astro.props as Props
         <p class="mt-2 font-extrabold">Panelistas: </p>
         <ul class='mt-2 ms-2 gap-2 grid grid-cols-2'>
           {item.speakers.map((speaker) => (
-            <li class="mt-2 flex items-center gap-2">
-              <img
-                class='w-10 h-10 rounded-full'
-                src={speaker.image}
-                alt={speaker.name}
-              />
-              <p>
-                {speaker.name}<br />
-                {speaker.position} {speaker.company}
-              </p>
+            <li class="mt-2 ">
+              {speaker?.id ? (
+                <a
+                href={`/ponentes/${speaker.id}`}
+                class="flex flex-row items-center gap-2">
+                  <img                 
+                    class='w-16 h-16 rounded-full object-cover'
+                    src={speaker.image}
+                    alt={speaker.name}
+                  />
+                  <div class="">
+                    <p class="text-lg font-bold">{speaker.name}</p>
+                    <p class="font-light"set:html={speaker.position}></p>
+                    <p class="font-light">{speaker.company}</p>
+                  </div>
+                </a>
+              ):
+              (
+                <div class="flex flex-row items-center gap-2">
+                  <img
+                    class='w-16 h-16 rounded-full object-cover'
+                    src={speaker.image}
+                    alt={speaker.name}
+                  />
+                  <div class="">
+                    <p class="text-lg font-bold">{speaker.name}</p>
+                    <p class="font-light"set:html={speaker.position}></p>
+                    <p class="font-light">{speaker.company}</p>
+                  </div>
+                </div>
+              )
+            }
             </li>
           ))}
         </ul>

@@ -18,6 +18,14 @@ const stage_1_day_1=[
         "duration": "90 mins",
         "speakers": [
             {
+                "id": "1",
+                "name": "S.E. Ken Salazar",
+                "position": "Embajador de EUA en México",
+                "company": "",
+                "image": "/img/speakers/ken_salazar.webp"
+            },
+            {
+                
                 "name": "Gobernadores",
                 "position": "Sonora, Chihuahua, Coahuila, Aguascalientes, Querétaro y Oaxaca",
                 "company": "",
@@ -30,10 +38,11 @@ const stage_1_day_1=[
                 "image": "/profile.svg"
             },
             {
+                "id": "2",
                 "name": "Alfred Rodríguez",
-                "position": "Embajador de la Industria del Futuro de Francia en México",
-                "company": "Moderador",
-                "image": "/profile.svg"
+                "position": "<p>Moderador</p>Embajador de la Industria del Futuro de Francia en México",
+                "company": "",
+                "image": "/img/speakers/alfredo_rodríguez.webp"
             }
         ]
     },
@@ -58,7 +67,7 @@ const stage_1_day_1=[
     {
         "title": "PRESENTACIÓN DEL LIBRO: <br /> Transformación Digital y Política Industrial <br /> <span class='font-normal text-white'>Retos y oportunidades</span>",
         "title_en": "PRESENTATION OF THE BOOK:<br /> Digital Transformation and Industry Policy <span class='font-normal text-white'>Challenges and opportunities</span>",
-        "description": "Presenta el libro: Arturo Oropeza, Presidente del del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI)",
+        "description": "Presenta el libro: Arturo Oropeza, Presidente del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI)",
         "description_en": "Presents the book: Arturo Oropeza, President of the Institute for Industrial Development and Digital Transformation (INADI)",
         "time": "12:00 hrs",
         "duration": "90 mins",
@@ -67,37 +76,37 @@ const stage_1_day_1=[
                 "name": "Francisco Cervantes",
                 "position": "Presidente",
                 "company": "CCE",
-                "image": "/profile.svg"
+                "image": "/img/speakers/francisco_cervantes.webp"
             },
             {
                 "name": "Marcelo Ebrard",
                 "position": "Proximo Secretario de Economía de México",
-                "company": "",
-                "image": "/profile.svg"
+                "company": "Secretaria de Economía de México",
+                "image": "/img/speakers/marcelo_ebrard.webp"
             },
             {
                 "name": "Alejandro Malagón",
-                "position": "Presidente",
+                "position": "<p>Moderador</p>Presidente",
                 "company": "CONCAMIN",
-                "image": "/profile.svg"
+                "image": "/img/speakers/alejandro_malagon.webp"
             },
             {
                 "name": "Máximo Vedoya",
                 "position": "Presidente",
-                "company": "CAINTRA",
-                "image": "/profile.svg"
+                "company": "CAINTRA & CEO de Ternium",
+                "image": "/img/speakers/maximo_vedoya.webp"
             },
             {
-                "name": "Embajador",
-                "position": "República Federal Alemana en México",
+                "name": "Embajada de la República Federal de Alemania en México",
+                "position": "",
                 "company": "CAINTRA",
                 "image": "/profile.svg"
             },
             {
                 "name": "Manuel Pérez Cárdenas",
-                "position": "Asesor Ejecutivo de la Presidencia",
+                "position": "<p>Moderador</p> Asesor Ejecutivo de la Presidencia",
                 "company": "CCE",
-                "image": "/profile.svg"
+                "image": "/img/speakers/manuel_perez_cardenas.webp"
             }
         ]
     },
@@ -112,31 +121,32 @@ const stage_1_day_1=[
                 "name": "Francisco Cervantes",
                 "position": "Presidente",
                 "company": "CCE",
-                "image": "/profile.svg"
+                "image": "/img/speakers/francisco_cervantes.webp"
             },
             {
+                "id": "15",
                 "name": "Rosaura Ruiz",
                 "position": " Proxima Secretaria de Ciencia, Humanidades, Tecnología e Innovación",
                 "company": "Gobierno Federal",
-                "image": "/profile.svg"
+                "image": "/img/speakers/rosaura_ruiz.webp"
             },
             {
                 "name": "Alejandro Malagón",
-                "position": "Presidente",
+                "position": "<p>Moderador</p>Presidente",
                 "company": "CONCAMIN",
-                "image": "/profile.svg"
+                "image": "/img/speakers/alejandro_malagon.webp"
             },
             {
                 "name": "Juan Pablo García",
                 "position": "Director General",
                 "company": "CAINTRA - Nuevo León",
-                "image": "/profile.svg"
+                "image": "/img/speakers/juan_pablo_garcia.webp"
             },
             {
             "name": "Arturo Oropeza",
             "position": "Presidente ",
             "company": "Instituto para el Desarrollo Industrial y la Transformación Digital (INADI)",
-            "image": "/profile.svg"
+            "image": "/img/speakers/arturo_oropeza.webp"
             }
         ]
     },
@@ -162,51 +172,45 @@ const stage_1_day_1=[
                 "name": "Fernanda Hierro",
                 "position": "Secretaria Técnica",
                 "company": "Consejo Nuevo León",
-                "image": "/profile.svg"
+                "image": "/img/speakers/fernanda_hierro.webp"
             },
             {
                 "name": "Antonio Rangel",
                 "position": "Secretario de Planeación y Participación Ciudadana",
                 "company": "Querétaro",
-                "image": "/profile.svg"
+                "image": "/img/speakers/antonio_rangel.webp"
             },
             {
                 "name": "Graciela Amaro",
                 "position": "Directora del Instituto de Planeación",
                 "company": "Guanajuato",
-                "image": "/profile.svg"
+                "image": "/img/speakers/graciela_amaro.webp"
             },
             {
                 "name": "Esaú Garza",
                 "position": "Presidente",
                 "company": "Agencia de Cooperación Económica Centro Bajío Occidente",
-                "image": "/profile.svg"
+                "image": "/img/speakers/esau_garza.webp"
             },
             {
                 "name": "Eduardo Sojo",
                 "position": "Coordinador Académico del Pacto ",
                 "company": "Oaxaca",
-                "image": "/profile.svg"
-            },
-            {
-                "name": "Omar Troncoso",
-                "position": "Partner ",
-                "company": "Kearney – Global Management Consulting Firm",
-                "image": "/profile.svg"
+                "image": "/img/speakers/eduardo_sojo.webp"
             },
             {
                 "name": "Manuel Pérez Cárdenas",
-                "position": "Asesor Ejecutivo de la Presidencia",
+                "position": "<p>Moderador</p> Asesor Ejecutivo de la Presidencia",
                 "company": "CCE",
-                "image": "/profile.svg"
+                "image": "/img/speakers/manuel_perez_cardenas.webp"
             },
         ]
     },       
     {
         "title": "MESA 4:<br /> LA INDUSTRIA AEROESPACIAL MEXICANA: Expansión extraordinaria de una industria de frontera tecnológica.<br /> <span class='font-normal text-white'> Oportunidades para la empresa mexicana</span>",
         "title_en": "TABLE 4:<br /> THE MEXICAN AEROSPACE INDUSTRY: Extraordinary expansion of a technological frontier industry.<br /> <span class='font-normal text-white'> Opportunities for the Mexican company</span>",
-        "description": "Introducción: por Luis Lizcano, Presidente Ejecutivo de la Federación Mexicana de la Industria Aeroespacial (FEMIA)",
-        "description_en": "Introduction: by Luis Lizcano, Executive President of the Mexican Federation of the Aerospace Industry (FEMIA)",
+        "description": "Introducción: por Carlos Robles, Presidente de la Federación Mexicana de la Industria Aeroespacial (FEMIA)",
+        "description_en": "Introduction: By Carlos Robles, President of the Mexican Federation of the Aerospace Industry (FEMIA)type industries",
         "time": "17:30 hrs",
         "duration": "60 mins",
         "speakers": [
@@ -214,44 +218,46 @@ const stage_1_day_1=[
                 "name": "Elfido Ramos",
                 "position": "Director",
                 "company": "Programa de Desarrollo de Proveedores de SAFRAN",
-                "image": "/profile.svg"
+                "image": "/img/speakers/elfido_ramos.webp"
             },
             {
                 "name": "Carlos Lozano",
                 "position": "Director de ventas",
-                "company": "FRISA",
-                "image": "/profile.svg"
+                "company": "Grupo Frisa",
+                "image": "/img/speakers/carlos_lozano.webp"
             },
             {
                 "name": "Víctor González",
                 "position": "Presidente",
                 "company": "SOLINDA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/victor_gonzalez.webp"
             },
             {
                 "name": "Giovanni Angelucci",
                 "position": "Presidente",
                 "company": "HORIZONTEC",
-                "image": "/profile.svg"
+                "image": "/img/speakers/giovanni_angelucci.webp"
             },
             {
+                "id": "9",
                 "name": "Raúl Fernández",
                 "position": "Presidente",
                 "company": "OAXACA AEROSPACE",
-                "image": "/profile.svg"
+                "image": "/img/speakers/raul_hernandez.webp"
             },
             {
-                "name": "Luis Lizcano",
-                "position": "Presidente Ejecutivo",
+                "id": "23",
+                "name": "Carlos Robles",
+                "position": "<p>Moderador</p> Presidente FEMIA",
                 "company": "FEMIA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/carlos_robles.webp"
             }
         ]
     },
     {
         "title": "NETWORKING",
         "title_en": "NETWORKING",
-        "description": "hora feliz en el VIP lounge",
+        "description": "Hora feliz en el VIP lounge",
         "description_en": "happy hour in the VIP lounge",
         "time": "18:30 hrs",
         "duration": "90 mins",
@@ -272,43 +278,37 @@ const statge_1_day_2=[
                 "name": "Luis Lozano",
                 "position": "Presidente",
                 "company": "Toyota México",
-                "image": "/profile.svg"
+                "image": "/img/speakers/luis_lozano.webp"
             },
             {
                 "name": "Luz Elena del Castillo",
                 "position": "Presidenta y CEO",
                 "company": " Ford de México, Centroamérica y el Caribe",
-                "image": "/profile.svg"
+                "image": "/img/speakers/luz_elena_castillo.webp"
             },
             {
                 "name": "Éric Martel",
                 "position": "Presidente",
-                "company": " CEO Bombardier Canada",
-                "image": "/profile.svg"
+                "company": " CEO Bombardier Canada, Presidente y CEO Bomardier Canada",
+                "image": "/img/speakers/eric_martel.webp"
             },
             {
                 "name": "Maite Ramos",
                 "position": "Directora General",
                 "company": " Alstom México",
-                "image": "/profile.svg"
+                "image": "/img/speakers/maite_ramos.webp"
             },
             {
                 "name": "José Luis Navarro",
                 "position": "CEO",
                 "company": " ENEL Green Power & ENEL X México",
-                "image": "/profile.svg"
-            },
-            {
-                "name": "Ernesto del Blanco Arjona",
-                "position": "Presidente",
-                "company": " ELAM-FAW",
-                "image": "/profile.svg"
+                "image": "/img/speakers/jose_luis_navarro.webp"
             },
             {
                 "name": "Francisco González",
-                "position": "Presidente",
+                "position": "<p>Moderador</p>Presidente",
                 "company": " INA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/francisco_gonzalez_diaz.webp"
             }
         ]
     },
@@ -323,38 +323,39 @@ const statge_1_day_2=[
             {
                 "name": "Alessandro Modiano",
                 "position": "Embajador de Italia en México",
-                "company": " México",
-                "image": "/profile.svg"
+                "company": "",
+                "image": "/img/speakers/alessandro_modiano.webp"
             },
             {
+                "id": "16",
                 "name": "Johannes Dobinger",
                 "position": "Representante",
-                "company": " ONUDI para México y América Central",
-                "image": "/profile.svg"
+                "company": "ONUDI para México y América Central",
+                "image": "/img/speakers/johannes_dobinger.webp"
             },
             {
                 "name": "Lorenzo Vianello",
                 "position": "Presidente",
                 "company": "Cámara Italiana en México",
-                "image": "/profile.svg"
+                "image": "/img/speakers/lorenzo_vianello.webp"
             },
             {
                 "name": "Leonard Franchini",
                 "position": "Vicepresidente",
                 "company": "Eurotranciatura México, CEO BU Automotive EGLA y Cónsul Honorario de Italia en Querétaro",
-                "image": "/profile.svg"
+                "image": "/img/speakers/leonard_franchini.webp"
             },
             {
                 "name": "Pietro Paolo Cornero",
                 "position": "Presidente",
                 "company": "Director General de Ferrero México y Centroamérica",
-                "image": "/profile.svg"
+                "image": "/img/speakers/pietro_paolo.webp"
             },
             {
                 "name": "Alejandro Malagón",
-                "position": "Presidente",
+                "position": "<p>Moderador</p>Presidente",
                 "company": "CONCAMIN",
-                "image": "/profile.svg"
+                "image": "/img/speakers/alejandro_malagon.webp"
             }
         ]
     },
@@ -369,53 +370,41 @@ const statge_1_day_2=[
     {
         "title": "EL NUEVO ESPACIO, LUGAR DE ENORME OPORTUNIDAD PARA LA INTEGRACIÓN DE CADENAS PRODUCTIVAS DE MEXICO Y ESTADOS UNIDOS.<br /> <span class='font-normal text-white'> Una visión de los actores</span>",
         "title_en": "THE NEW SPACE, A PLACE OF ENORMOUS OPPORTUNITY FOR THE INTEGRATION OF PRODUCTIVE CHAINS OF MEXICO AND THE UNITED STATES.<br /> <span class='font-normal text-white'> A vision of the actors</span>",
-        "description": "Introducción: Francisco Cervantes, Presidente del CCE (Tendencias globales, los sectores industriales del Nuevo Espacio y la acción de los estados nacionales para promover la integración industrial transfronteriza en el ámbito espacial).<br /><br /> <strong>MARCO LEGAL ESPACIAL EN MÉXICO:</strong> Reforma constitucional en materia espacial en consideración en el Senado Mexicano.<br /><br /> Ana Lilia Rivera, Senadora de la República, LXV Legislatura y Presidenta de la Comisión de Ciencia y Tecnología del Senado de la República en la LXIV Legislatura <br /><br /><strong><u>PANEL UNO : </u><br />NUEVO ESPACIO:</strong> PUNTO DE ENCUENTRO DE LA CIENCIA, LA TECNOLOGIA, LA INDUSTRIA Y LA DEFENSA ¿Qué es el Nuevo Espacio y hacia dónde va tanto en el sector privado como en el público y en el sector de R&D?",
+        "description": "Introducción: Francisco Cervantes, Presidente del CCE (Tendencias globales, los sectores industriales del Nuevo Espacio y la acción de los estados nacionales para promover la integración industrial transfronteriza en el ámbito espacial).<br /><br /> <strong>MARCO LEGAL ESPACIAL EN MÉXICO:</strong> Reforma constitucional en materia espacial en consideración en el Senado Mexicano.<br /><br /> Ana Lilia Rivera, Senadora de la República, LXV Legislatura y Presidenta de la Comisión de Ciencia y Tecnología del Senado de la República en la LXIV Legislatura <br /><br /><strong><u>PANEL UNO : </u><br />NUEVO ESPACIO:</strong> PUNTO DE ENCUENTRO DE LA CIENCIA, LA TECNOLOGIA, LA INDUSTRIA Y LA DEFENSA ¿Qué es el Nuevo Espacio y hacia dónde va tanto en el sector privado como en el público y de investigación de desarrollo?",
         "description_en": "Introduction: Francisco Cervantes, President of the CCE (Global trends, the industrial sectors of the New Space and the action of national states to promote cross-border industrial integration in the space field).<br /><br /> SPACE LEGAL FRAMEWORK IN MEXICO: Constitutional reform in space matters under consideration in the Mexican Senate.<br /><br /> Ana Lilia Rivera, Senator of the Republic of Mexico, LXV Legislature and Chairwoman of the Science and Technology Commission of the Senate of the of the Republic in the LXIV Legislature.<br /><br /><strong><u>PANEL ONE : </u><br /> NEW SPACE: </strong>MEETING POINT OF SCIENCE, TECHNOLOGY, INDUSTRY AND DEFENSE What is the New Space and where is it going in both the private and public sectors and in the R&D sector?",
         "time": "14:30 hrs",
         "duration": "90 mins",
         "speakers": [
             {
-                "name": "Gustavo Medina",
-                "position": "Director",
-                "company": " Laboratorio de Instrumentación Espacial de la UNAM (LINX - UNAM)",
-                "image": "/profile.svg"
-            },
-            {
-                "name": "Ana Lilia Rivera Rivera",
-                "position": "Senadora de la República",
-                "company": " LXV Legislatura",
-                "image": "/profile.svg"
-            },
-            {
                 "name": "Benjamín Najar",
                 "position": "Presidente",
                 "company": " Comisión de Espacio de la FEMIA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/benjamin_najar.webp"
             },
             {
                 "name": "Dan Hendrikson",
                 "position": "Vice Presidente ",
                 "company": " Astrobotic",
-                "image": "/profile.svg"
+                "image": "/img/speakers/dan_hendrikson.webp"
             },
             {
                 "name": "Ken Davidian",
                 "position": "VP North American Operations",
                 "company": " International Space University",
-                "image": "/profile.svg"
+                "image": "/img/speakers/ken_davidian.webp"
             },
             {
                 "name": "Erik Kulu",
                 "position": "",
                 "company": " Factories in Space",
-                "image": "/profile.svg"
+                "image": "/img/speakers/erik_kulu.webp"
             }
         ]
     },
     {
         "title": "<strong class='text-white'><u>PANEL DOS : </u></strong><br />CAPACIDADES ACTUALES DE MEXICO APLICABLES AL SECTOR ESPACIAL",
         "title_en": "<strong class='text-white'><u>PANEL TWO : </u></strong><br />CURRENT CAPABILITIES OF MEXICO APPLICABLE TO THE SPACE SECTOR",
-        "description": "COMIDA libre (Oktoberfest, en Distrito León MX)",
+        "description": "Oktoberfest, en Distrito León MX",
         "description_en": "FREE LUNCH (Oktoberfest, in District León MX)",
         "time": "16:00 hrs",
         "duration": "60 mins",
@@ -424,19 +413,19 @@ const statge_1_day_2=[
                 "name": "Luis Lizcano",
                 "position": "Presidente Ejecutivo",
                 "company": "FEMIA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/luis_lizcano.webp"
             },
             {
                 "name": "Benjamín Najar Jr",
                 "position": "CEO",
                 "company": "Thrusters Unlimited",
-                "image": "/profile.svg"
+                "image": "/img/speakers/benjamin_najar.webp"
             },
             {
                 "name": "Carlos Lozano",
-                "position": "",
+                "position": "Director de ventas",
                 "company": "Grupo Frisa",
-                "image": "/profile.svg"
+                "image": "/img/speakers/carlos_lozano.webp"
             },        
             {
                 "name": "Gral. Disraeli Gómez Herrera",
@@ -457,7 +446,7 @@ const statge_1_day_2=[
                 "name": "Andrés Rodríguez",
                 "position": "Global Business Development & Strategy",
                 "company": "Lockheed Martin",
-                "image": "/profile.svg"
+                "image": "/img/speakers/andres_trodriguez.webp"
             },
             {
                 "name": "Asociación Europea de Pequeñas Empresas Espaciales",
@@ -469,7 +458,7 @@ const statge_1_day_2=[
                 "name": "Angelo Pansini",
                 "position": "General Management Business & Operations - Chief of Staff",
                 "company": "LEONARDO SpA",
-                "image": "/profile.svg"
+                "image": "/img/speakers/angelo_pansini.webp"
             },
             {
                 "name": "Instituto de Investigación Aeroespacial de Corea del Sur",
@@ -495,12 +484,21 @@ const statge_1_day_2=[
 
 const stage_2_day_1=[
     {
-        "title": "La movilidad eléctrica en México Panel de EMA",
-        "title_en": "Electric mobility in Mexico EMA panel",
+        "title": "El Ecosistema de Electromovilidad en México",
+        "title_en": "The Electromobility Ecosystem in Mexico",
         "description": "",
         "time": "13:30 hrs",
         "duration": "60 mins",
-        "speakers": []
+        "speakers": [
+            {
+                "id": "10",
+                "name": "Eugenio Grandio",
+                "position": "Presidente de EMA",
+                "company": "Presidente de EMA",
+                "image": "/img/speakers/eugenio_grandio.webp",
+
+            },
+        ]
     },
     {
         "title": "COMIDA LIBRE ",
@@ -519,10 +517,11 @@ const stage_2_day_1=[
         "duration": "30 mins",
         "speakers": [
             {
+                "id": "13",
                 "name": "Francisco N. González",
                 "position": "Presidente Ejecutivo",
                 "company": " Industria Nacional de Autopartes (INA)",
-                "image": "/profile.svg"
+                "image": "/img/speakers/francisco_gonzalez_diaz.webp"
             },
         ]
     },
@@ -532,8 +531,20 @@ const stage_2_day_1=[
         "description": "",
         "time": "17:00 hrs",
         "duration": "30 mins",
-        "speakers": [
-            
+        "speakers": [ 
+            {
+                "id": "11",
+                "name": "Gustavo Jiménez",
+                "position": "Director Ejecutivo",
+                "company": "Grupo emobilitas",
+                "image": "/img/speakers/gustavo-jimenez.webp"
+            },
+            {
+                "name": "Leon Becker",
+                "position": "Asesor Técnico",
+                "company": "Cooperación Técnica Alemana (GIZ) en México",
+                "image": "/img/speakers/leonbecker.webp"
+            },
         ]
     },
     {
@@ -544,16 +555,24 @@ const stage_2_day_1=[
         "duration": "30 mins",
         "speakers": [
             {
+                "id": "12",
+                "name": "Takaaki Kuga",
+                "position": "Vicepresidente",
+                "company": "Estrategia Empresarial, Toyota Motor de México, y  Presidente de la Cámara de Comercio de Japón en México",
+                "image": "/img/speakers/takaaki-kuga.webp"
+            },            
+            {
+                "id": "18",
+                "name": "Israel Hurtado",
+                "position": "Presidente Ejecutivo",
+                "company": "Asociación Mexicana del Hidrógeno",
+                "image": "/img/speakers/israel-hurtado.webp"
+            },
+            {
                 "name": "Felipe Gallego",
                 "position": "COO Co-Funder",
                 "company": " Megaflux",
-                "image": "/profile.svg"
-            },
-            {
-                "name": "Francisco Javier García Osorio",
-                "position": "Director de Gestión para la Eficiencia Energética",
-                "company": " Comisión Nacional para el Uso Eficiente de la Energía (CONUEE)",
-                "image": "/profile.svg"
+                "image": "/img/speakers/felipe-gallego.webp"
             }
         ]
     },
@@ -596,7 +615,7 @@ const stage_2_day_2=[
     {
         "title": "COMIDA LIBRE",
         "title_en": "FREE LUNCH",
-        "description": "(Oktoberfest, en Distrito León MX)",
+        "description": "(Oktoberfest, en Distrsito León MX)",
         "description_en": "(Oktoberfest, in District León MX)",
         "time": "13:30 hrs",
         "duration": "30 mins",
@@ -610,10 +629,11 @@ const stage_2_day_2=[
         "duration": "30 mins",
         "speakers": [
             {
-                "name": "Armando Cortés",
-                "position": "Director General",
-                "company": " INA",
-                "image": "/profile.svg"
+                "id": "17",
+                "name": "Miguel Primo Armendariz",
+                "position": "Mexico Country Director",
+                "company": " International Youth Foundation",
+                "image": "/img/speakers/miguel-primoArmendariz.webp"
             }
         ]
     }
