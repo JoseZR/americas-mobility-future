@@ -3,10 +3,12 @@ import i18next, { changeLanguage, t } from "i18next";
 import { MarqueeReact } from "../components/MarqueeReact";
 import Layout from "../layouts/Layout.astro";
 import Categories from "../components/Categories.astro";
-import { partners, exhibitor, visitors } from "../logos_partners";
+import { partners, exhibitors, visitors } from "../logos_partners";
 import { PresenceSocial } from "../components/PresenceSocial.jsx";
 import MouseOverZoom from "../components/MouseOverZoom.jsx";
 import FreeRegisterster from "../components/FreeRegister.astro";
+import Sponsors from "../components/Sponsors.astro";
+
 
 changeLanguage("es");
 
@@ -237,19 +239,22 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
       <p class='font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
         {t('home.exhibitors')}
       </p>
-      <MarqueeReact
+      <!-- <MarqueeReact
         client:visible
         images={exhibitor}
         client:only
         direction='left'
-      />
+      /> -->
+      <Sponsors logos={exhibitors} />
     </div>
   </section>
   <section class='my-12'>
     <p class='font-bold uppercase text-4xl text-center mb-6 text-blue-900'>
       MEDIA PARTNERS
     </p>
-    <MarqueeReact images={partners} client:only />
+    <!-- Carrucel de logos, nos les gustó el acomodo. -->
+    <!-- <MarqueeReact images={partners} client:only /> -->
+    <Sponsors logos={partners} />
   </section>
   <section class='py-10 container mx-auto px-4'>
     <p class='text-center font-bold text-4xl uppercase text-gray-600'>
