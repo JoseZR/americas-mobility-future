@@ -4,8 +4,8 @@ const visitors = [
     { link: '', src: '/img/logos/tecMonterrery.webp', alt:'Latam', width: 150, height: 190 },
     { link: '', src: '/img/logos/cemex.webp', alt:'Tec de Monterrey', width: 200, height: 190 },
     { link: '', src: '/img/logos/ternium.webp', alt:'Cemex', width: 200, height: 190 },
-    { link: '', src: '/img/logos/exhibitors_Siemens.webp', alt:'', width: 230, height: 97.29 },
-    { link: '', src: '/img/logos/exhibitors_3M.webp', alt:'', width: 150, height: 124 },
+    { link: '', src: '/img/logos/exhibitors/siemens_02.webp', alt:'', width: 230, height: 97.29 },
+    { link: '', src: '/img/logos/exhibitors/3m.webp', alt:'', width: 150, height: 124 },
     { link: '', src: '/img/logos/deloitte.webp', alt:'', width: 200, height: 124 },
 
 ]
