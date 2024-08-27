@@ -12,18 +12,11 @@ const stage_1_day_1=[
     {
         "title": "MESA 1:<br /> Hacia un nuevo desarrollo con equilibrio regional: <br/> <span class='font-normal text-white'>Necesaria una visión integral y de largo plazo</span>",
         "title_en": "TABLE 1:<br /> Towards a new development with regional balance: <br/> <span class='font-normal text-white'> A comprehensive and long-term vision is necessary</span>",
-        "description": "Introducción: S.E. Ken Salazar, Embajador de EUA en México",
-        "description_en": "Introduction: H.E. Ken Salazar, US Ambassador to Mexico",
+        "description": "",
+        "description_en": "",
         "time": "9:00 hrs",
         "duration": "90 mins",
-        "speakers": [
-            {
-                "id": "1",
-                "name": "S.E. Ken Salazar",
-                "position": "Embajador de EUA en México",
-                "company": "",
-                "image": "/img/speakers/ken_salazar.webp"
-            },
+        "speakers": [            
             {
                 
                 "name": "Gobernadores",
