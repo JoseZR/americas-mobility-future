@@ -505,7 +505,7 @@ const stage_2_day_1=[
         "title_en": "FREE LUNCH",
         "description": "(Oktoberfest, en Distrito León MX)",
         "description_en": "(Oktoberfest, in District León MX)",
-        "time": "13:30 hrs",
+        "time": "14:30 hrs",
         "duration": "60 mins",
         "speakers": []
     },
