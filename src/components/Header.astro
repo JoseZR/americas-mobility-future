@@ -232,12 +232,53 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
           </div>
         </li>
         <li>
-          <a
-            href={`${base}/#visitantes`}
-            class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 lg:border-none border-gray-300 border-b text-blue-950 font-bold'
-            aria-current='page'>{t('menu.option4.title')}</a
+          <button
+            id='dropdownExhibitors'
+            data-dropdown-toggle='dropdownNavbar3'
+            data-dropdown-trigger='hover'
+            class='flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto'
           >
+            {t('menu.option4.title')}
+
+            <svg
+              class='w-2.5 h-2.5 ml-2.5'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 10 6'
+            >
+              <path
+                stroke='currentColor'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='m1 1 4 4 4-4'></path>
+            </svg>
+          </button>
+          <div
+            id='dropdownNavbar3'
+            class='dropdown z-[100] hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-auto'
+          >
+            <ul
+              class='py-2 text-gray-700'
+              aria-labelledby='dropdownLargeButton'
+            >
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a href={`${base}/#visitantes`} class='block px-4 py-2'
+                  >{t('home.visitor_profile')}</a
+                >
+              </li>
+
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href={`${base}/tarifas-especiales-para-hoteles`}
+                  class='block px-4 py-2'>{t('home.hotels')}</a
+                >
+              </li>
+            </ul>
+          </div>
         </li>
+
         <li>
           <a
             href={`${base}/#contactanos`}
