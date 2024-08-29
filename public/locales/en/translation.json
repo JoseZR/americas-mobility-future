@@ -39,6 +39,7 @@
       }
     },
     "home":{
+      "hotels": "Special Hotel Rates",
       "days": "days",
       "hours": "hours",
       "minutes": "minutes",
@@ -356,6 +357,11 @@
         "room_3": "ROOM ITM",
         "get_vip": "Get access",
         "programAmog": "SEE CONFERENCE PROGRAM"
+    },
+    "hotels":{
+        "title": "Special Hotel Rates",
+        "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",
+        "code_reservation": "Reservation code: HANNOVER"
     }
   }
   
