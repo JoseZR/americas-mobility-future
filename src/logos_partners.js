@@ -67,6 +67,18 @@ const exhibitors = [
     { link: '', src: '/img/logos/exhibitors/tr.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/uanl.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/voltway.webp', alt:'', width: 200, height: 124 },
+    { link:'', src: '/img/logos/exhibitors/element.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/elamfaw.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/clarios.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/bluesport.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/alternev.webp', alt:'', width: 200, height: 124},    
+    { link:'', src: '/img/logo_INA-vertical.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/giz.webp', alt:'', width: 350},
+    { link:'', src: '/img/logos/exhibitors/toyota.webp', alt:'', width: 350},
+    { link:'', src: '/img/logos/exhibitors/h2mexico.webp', alt:'', width: 350},
+    { link:'', src: '/img/logos/exhibitors/megaflux.webp', alt:'', width: 350},
+    { link:'', src: '/img/logos/exhibitors/ance.webp', alt:'', width: 200, height: 124},
+             
 ]
 
 export {partners, exhibitors ,visitors}

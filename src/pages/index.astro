@@ -1,18 +1,18 @@
 ---
-import i18next, { changeLanguage, t } from "i18next";
-import { MarqueeReact } from "../components/MarqueeReact";
-import Layout from "../layouts/Layout.astro";
-import Categories from "../components/Categories.astro";
-import { partners, exhibitors, visitors } from "../logos_partners";
-import { PresenceSocial } from "../components/PresenceSocial.jsx";
-import MouseOverZoom from "../components/MouseOverZoom.jsx";
-import FreeRegisterster from "../components/FreeRegister.astro";
-import Sponsors from "../components/Sponsors.astro";
+import i18next, { changeLanguage, t } from 'i18next'
+import { MarqueeReact } from '../components/MarqueeReact'
+import Layout from '../layouts/Layout.astro'
+import Categories from '../components/Categories.astro'
+import { partners, exhibitors, visitors } from '../logos_partners'
+import { PresenceSocial } from '../components/PresenceSocial.jsx'
+import MouseOverZoom from '../components/MouseOverZoom.jsx'
+import FreeRegisterster from '../components/FreeRegister.astro'
+import Sponsors from '../components/Sponsors.astro'
 
-changeLanguage("es");
+changeLanguage('es')
 
-const lang = i18next.language;
-const base = i18next.language === "es" ? "" : `/${lang}`;
+const lang = i18next.language
+const base = i18next.language === 'es' ? '' : `/${lang}`
 ---
 
 <Layout title='AMOF | Inicio'>
