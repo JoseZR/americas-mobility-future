@@ -11,7 +11,7 @@ const visitors = [
 ]
 
 const partners = [
-    { link: '', src: '/img/logos/cluster-industrial.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/cluster-industrial-nuevo.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/heraldo_group.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/vanguardia-industrial.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/negocio-motor.webp', alt:'', width: 200, height: 190 },
