@@ -80,6 +80,8 @@ const exhibitors = [
     { link:'', src: '/img/logos/exhibitors/ance.webp', alt:'', width: 200, height: 124},
     { link:'', src: '/img/logos/exhibitors/piaggio-commercial.webp', alt:'', width: 200, height: 124},
     { link:'', src: '/img/logos/exhibitors/weg.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/v-on.webp', alt:'', width: 200, height: 124},
+    
     
              
 ]
