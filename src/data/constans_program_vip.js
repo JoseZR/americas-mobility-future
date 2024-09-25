@@ -227,7 +227,7 @@ const stage_1_day_1=[
             },
             {
                 "name": "Carlos Lozano",
-                "position": "Director de ventas",
+                "position": "Gerente de ventas",
                 "company": "FRISA",
                 "image": "/img/speakers/carlos_lozano.webp"
             },            
@@ -461,10 +461,11 @@ const statge_1_day_2=[
                 "image": "/img/speakers/angelo_pansini.webp"
             },
             {
-                "name": "Asociación Europea de Pequeñas Empresas Espaciales (SME4Space) *",
-                "position": "",
-                "company": "",
-                "image": "/profile.svg"
+                "id": "30",
+                "name": "Scott P. Flukinger",
+                "position": "Manager, International Government Sales",
+                "company": "Axiom Space",
+                "image": "/img/speakers/scottFlukinger.webp"
             },           
             {
                 "name": "Instituto de Investigación Aeroespacial de Corea del Sur (KARI) *",
@@ -687,6 +688,15 @@ const stage_2_day_2=[
         "description": "(Oktoberfest, en Distrsito León MX)",
         "description_en": "(Oktoberfest, in District León MX)",
         "time": "13:30 hrs",
+        "duration": "30 mins",
+        "speakers": []
+    },
+    {
+        "title": "La ruta hacia la descarbonización de los vehículos pesados",
+        "title_en": "",
+        "description": "",
+        "description_en": "",
+        "time": "16:00 hrs",
         "duration": "30 mins",
         "speakers": []
     },
