@@ -118,6 +118,21 @@ const hotels = [
       code: 'HANNOVER',
       time_walk: '32 min',
       start: 4
+    },
+    {
+      src: '/img/hoteles/hotelNoite.webp',
+      name: 'Hotel Noite León',
+      address: 'Blvd. Adolfo López Mateos 2114, Parque los Manzanares, 37510 León, Gto.',
+      rate_es: 'Tarifa desde $1,560.00 MXN Incluye imp. en ocupación sencilla  o doble con desayuno',
+      rate_en: 'Rate from $1,560.00 MXN Includes tax in single or double occupancy with breakfast.',
+      phone_international: '',
+      phone_mexico: 'México: 52 (442) 317 0737',
+      celular: '',
+      email: 'c.acevedo@hnoite.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '17 min',
+      start: 4
     }
   ]
   
