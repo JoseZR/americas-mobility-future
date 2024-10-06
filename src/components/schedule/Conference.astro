@@ -4,19 +4,19 @@ import i18next from 'i18next'
 interface Speaker {
   id?: string
   name: string
-  position: string
-  company: string
+  position?: string
+  company?: string
   image?: string
   moderador?: boolean
 }
 
 interface Program {
-  title: string
+  title?: string
   title_en?: string
-  description: string
+  description?: string
   description_en?: string
-  time: string
-  duration: string
+  time?: string
+  duration?: string
   speakers: Speaker[]
 }
 
@@ -70,7 +70,7 @@ const { item, key } = Astro.props as Props
       item.description === '' ? (
         ''
       ) : (
-        <p class='text-justify' set:html={i18next.language === 'es' ? item.description : item.description_en}>
+        <p class='text-justify text-black' set:html={i18next.language === 'es' ? item.description : item.description_en}>
           
         </p>
       )

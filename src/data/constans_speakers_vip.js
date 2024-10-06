@@ -125,7 +125,7 @@ const speakers_vip = [
         phone: "+52 (55) 5682 5862",
         description: "Francisco N. González Díaz es Presidente Ejecutivo de la Industria Nacional de Autopartes, A.C., donde representa los intereses de más de 700 plantas manufactureras de autopartes con operaciones en México. Cuenta con una trayectoria profesional de más de 20 años enfocada a promover a México y sus industrias. Fue Director General de Bancomext y de ProMéxico. Fue Embajador de México ante la República Federal de Alemania. En la iniciativa privada participa activamente como empresario de los sectores de salud, comercio exterior, turismo, así como de banca y finanzas. Es egresado de la licenciatura en Administración de Empresas por el ITAM y de la maestría en Administración por el Tec de Monterrey.",
         description_en:"Francisco N. González Díaz has been representing the interests of more than 700 auto parts companies in Mexico since he was elected executive president of the National Auto Parts Industry Association (INA) in January 2022. For the last 20 years, he has been promoting Mexico and its industries. Former director-general of Mexico’s foreign-trade bank Bancomext and foreign-trade promotion agency ProMéxico, he also served as Mexican ambassador to Germany. He continues to play an active role as a businessman in the country’s health, foreign-trade, tourism, banking and finance sectors. Mr. González holds a BAA from ITAM and an MBA from ITESM.",
-        image: "/img/speakers/francisco_gonzalez_diaz.webp",
+        image: "/img/speakers/francisco_gonzalez_diaz_new.webp",
     },
     {
         id: "15",
@@ -247,7 +247,34 @@ const speakers_vip = [
         description_en:"He currently serves as Regulatory and Government Affairs Manager at Daimler Truck Mexico, a position he has held since June 2020. He holds a degree in Mechatronics Engineering from Tecnológico de Monterrey and a Master's degree in Engineering Sciences in Automotive Systems from the University of Michigan. Previously, he worked at Mercedes-Benz Mexico as Homologation Manager from 2017 to 2020, and at Ford de Mexico from 2012 to 2017, where he participated in the development of vehicles in the Electrical and Electronic Systems Engineering division. In his current role, he coordinates regulatory strategies and represents the company before government agencies, chambers and technical committees, ensuring compliance with Daimler Truck Mexico's corporate policies.",
         image: "/img/speakers/oscar_ruiz.webp"
     },
-    
+    {       
+        id: "30",     
+        name: " Scott P. Flukinger",
+        position: "Manager, International Government Sales",
+        position_en: "Manager International Government Sales",
+        company: "Axiom Space",
+        description: 'Scott Flukinger es el responsable de los socios gubernamentales internacionales de Axiom Space, un proveedor de servicios de vuelos espaciales tripulados e infraestructuras espaciales para seres humanos con sede en Houston (Texas).  Al tiempo que desarrolla productos de nueva generación como la Estación Axiom, sucesora de la Estación Espacial Internacional, y los trajes espaciales de Axiom Space (Unidad de Movilidad Extravehicular Axiom, AxEMU), Axiom Space opera hoy misiones integrales a la ISS para clientes que persiguen la investigación científica, la divulgación educativa y otros usos innovadores de la microgravedad en beneficio de todos. Durante más de 25 años, Scott ha representado a entidades internacionales que persiguen objetivos empresariales, de inversión y políticos en Norteamérica en una variedad de funciones de desarrollo empresarial, relaciones gubernamentales y jurídicas, con especial énfasis en las asociaciones público-privadas, transfronterizas e impulsadas por la tecnología.  Anteriormente, trabajó como asesor principal en la práctica comercial entre Canadá y EE.UU. en varios bufetes de abogados en Washington, D.C., como Comisario de Comercio en el Consulado General de Canadá en Dallas, y como asesor estratégico independiente de líderes electos y del sector público en toda Norteamérica. Scott es licenciado por la Universidad Rice de Houston (Texas) y doctor en Derecho por la Universidad de Texas en Austin.',
+        description_en: "Scott Flukinger acts as an international government partner lead for Axiom Space, a Houston, Texas-based provider of human spaceflight services and human-rated space infrastructure.  While developing next-generation products like Axiom Station, the successor to the International Space Station, and Axiom Space spacesuits (Axiom Extravehicular Mobility Unit, AxEMU), Axiom Space operates end-to-end missions to the ISS today for customers pursuing scientific research, educational outreach and other innovative uses of microgravity for the benefit of all. For over 25 years, Scott has represented international entities pursuing business, investment and policy objectives across North America in a variety of business development, government relations and legal roles, with a special emphasis upon technology-driven, cross-border, public-private partnerships.  Previously, he has served as a senior advisor in Canada-US trade practice at several law firms in Washington, D.C., Trade Commissioner at the Canadian Consulate General in Dallas, and as an independent strategic advisor to elected and public sector leaders across North America. Scott earned his BA at Rice University in Houston, Texas, and a JD from the University of Texas at Austin.",
+        image: "/img/speakers/scottFlukinger.webp"
+    },
+    {
+        id: "31",
+        name: "Marco Astua",
+        position: "Distributor Sales Expert/Senior Manager - Country",        
+        company: "Schneider Electric",
+        description: "Marco Astua es ingeniero electrónico por parte del Tecnológico de Costa Rica, con un máster en Project Management de la Universidad para la Cooperación Internacional. Ha sido parte de Schneider Electric durante 8 años y actualmente se desempeña como Sales Manager para la business unit de Digital Energy. Con más de 12 años de experiencia en proyectos de automatización y eléctricos, incluyendo tres años de experiencia internacional en EE.UU. y Brasil, su misión es ayudar a las personas en su camino hacia la descarbonización. Su expertise abarca temas como microredes, recursos energéticos distribuidos, plantas de energía virtual, software de optimización para líneas de distribución e inteligencia artificial.",
+        description_en:"Marco Astua is an electronic engineer from Tecnológico de Costa Rica, with a master's degree in Project Management from the University for International Cooperation. He has been with Schneider Electric for 8 years and currently serves as Sales Manager for the Digital Energy business unit. With more than 12 years of experience in automation and electrical projects, including three years of international experience in the USA and Brazil, his mission is to help people on their way to decarbonization. His expertise covers topics such as microgrids, distributed energy resources, virtual power plants, optimization software for distribution lines and artificial intelligence.",
+        image: "/img/speakers/marco_astua.webp",
+    },
+    {
+        id: "32",
+        name: "Leonardo Fernandez",
+        position: "Multi Country Future Offer Manager",        
+        company: "Schneider Electric",
+        description: "Marco Astua es ingeniero electrónico por parte del Tecnológico de Costa Rica, con un máster en Project Management de la Universidad para la Cooperación Internacional. Ha sido parte de Schneider Electric durante 8 años y actualmente se desempeña como Sales Manager para la business unit de Digital Energy. Con más de 12 años de experiencia en proyectos de automatización y eléctricos, incluyendo tres años de experiencia internacional en EE.UU. y Brasil, su misión es ayudar a las personas en su camino hacia la descarbonización. Su expertise abarca temas como microredes, recursos energéticos distribuidos, plantas de energía virtual, software de optimización para líneas de distribución e inteligencia artificial.",
+        description_en:"Marco Astua is an electronic engineer from Tecnológico de Costa Rica, with a master's degree in Project Management from the University for International Cooperation. He has been with Schneider Electric for 8 years and currently serves as Sales Manager for the Digital Energy business unit. With more than 12 years of experience in automation and electrical projects, including three years of international experience in the USA and Brazil, his mission is to help people on their way to decarbonization. His expertise covers topics such as microgrids, distributed energy resources, virtual power plants, optimization software for distribution lines and artificial intelligence.",
+        image: "/img/speakers/leonardo_fernandez.webp",
+    },
     
 ]
 

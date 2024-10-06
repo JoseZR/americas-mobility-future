@@ -10,8 +10,8 @@ const stage_1_day_1=[
         ]
     }, 
     {
-        "title": "MESA 1:<br /> <strong>Hacia un Nuevo Desarrollo con Equilibrio Regional: </strong><br/> <span class='font-normal text-white'>Necesaria una visión integral y de largo plazo</span>",
-        "title_en": "TABLE 1:<br /> <strong>Towards a new development with regional balance:</strong> <br/> <span class='font-normal text-white'> A comprehensive and long-term vision is necessary</span>",
+        "title": "MESA 1:<br /> <strong>Hacia un Nuevo Desarrollo con Equilibrio Regional: </strong><br/> <span class='font-normal text-black'>Necesaria una visión integral y de largo plazo</span>",
+        "title_en": "TABLE 1:<br /> <strong>Towards a new development with regional balance:</strong> <br/> <span class='font-normal text-black'> A comprehensive and long-term vision is necessary</span>",
         "description": "",
         "description_en": "",
         "time": "9:00 hrs",
@@ -20,16 +20,10 @@ const stage_1_day_1=[
             {
                 
                 "name": "Gobernadores *",
-                "position": "Sonora, Chihuahua, Coahuila, Querétaro y Oaxaca *",
+                "position": "Sonora, Guanajuato y Querétaro *",
                 "company": "",
                 "image": "/profile.svg"
-            },
-            {
-                "name": "Senador y Diputado Federal *",
-                "position": "presidentes de las comisiones de Desarrollo Regional, LXV Legislatura *",
-                "company": "",
-                "image": "/profile.svg"
-            },
+            },                     
             {
                 "id": "2",
                 "name": "Alfred Rodríguez",
@@ -59,8 +53,8 @@ const stage_1_day_1=[
         ]
     },
     {
-        "title": "PRESENTACIÓN DEL LIBRO: <br /> Transformación Digital y Política Industrial <br /> <span class='font-normal text-white'>Retos y oportunidades</span>",
-        "title_en": "PRESENTATION OF THE BOOK:<br /> Digital Transformation and Industry Policy <span class='font-normal text-white'>Challenges and opportunities</span>",
+        "title": "PRESENTACIÓN DEL LIBRO: <br /> Transformación Digital y Política Industrial <br /> <span class='font-normal text-black'>Retos y oportunidades</span>",
+        "title_en": "PRESENTATION OF THE BOOK:<br /> Digital Transformation and Industry Policy <span class='font-normal text-black'>Challenges and opportunities</span>",
         "description": "Presenta el libro: Arturo Oropeza, Presidente del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI)",
         "description_en": "Presents the book: Arturo Oropeza, President of the Institute for Industrial Development and Digital Transformation (INADI)",
         "time": "12:00 hrs",
@@ -84,13 +78,7 @@ const stage_1_day_1=[
                 "company": "CONCAMIN",
                 "image": "/img/speakers/alejandro_malagon.webp"
                 
-            },
-            {
-                "name": "Máximo Vedoya",
-                "position": "Presidente",
-                "company": "CAINTRA & CEO de Ternium",
-                "image": "/img/speakers/maximo_vedoya.webp"
-            },
+            },            
             {
                 "name": "Embajada de la República Federal de Alemania en México",
                 "position": "",
@@ -107,8 +95,8 @@ const stage_1_day_1=[
         ]
     },
     {
-        "title": "MESA 2: <br />HACIA UNA POLITICA INDUSTRIAL Y DIGITAL.<br /> <span class='font-normal text-white'> Los retos del Futuro</span>",
-        "title_en": "TABLE 2: <br />TOWARDS AN INDUSTRIAL AND DIGITAL POLICY.<br /> <span class='font-normal text-white'>The challenges of the Future</span>",
+        "title": "MESA 2: <br />HACIA UNA POLITICA INDUSTRIAL Y DIGITAL.<br /> <span class='font-normal text-black'> Los retos del Futuro</span>",
+        "title_en": "TABLE 2: <br />TOWARDS AN INDUSTRIAL AND DIGITAL POLICY.<br /> <span class='font-normal text-black'>The challenges of the Future</span>",
         "description": "",
         "time": "13:30 hrs",
         "duration": "90 mins",
@@ -126,12 +114,11 @@ const stage_1_day_1=[
                 "image": "/img/speakers/alejandro_malagon.webp",
             },
             {
-                "id": "15",
-                "name": "Rosaura Ruiz *",
-                "position": " Próxima Secretaria de Ciencia, Humanidades, Tecnología e Innovación",
-                "company": "Gobierno Federal",
-                "image": "/img/speakers/rosaura_ruiz.webp"
-            },            
+                "id": "2",
+                "name": "Alfred Rodríguez",
+                "position": "Embajador de la Industria del Futuro de Francia en México",                
+                "image": "/img/speakers/alfredo_rodríguez.webp",
+            },          
             {
                 "name": "Juan Pablo García",
                 "position": "Director General",
@@ -150,7 +137,7 @@ const stage_1_day_1=[
     {
         "title": "COMIDA LIBRE",
         "title_en": "FREE LUNCH",
-        "description": "El recinto cuenta con distintas opciones de alimentos, te recomendamos acudir al Oktoberfest, en Distrito León MX",
+        "description": "El recinto cuenta con distintas opciones de alimentos. Te recomendamos acudir al Oktoberfest, en Distrito León MX",
         "description_en": "The venue has different food options, we recommend you go to Oktoberfest, in District León MX",
         "time": "15:00 hrs",
         "duration": "60 mins",
@@ -158,10 +145,10 @@ const stage_1_day_1=[
         ]
     },
     {
-        "title": "MESA 3: <br /> CONSTRUYENDO EL PAÍS DESDE SUS REGIONES.<br /> <span class='font-normal text-white'>¿Cómo lograrlo en alianza con el sector privado?</span>",
+        "title": "MESA 3: <br /> CONSTRUYENDO EL PAÍS DESDE SUS REGIONES.<br /> <span class='font-normal text-black'>¿Cómo lograrlo en alianza con el sector privado?</span>",
         "title_en": "TABLE 3: BUILDING THE COUNTRY FROM ITS REGIONS. How to achieve it in partnership with the private sector?",
-        "description": "Introducción, por Eduardo Sojo, Presidente Fundación Novagob México",
-        "description_en": "Introduction, by Eduardo Sojo, Academic Coordinator of the Oaxaca Pact  (2019-2020)",
+        "description": "Introducción: Eduardo Sojo, Coordinador Académico de CONCAMINCCE “Pacto Oaxaca” (2019-2020)",
+        "description_en": "Introduction: Eduardo Sojo, Academic Coordinator of CONCAMINCCE “Pacto Oaxaca” (2019-2020).",
         "time": "16:00 hrs",
         "duration": "90 mins",
         "speakers": [
@@ -178,16 +165,22 @@ const stage_1_day_1=[
                 "image": "/img/speakers/graciela_amaro.webp"
             },
             {
-                "name": "Fernanda Hierro",
+                "name": "Cordelia Portilla",
                 "position": "Secretaria Técnica",
                 "company": "Consejo Nuevo León",
-                "image": "/img/speakers/fernanda_hierro.webp"
+                "image": "/img/speakers/cordelia_portilla.webp"
             },                        
             {
                 "name": "Eduardo Sojo",
                 "position": "Coordinador Académico - Pacto Oaxaca” (2019-2020) ",
                 "company": "CONCAMIN-CCE",
                 "image": "/img/speakers/eduardo_sojo.webp"
+            },
+            {
+                "name": "Alan Martínez",
+                "position": "Consejo Querétaro de Planeación Estratégica",
+                "company": "",
+                "image": "/img/speakers/alan_martinez.webp"
             },
             {
                 "name": "Manuel Pérez Cárdenas",
@@ -199,19 +192,13 @@ const stage_1_day_1=[
         ]
     },       
     {
-        "title": "MESA 4:<br /> LA INDUSTRIA AEROESPACIAL MEXICANA: Expansión extraordinaria de una industria de frontera tecnológica.<br /> <span class='font-normal text-white'> Oportunidades para la empresa mexicana</span>",
-        "title_en": "TABLE 4:<br /> THE MEXICAN AEROSPACE INDUSTRY: Extraordinary expansion of a technological frontier industry.<br /> <span class='font-normal text-white'> Opportunities for the Mexican company</span>",
-        "description": "Introducción: por Carlos Robles, Presidente FEMIA",
-        "description_en": "Introduction: By Carlos Robles, President of the Mexican Federation of the Aerospace Industry (FEMIA)type industries",
+        "title": "MESA 4:<br /> LA INDUSTRIA AEROESPACIAL MEXICANA: Expansión extraordinaria de una industria de frontera tecnológica.<br /> <span class='font-normal text-black'> Oportunidades para la empresa mexicana</span>",
+        "title_en": "TABLE 4:<br /> THE MEXICAN AEROSPACE INDUSTRY: Extraordinary expansion of a technological frontier industry.<br /> <span class='font-normal text-black'> Opportunities for the Mexican company</span>",
+        "description": "Introducción: : Carlos Robles, Presidente de la Federación Mexicana de la Industria Aeroespacial (FEMIA)",
+        "description_en": "Introduction: By Carlos Robles, President of the Mexican Federation of the Aerospace Industry (FEMIA) type industries",
         "time": "17:30 hrs",
         "duration": "60 mins",
-        "speakers": [
-            {
-                "name": "Elfido Ramos",
-                "position": "Project Manager & Supplier Development",
-                "company": "Safran",
-                "image": "/img/speakers/elfido_ramos.webp"
-            },
+        "speakers": [            
             {
                 "name": "Víctor González",
                 "position": "Director y Fundador",
@@ -262,8 +249,8 @@ const stage_1_day_1=[
 
 const statge_1_day_2=[
     {
-        "title": "MESA 5:<br /> LA MOVILIDAD DEL FUTURO.<br /> <span class='font-normal text-white'> Oportunidades y Retos para las grandes urbes</span>",
-        "title_en": "TABLE 5: <br />THE MOBILITY OF THE FUTURE.<br /> <span class='font-normal text-white'>Opportunities and Challenges for Large Cities</span>",
+        "title": "MESA 5:<br /> LA MOVILIDAD DEL FUTURO.<br /> <span class='font-normal text-black'> Oportunidades y Retos para las grandes urbes</span>",
+        "title_en": "TABLE 5: <br />THE MOBILITY OF THE FUTURE.<br /> <span class='font-normal text-black'>Opportunities and Challenges for Large Cities</span>",
         "description": "",
         "time": "9:00 hrs",
         "duration": "120 mins",
@@ -277,15 +264,9 @@ const statge_1_day_2=[
             {
                 "name": "Éric Martel",
                 "position": "Presidente y CEO",
-                "company": " Bombardier Canadá",
+                "company": " Bombardier Canadá *",
                 "image": "/img/speakers/eric_martel.webp"
-            },
-            {
-                "name": "José Luis Navarro",
-                "position": "Country Manager para México",
-                "company": " Enel Group",
-                "image": "/img/speakers/jose_luis_navarro.webp"
-            },
+            },            
             {
                 "name": "Lucien Pinto",
                 "position": "Presidente y CEO",
@@ -293,23 +274,24 @@ const statge_1_day_2=[
                 "image": "/img/speakers/lucienpinto.webp"
             },  
             {
-                "name": "Maite Ramos",
+                "name": "Maite Ramos *",
                 "position": "Directora General",
                 "company": " Alstom México",
                 "image": "/img/speakers/maite_ramos.webp"
-            },                                  
+            },               
             {
+                "id": "13",
                 "name": "Francisco González",
                 "position": "Presidente",
                 "company": "Industria Nacional de Autopartes (INA)",
-                "image": "/img/speakers/francisco_gonzalez_diaz.webp",
+                "image": "/img/speakers/francisco_gonzalez_diaz_new.webp",
                 "moderador": true
             }
         ]
     },
     {
-        "title": "MESA 6:<br /> SUSTENTABILIDAD Y RESPONSABILIDAD SOCIAL EMPRESARIAL:<br /> <span class='font-normal text-white'>Metas 2030-2050</span>",
-        "title_en": "TABLE 6:<br /> SUSTAINABILITY AND CORPORATE SOCIAL RESPONSIBILITY:<br /> <span class='font-normal text-white'>Goals 2030-2050</span>",
+        "title": "MESA 6:<br /> SUSTENTABILIDAD Y RESPONSABILIDAD SOCIAL EMPRESARIAL:<br /> <span class='font-normal text-black'>Metas 2030-2050</span>",
+        "title_en": "TABLE 6:<br /> SUSTAINABILITY AND CORPORATE SOCIAL RESPONSIBILITY:<br /> <span class='font-normal text-black'>Goals 2030-2050</span>",
         "description": "Introducción: Pietro Paolo Cornero, Presidente y Director General de Ferrero México y Centroamérica",
         "description_en": "Introduction: Pietro Paolo Cornero, President and CEO of Ferrero Mexico and Central America",
         "time": "11:00 hrs",
@@ -351,7 +333,7 @@ const statge_1_day_2=[
     },
     {
         "title": "VISITA A ITM (guiada o libre) / COMIDA LIBRE",
-        "description": "El recinto cuenta con distintas opciones de alimentos, te recomendamos acudir al Oktoberfest, en Distrito León MX",
+        "description": "El recinto cuenta con distintas opciones de alimentos. Te recomendamos acudir al Oktoberfest, en Distrito León MX",
         "description_en": "The venue has different food options, we recommend to visit the Oktoberfest, in Distrito León MX",
         "time": "12:30 hrs",
         "duration": "120 mins",
@@ -359,9 +341,9 @@ const statge_1_day_2=[
         ]
     },
     {
-        "title": "EL NUEVO ESPACIO, LUGAR DE ENORME OPORTUNIDAD PARA LA INTEGRACIÓN DE CADENAS PRODUCTIVAS DE MÉXICO Y ESTADOS UNIDOS.<br /> <span class='font-normal text-white'> Una visión de los actores</span>",
-        "title_en": "THE NEW SPACE, A PLACE OF ENORMOUS OPPORTUNITY FOR THE INTEGRATION OF PRODUCTIVE CHAINS OF MEXICO AND THE UNITED STATES.<br /> <span class='font-normal text-white'> A vision of the actors</span>",
-        "description": "Introducción: Francisco Cervantes, Presidente del CCE (Tendencias globales, los sectores industriales del Nuevo Espacio y la acción de los estados nacionales para promover la integración industrial transfronteriza en el ámbito espacial).<br /><br /> <strong>MARCO LEGAL ESPACIAL EN MÉXICO:</strong> Reforma constitucional en materia espacial en consideración en el Senado Mexicano.<br /><br /> Ana Lilia Rivera, Senadora de la República, LXV Legislatura y Presidenta de la Comisión de Ciencia y Tecnología del Senado de la República en la LXIV Legislatura <br /><br /><strong><u>PANEL UNO : </u><br />NUEVO ESPACIO:</strong> PUNTO DE ENCUENTRO DE LA CIENCIA, LA TECNOLOGÍA, LA INDUSTRIA Y LA DEFENSA ¿Qué es el Nuevo Espacio y hacia dónde va tanto en el sector privado como en el público y de investigación de desarrollo?",
+        "title": "EL NUEVO ESPACIO, LUGAR DE ENORME OPORTUNIDAD PARA LA INTEGRACIÓN DE CADENAS PRODUCTIVAS DE MÉXICO Y ESTADOS UNIDOS.<br /> <span class='font-normal text-black'> Una visión de los actores</span>",
+        "title_en": "THE NEW SPACE, A PLACE OF ENORMOUS OPPORTUNITY FOR THE INTEGRATION OF PRODUCTIVE CHAINS OF MEXICO AND THE UNITED STATES.<br /> <span class='font-normal text-black'> A vision of the actors</span>",
+        "description": "Introducción: Francisco Cervantes, Presidente del CCE<br /><br /> <strong>MARCO LEGAL ESPACIAL EN MÉXICO:</strong> Reforma constitucional en materia espacial en consideración en el Senado Mexicano.<br /><br /> Ana Lilia Rivera, Senadora de la República, LXV Legislatura y Presidenta de la Comisión de Ciencia y Tecnología del Senado de la República en la LXIV Legislatura <br /><br /><strong><u>PANEL UNO : </u><br />NUEVO ESPACIO:</strong> PUNTO DE ENCUENTRO DE LA CIENCIA, LA TECNOLOGÍA, LA INDUSTRIA Y LA DEFENSA ¿Qué es el Nuevo Espacio y hacia dónde va tanto en el sector privado como en el público y de investigación de desarrollo?",
         "description_en": "Introduction: Francisco Cervantes, President of the CCE (Global trends, the industrial sectors of the New Space and the action of national states to promote cross-border industrial integration in the space field).<br /><br /> SPACE LEGAL FRAMEWORK IN MEXICO: Constitutional reform in space matters under consideration in the Mexican Senate.<br /><br /> Ana Lilia Rivera, Senator of the Republic of Mexico, LXV Legislature and Chairwoman of the Science and Technology Commission of the Senate of the of the Republic in the LXIV Legislature.<br /><br /><strong><u>PANEL ONE : </u><br /> NEW SPACE: </strong>MEETING POINT OF SCIENCE, TECHNOLOGY, INDUSTRY AND DEFENSE What is the New Space and where is it going in both the private and public sectors and in the R&D sector?",
         "time": "14:30 hrs",
         "duration": "90 mins",
@@ -379,10 +361,10 @@ const statge_1_day_2=[
                 "image": "/img/speakers/ken_davidian.webp"
             },
             {
-                "name": "Dan Hendrikson *",
-                "position": "VP Business Development",
-                "company": " Astrobotic",
-                "image": "/img/speakers/dan_hendrikson.webp"
+                "name": "Marchel Holle",
+                "position": "US Government Affairs Lead",
+                "company": "ispace Technologies US",
+                "image": "/img/speakers/marchel_holle.webp"
             },            
             {
                 "name": "Erik Kulu",
@@ -401,8 +383,8 @@ const statge_1_day_2=[
         ]
     },
     {
-        "title": "<strong class='text-white'><u>PANEL DOS : </u></strong><br />CAPACIDADES ACTUALES DE MÉXICO APLICABLES AL SECTOR ESPACIAL",
-        "title_en": "<strong class='text-white'><u>PANEL TWO : </u></strong><br />CURRENT CAPABILITIES OF MEXICO APPLICABLE TO THE SPACE SECTOR",
+        "title": "<strong class='text-black'><u>PANEL DOS : </u></strong><br />CAPACIDADES ACTUALES DE MÉXICO APLICABLES AL SECTOR ESPACIAL",
+        "title_en": "<strong class='text-black'><u>PANEL TWO : </u></strong><br />CURRENT CAPABILITIES OF MEXICO APPLICABLE TO THE SPACE SECTOR",
         "description": "",
         "description_en": "",
         "time": "16:00 hrs",
@@ -415,7 +397,7 @@ const statge_1_day_2=[
                 "image": "/img/speakers/luis_lizcano.webp"
             },
             {
-                "name": "Carlos Lozan",
+                "name": "Carlos Lozano",
                 "position": "Director de ventas",
                 "company": "FRISA",
                 "image": "/img/speakers/carlos_lozano.webp"
@@ -442,24 +424,18 @@ const statge_1_day_2=[
         ]
     },
     {
-        "title": "<strong class='text-white'><u>PANEL TRES : </u></strong><br />OPORTUNIDADES PARA MÉXICO DE LA RÁPIDA EXPANSIÓN DE LA INDUSTRIA ESPACIAL EN LOS EUA Y EL MUNDO",
-        "title_en": "<strong class='text-white'><u>PANEL THREE : </u></strong><br />OPPORTUNITIES FOR MEXICO FROM THE RAPID EXPANSION OF THE SPACE INDUSTRY IN THE USA AND THE WORLD",
+        "title": "<strong class='text-black'><u>PANEL TRES : </u></strong><br />OPORTUNIDADES PARA MÉXICO DE LA RÁPIDA EXPANSIÓN DE LA INDUSTRIA ESPACIAL EN LOS EUA Y EL MUNDO",
+        "title_en": "<strong class='text-black'><u>PANEL THREE : </u></strong><br />OPPORTUNITIES FOR MEXICO FROM THE RAPID EXPANSION OF THE SPACE INDUSTRY IN THE USA AND THE WORLD",
         "description": "",
         "time": "17:00 hrs",
         "duration": "90 mins",
         "speakers": [
             {
-                "name": "Andrés Rodríguez",
-                "position": "Senior Manager - Global Business Development & Strategy",
-                "company": "Lockheed Martin",
-                "image": "/img/speakers/andres_trodriguez.webp"
-            },
-            {
-                "name": "Angelo Pansini",
-                "position": "CCO - Commercial Governance & Offset Management SVP",
-                "company": "LEONARDO SpA",
-                "image": "/img/speakers/angelo_pansini.webp"
-            },
+                "name": "Lanfranco De Pompeis",
+                "position": "Telespazio/Leonardo",
+                "company": "",
+                "image": "/img/speakers/lanfranco_pompeis.webp"
+            },            
             {
                 "id": "30",
                 "name": "Scott P. Flukinger",
@@ -468,10 +444,10 @@ const statge_1_day_2=[
                 "image": "/img/speakers/scottFlukinger.webp"
             },           
             {
-                "name": "Instituto de Investigación Aeroespacial de Corea del Sur (KARI) *",
-                "position": "",
-                "company": "",
-                "image": "/profile.svg"
+                "name": "Marchel Holle",
+                "position": "US Government Affairs Lead",
+                "company": "ispace Technologies US",
+                "image": "/img/speakers/marchel_holle.webp"
             },
             {
                 "name": "Gustavo Medina Tanco",
@@ -483,7 +459,7 @@ const statge_1_day_2=[
         ]
     },    
     {
-        "title": "SESIÓN DE DISCUSIÓN ABIERTA Y PREGUNTAS",
+        "title": "SESIÓN DE DISCUSIÓN (ABIERTA Y PREGUNTAS)",
         "title_en": "OPEN DISCUSSION SESSION AND QUESTIONS",
         "description": "Los panelistas discuten entre ellos e interactúan con el público",
         "description_en": "All the panelists discuss among themselves and interact with the public",
@@ -500,29 +476,44 @@ const stage_2_day_1=[
     {
         "title": "El Ecosistema de Electromovilidad en México",
         "title_en": "The Electromobility Ecosystem in Mexico",
-        "description": "",
+        "description": "Panel sobre las oportunidades y retos de la movilidad eléctrica en México, entendiéndolo como un ecosistema en transición, donde se planea conversar sobre la transición de la movilidad eléctrica, que afecta a los fabricantes, cadena de suministro, regulación carga y la energía para alimentarlos.",
         "time": "13:30 hrs",
         "duration": "60 mins",
         "speakers": [
+            {                
+                "name": "Emilio Cadena",
+                "position": "Director General",
+                "company": "Prodensa",
+                "image": "/img/speakers/emilio_cadena.webp",                
+            },
+            {                
+                "name": "Ximena Cantú",
+                "position": "ESG Officer",
+                "company": "Energía Real",
+                "image": "/img/speakers/ximena_cantu.webp",                
+            },
+            {                
+                "name": "Daniel López",
+                "position": "Director Comercial",
+                "company": "Evergo",
+                "image": "/img/speakers/daniel_lopez.webp",                
+            },
+            {                
+                "name": "Vania Judith Terrones",
+                "position": "Gerente de Vehículos Eléctricos",
+                "company": "JAC",
+                "image": "/img/speakers/vania_judith.webp",                
+            },
             {
                 "id": "10",
                 "name": "Eugenio Grandio",
                 "position": "Presidente",
                 "company": "EMA",
                 "image": "/img/speakers/eugenio_grandio.webp",
-
+                "moderador": true
             },
         ]
-    },
-    {
-        "title": "COMIDA LIBRE ",
-        "title_en": "FREE LUNCH",
-        "description": "(Oktoberfest, en Distrito León MX)",
-        "description_en": "(Oktoberfest, in District León MX)",
-        "time": "14:30 hrs",
-        "duration": "60 mins",
-        "speakers": []
-    },
+    },    
     {
         "title": "La revolución automotriz sobre ruedas, reinventando la movilidad",
         "title_en": "The automotive revolution on wheels, reinventing mobility",
@@ -532,13 +523,33 @@ const stage_2_day_1=[
         "duration": "30 mins",
         "speakers": [
             {
+            
+                
+                "name": "Francisco Fernando Monje Fernandez",
+                "position": "Gerencia de Implementación Tecnológica para Ciclo de Vida de Producto y Desarrollo Tecnológico del Cluster Stellantis",
+                "company": "Siemens",
+                "image": "/img/speakers/francisco_monje.webp",
+
+            },
+            {
+            
+                
+                "name": "Paul Pagnoulle De la Rosa",
+                "position": "Engineering Design Manager",
+                "company": "Ford",
+                "image": "/img/speakers/paul_de_la_rosa.webp",
+
+            },
+            {
                 "id": "24",
                 "name": "Alejandro Canela",
                 "position": "Vicepresidente de México y Centroamérica de Siemens Digital Industries Software, Presidente de Innovación y Desarrollo Tecnológico del Cluster Metropolitano y Vicepresidente de la comisión Industria 4.0 de Concamin",
                 "company": "Siemens",
                 "image": "/img/speakers/alejandroCanela.webp",
+                "moderador": true
 
-            }
+            },
+            
         ]
     },
     {
@@ -551,9 +562,9 @@ const stage_2_day_1=[
             {
                 "id": "13",
                 "name": "Francisco N. González",
-                "position": "Presidente Ejecutivo",
+                "position": "Presidente",
                 "company": " Industria Nacional de Autopartes (INA)",
-                "image": "/img/speakers/francisco_gonzalez_diaz.webp"
+                "image": "/img/speakers/francisco_gonzalez_diaz_new.webp"
             },
         ]
     },
@@ -605,6 +616,13 @@ const stage_2_day_1=[
                 "position": "COO Co-Funder",
                 "company": " Megaflux",
                 "image": "/img/speakers/felipe-gallego.webp"
+            },
+            {
+                "name": "Francisco Javier García Osorio",
+                "position": "Director de Gestión para la Eficiencia Energética",
+                "company": " Comisión Nacional para el Uso Eficiente de la Energía (CONUEE)",
+                "image": "/img/speakers/franciscoJavier.webp",
+                "moderador": true
             }
         ]
     },    
@@ -638,12 +656,27 @@ const stage_2_day_2=[
         ]
     }, 
     {
-        "title": "Fireside chat pendiente",
-        "title_en": "Pending fireside chat",
-        "description": "",
+        "title": "Movilidad Eléctrica: Tendencias Destacadas en México",
+        "title_en": "Electric Mobility: Outstanding Trends in Mexico",
+        "description": "Esta plática ofrece una importante visión de las tendencias emergentes en el sector de la e-movilidad en México, abordando la adopción de vehículos eléctricos, el desarrollo de infraestructura de carga y el impacto en el panorama industrial y medioambiental del país. Además, se examinará el contexto actual de la industria y del sector, brindando una comprensión integral de los avances y desafíos en el ámbito de la movilidad eléctrica en México.",
         "time": "12:00 hrs",
         "duration": "30 mins",
-        "speakers": []
+        "speakers": [
+            {          
+                "id": "31", 
+                "name": "Marco Astua",
+                "position": "Digital Energy and Prosumer Sales Manager",
+                "company": "Schneider Electric",
+                "image": "/img/speakers/marco_astua.webp"
+            },
+            {          
+                "id": "32", 
+                "name": "Leonardo Fernandez",
+                "position": "Multi Country Future Offer Manager",
+                "company": "Schneider Electric",
+                "image": "/img/speakers/leonardo_fernandez.webp"
+            },
+        ]
     },    
     {
         "title": "Los desafíos regulatorios de la electromovilidad en México – Una perspectiva de la industria",
@@ -678,7 +711,8 @@ const stage_2_day_2=[
                 "name": "Lilia de Diego Correa",
                 "position": "Asesora",
                 "company": "Cooperación Técnica Alemana (GIZ)",
-                "image": "/img/speakers/liliade_diego.webp"
+                "image": "/img/speakers/liliade_diego.webp",
+                "moderador": true
             },
         ]
     },
@@ -698,7 +732,20 @@ const stage_2_day_2=[
         "description_en": "",
         "time": "16:00 hrs",
         "duration": "30 mins",
-        "speakers": []
+        "speakers": [
+            {                           
+                "name": "Ernesto Del Blanco",
+                "position": "Presidente ",
+                "company": "Consejo de Administración de ELAM - FAW",
+                "image": "/img/speakers/ernesto_blanco.webp"
+            },
+            {                 
+                "name": "Horacio Ramos",
+                "position": "Head of E Mobility",
+                "company": "Siemens México, Centroamérica y El Caribe",
+                "image": "/img/speakers/horacio.webp"
+            },
+        ]
     },
     {
         "title": "Capacitación y Desarrollo en la Industria Automotriz 4.0 y el papel de los jóvenes en la Transformación de la Movilidad",
@@ -718,8 +765,16 @@ const stage_2_day_2=[
                 "name": "Alejandro Rojo Valerio",
                 "position": "Líder en Manufactura y Diseño Automotriz,",
                 "company": " ITESM",
-                "image": "/img/speakers/miguel-primoArmendariz.webp"
-            }
+                "image": "/img/speakers/alejandro_rojo.webp"
+            },
+            {
+                "id": "13",
+                "name": "Francisco N. González",
+                "position": "Presidente Ejecutivo",
+                "company": " Industria Nacional de Autopartes (INA)",
+                "image": "/img/speakers/francisco_gonzalez_diaz_new.webp",
+                "moderador": true
+            },
         ]
     }
 ]
