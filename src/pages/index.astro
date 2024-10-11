@@ -17,7 +17,8 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
 
 <Layout title='AMOF | Inicio'>
   <section class='relative h-screen'>
-    <video
+    {
+      /*<video
       class='absolute object-cover w-screen h-screen z-[-1]'
       muted
       loop
@@ -79,14 +80,13 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
           />
         </div>
       </div>
-    </div>
-
-    {
-      /*<img
-      src='/img/amof_bf_2025.webp'
-      class='absolute object-cover w-screen h-screen z-[-1]'
-    />*/
+    </div>*/
     }
+
+    <img
+      src='/img/amof_bf_2025.webp'
+      class='absolute object-cover object-bottom w-screen h-screen z-[-1]'
+    />
   </section>
   <FreeRegisterster />
   <section
