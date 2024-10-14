@@ -197,14 +197,15 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
                   href={i18next.language === 'en'
-                    ? '/files/AMOF_FACTSHEET_ENG_2024_AC_30-07-2024.pdf'
-                    : '/files/AMOF_FACTSHEET_ESP_2024_AC_30-07-2024.pdf'}
+                    ? '/files/AMOF_2025_FACTSHEET_2025_ENG_compressed.pdf'
+                    : '/files/AMOF_2025_FACTSHEET_2025_ESP_compressed.pdf'}
                   target='_blank'
                   target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option5')}</a
                 >
               </li>
-              <li class='hover:bg-blue-100 font-semibold'>
+              {
+                /* <li class='hover:bg-blue-100 font-semibold'>
                 <a
                   href='/files/Floorplan-ITM 2024-17-09-2024.pdf'
                   target='_blank'
@@ -222,7 +223,8 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                 <a href={`${base}/#tarifas`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option8')}</a
                 >
-              </li>
+              </li>*/
+              }
               <li class='hover:bg-blue-100 font-semibold'>
                 <a href={`${base}/toolkit`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option9')}</a
