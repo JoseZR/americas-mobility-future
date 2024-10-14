@@ -1,18 +1,18 @@
 ---
-import i18next, { changeLanguage, t } from 'i18next'
-import { MarqueeReact } from '../components/MarqueeReact'
-import Layout from '../layouts/Layout.astro'
-import Categories from '../components/Categories.astro'
-import { partners, exhibitors, visitors } from '../logos_partners'
-import { PresenceSocial } from '../components/PresenceSocial.jsx'
-import MouseOverZoom from '../components/MouseOverZoom.jsx'
-import FreeRegisterster from '../components/FreeRegister.astro'
-import Sponsors from '../components/Sponsors.astro'
+import i18next, { changeLanguage, t } from "i18next";
+import { MarqueeReact } from "../components/MarqueeReact";
+import Layout from "../layouts/Layout.astro";
+import Categories from "../components/Categories.astro";
+import { partners, exhibitors, visitors } from "../logos_partners";
+import { PresenceSocial } from "../components/PresenceSocial.jsx";
+import MouseOverZoom from "../components/MouseOverZoom.jsx";
+import FreeRegisterster from "../components/FreeRegister.astro";
+import Sponsors from "../components/Sponsors.astro";
 
-changeLanguage('es')
+changeLanguage("es");
 
-const lang = i18next.language
-const base = i18next.language === 'es' ? '' : `/${lang}`
+const lang = i18next.language;
+const base = i18next.language === "es" ? "" : `/${lang}`;
 ---
 
 <Layout title='AMOF | Inicio'>
@@ -361,7 +361,7 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
     </div>
   </section>
 
-  <section class='my-10' id='tarifas'>
+  <!-- <section class='my-10' id='tarifas'>
     <p class='font-bold uppercase text-4xl text-center text-gray-600'>
       {t('home.exhibitor_floor')}
     </p>
@@ -510,10 +510,10 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
         <MouseOverZoom client:only imageSrc='/img/planoAmof.png' />
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section class='py-10 container px-4 mx-auto grid place-items-center'>
-    <div
+    <!-- <div
       class='grid place-items-center md:flex justify-center w-full md:w-8/12'
     >
       <img src='/img/movilSocial.webp' alt='AMOF Redes' class='w-96' />
@@ -527,7 +527,7 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
         coverage={t('home.coverage')}
         allsocial={t('home.allsocial')}
       />
-    </div>
+    </div>-->
     <p class='text-[#007bff] text-3xl font-bold mt-10'>
       {t('home.follow_us')}
     </p>
