@@ -11,7 +11,7 @@ const visitors = [
 ]
 
 const partners = [
-    { link: '', src: '/img/logos/cluster-industrial-nuevo.webp', alt:'', width: 200, height: 190 },
+    { link: '', src: '/img/logos/exhibitors/cluster-industrial-nuevo.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/heraldo_group.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/vanguardia-industrial.webp', alt:'', width: 200, height: 190 },
     { link: '', src: '/img/logos/negocio-motor.webp', alt:'', width: 200, height: 190 },
@@ -36,13 +36,13 @@ const partners = [
 const exhibitors = [
     { link: '', src: '/img/logos/exhibitors/siemens_02.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/kia.webp', alt:'', width: 200, height: 124 },
-    { link: '', src: '/img/logos/exhibitors/hitachi.webp', alt:'', width: 200, height: 124 },
+    { link: '', src: '/img/logos/exhibitors/hitachi.webp', alt:'', width: 150, height: 124 },
     { link: '', src: '/img/logos/exhibitors/3m.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/360.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/acsys.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/airmobility.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/allride.webp', alt:'', width: 200, height: 124 },
-    { link: '', src: '/img/logos/exhibitors/bendix.webp', alt:'', width: 200, height: 124 },
+    { link: '', src: '/img/logos/exhibitors/bendix.webp', alt:'', width: 180, height: 124 },
     { link: '', src: '/img/logos/exhibitors/cenex.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/centro_empresarial.webp', alt:'', width: 200, height: 124 },
     { link: '', src: '/img/logos/exhibitors/cii.webp', alt:'', width: 200, height: 124 },
@@ -72,18 +72,25 @@ const exhibitors = [
     { link:'', src: '/img/logos/exhibitors/clarios.webp', alt:'', width: 200, height: 124},
     { link:'', src: '/img/logos/exhibitors/bluesport.webp', alt:'', width: 200, height: 124},
     { link:'', src: '/img/logos/exhibitors/alternev.webp', alt:'', width: 200, height: 124},    
-    { link:'', src: '/img/logo_INA-vertical.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logo_INA-vertical.webp', alt:'', width: 150, height: 124},
     { link:'', src: '/img/logos/exhibitors/giz.webp', alt:'', width: 350},
     { link:'', src: '/img/logos/exhibitors/toyota.webp', alt:'', width: 350},
     { link:'', src: '/img/logos/exhibitors/h2mexico.webp', alt:'', width: 350},
     { link:'', src: '/img/logos/exhibitors/megaflux.webp', alt:'', width: 350},
-    { link:'', src: '/img/logos/exhibitors/ance.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/ance.webp', alt:'', width: 150, height: 124},
     { link:'', src: '/img/logos/exhibitors/piaggio-commercial.webp', alt:'', width: 200, height: 124},
-    { link:'', src: '/img/logos/exhibitors/weg.webp', alt:'', width: 200, height: 124},
-    { link:'', src: '/img/logos/exhibitors/v-on.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/weg.webp', alt:'', width: 150, height: 124},
+    { link:'', src: '/img/logos/exhibitors/v-on.webp', alt:'', width: 150, height: 124},
     { link:'', src: '/img/logos/exhibitors/ciudad_maderas.webp', alt:'', width: 200, height: 124},
-    { link:'', src: '/img/logos/exhibitors/velocitycapital.webp', alt:'', width: 200, height: 124},
-    { link:'', src: '/img/logos/exhibitors/byd.webp', alt:'', width: 200, height: 124},                     
+    { link:'', src: '/img/logos/exhibitors/velocitycapital.webp', alt:'', width: 150, height: 124},
+    { link:'', src: '/img/logos/exhibitors/byd.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/bmwlogo.webp', alt:'', width: 150, height: 124},
+    { link:'', src: '/img/logos/exhibitors/cf-arlogo.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/BCRlogo.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/jetbike.webp', alt:'', width: 200, height: 124},
+    { link:'', src: '/img/logos/exhibitors/conecta_sostenible.webp', alt:'', width: 200, height: 124},
+    
+                            
 ]
 
 export {partners, exhibitors ,visitors}

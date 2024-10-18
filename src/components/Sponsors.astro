@@ -18,21 +18,18 @@ const { logos } = Astro.props
   class='container mx-auto px-4 text-center text-[#6C757D] font-bold uppercase'
 >
   <div
-    class='grid grid-cols-3 md:grid-cols-5 gap-6 md:m-10 sm:m-10 justify-evenly'
+    class='grid grid-cols-3 md:grid-cols-5 gap-6 md:m-10 sm:m-10 justify-evenly place-items-center'
   >
     {
       logos.map((element) => (
-        <div class='flex justify-center items-center h-full'>
-          <a href={element.link} target='_blank' rel='noopener noreferrer'>
-            <img
-              src={element.src}
-              alt={element.alt}
-              width={element.width}
-              height={element.height}
-              class='w-auto h-auto'
-            />
-          </a>
-        </div>
+        <a href={element.link} target='_blank' rel='noopener noreferrer'>
+          <img
+            src={element.src}
+            alt={element.alt}
+            width={element.width}
+            height={element.height}
+          />
+        </a>
       ))
     }
   </div>

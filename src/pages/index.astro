@@ -115,6 +115,7 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
       </div>
     </div>
   </section>
+  <img src={i18next.language === 'es' ? '/amof_esp.webp' : '/amof_eng.webp'} />
   <section
     class="bg-[url('/img/bgWhyparticipate.webp')] bg-cover bg-center bg-fixed py-20 relative"
     id='summit'
@@ -123,6 +124,8 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
       class='relative z-50 mx-auto container'
       style='text-shadow: 4px 4px 4px black'
     >
+      {
+        /*
       <p
         data-aos='zoom-in'
         data-aos-duration='1000'
@@ -146,7 +149,8 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
           {t('home.description1')}
         </p>
       </div>
-
+ */
+      }
       <video
         src='/video/SUMMIT-amofv1-opt.mp4'
         class='w-full md:w-2/4 mt-5 rounded-xl shadow-2xl flex mx-auto'
