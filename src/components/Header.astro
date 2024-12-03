@@ -162,23 +162,8 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
               class='py-2 text-gray-700'
               aria-labelledby='dropdownLargeButton'
             >
-              <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href='/files/RESULTADOS-ITM-AMOF-2024-ESP_compressed.pdf'
-                  target='_blank'
-                  class='block px-4 py-2'>AFTER SHOW REPORT 2024</a
-                >
-              </li>
-              <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href={i18next.language === 'en'
-                    ? '/files/AFTERSHOW-REPORT-AMOF-ENG-2023.pdf'
-                    : '/files/AFTERSHOW-REPORT-AMOF-ESP-2023.pdf'}
-                  target='_blank'
-                  class='block px-4 py-2'>{t('menu.option3.subMenu.option1')}</a
-                >
-              </li>
-
+              {
+                /*
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
                   href={i18next.language === 'en'
@@ -190,16 +175,12 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                   {t('menu.option3.subMenu.option2')}
                 </a>
               </li>
-
+                */
+              }
               <li class='hover:bg-blue-100 font-semibold'>
                 <a href={`${base}/#perfil-expositor`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option3')}
                 </a>
-              </li>
-              <li class='hover:bg-blue-100 font-semibold'>
-                <a href={`${base}/#porque-asistir`} class='block px-4 py-2'
-                  >{t('menu.option3.subMenu.option4')}</a
-                >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
@@ -209,14 +190,6 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                   target='_blank'
                   target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option5')}</a
-                >
-              </li>
-              <li class='hover:bg-blue-100 font-semibold'>
-                <a
-                  href='/files/Directorio-de-Expositores-AMOF-2024_compressed.pdf'
-                  target='_blank'
-                  class='block px-4 py-2'
-                  >{t('menu.option3.subMenu.option10')}</a
                 >
               </li>
               <li class='hover:bg-blue-100 font-semibold'>
@@ -239,13 +212,14 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                 <a href={`${base}/#tarifas`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option8')}</a
                 >
-              </li>*/
-              }
+              </li>
               <li class='hover:bg-blue-100 font-semibold'>
                 <a href={`${base}/toolkit`} class='block px-4 py-2'
                   >{t('menu.option3.subMenu.option9')}</a
                 >
               </li>
+                */
+              }
             </ul>
           </div>
         </li>
@@ -287,16 +261,76 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                 >
               </li>
 
-              <li class='hover:bg-blue-100 font-semibold'>
+              {
+                /* <li class='hover:bg-blue-100 font-semibold'>
                 <a
                   href={`${base}/tarifas-especiales-para-hoteles`}
                   class='block px-4 py-2'>{t('home.hotels')}</a
                 >
               </li>
+              */
+              }
             </ul>
           </div>
         </li>
-
+        <li>
+          <button
+            id='dropdownEditions'
+            data-dropdown-toggle='dropdownNavbar4'
+            data-dropdown-trigger='hover'
+            class='flex items-center justify-between w-full py-2 pl-3 pr-4 text-blue-950 font-bold border-b border-gray-300 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto'
+          >
+            EDICIONES
+            <svg
+              class='w-2.5 h-2.5 ml-2.5'
+              aria-hidden='true'
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 10 6'
+            >
+              <path
+                stroke='currentColor'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+                stroke-width='2'
+                d='m1 1 4 4 4-4'></path>
+            </svg>
+          </button>
+          <div
+            id='dropdownNavbar4'
+            class='dropdown z-[100] hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-auto'
+          >
+            <ul
+              class='py-2 text-gray-700'
+              aria-labelledby='dropdownLargeButton'
+            >
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href='/files/RESULTADOS-ITM-AMOF-2024-ESP_compressed.pdf'
+                  target='_blank'
+                  class='block px-4 py-2'>AFTER SHOW REPORT 2024</a
+                >
+              </li>
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href='/files/Directorio-de-Expositores-AMOF-2024_compressed.pdf'
+                  target='_blank'
+                  class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option10')}</a
+                >
+              </li>
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href={i18next.language === 'en'
+                    ? '/files/AFTERSHOW-REPORT-AMOF-ENG-2023.pdf'
+                    : '/files/AFTERSHOW-REPORT-AMOF-ESP-2023.pdf'}
+                  target='_blank'
+                  class='block px-4 py-2'>{t('menu.option3.subMenu.option1')}</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
         <li>
           <a
             href={`${base}/#contactanos`}
