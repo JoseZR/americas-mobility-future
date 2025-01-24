@@ -185,8 +185,8 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
               <li class='hover:bg-blue-100 font-semibold'>
                 <a
                   href={i18next.language === 'en'
-                    ? '/files/AMOF-2025-FACTSHEET-2025-ENG-V4.pdf'
-                    : '/files/AMOF-2025-FACTSHEET-2025-ESP-V4.pdf'}
+                    ? '/files/AMOF-2025-FACTSHEET-ENG-2025-V4_compressed.pdf'
+                    : '/files/AMOF-2025-FACTSHEET-2025-V4_compressed.pdf'}
                   target='_blank'
                   target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option5')}</a
@@ -197,6 +197,24 @@ const base = i18next.language === 'es' ? '' : `/${lang}`
                   href='/files/Floorplan-ITM-AMOF-2025-14-10-2024.pdf'
                   target='_blank'
                   class='block px-4 py-2'>{t('menu.option3.subMenu.option6')}</a
+                >
+              </li>
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href={i18next.language === 'en'
+                    ? '/files/PATROCINIOS-AMOF-2025-ENG-V3_compressed.pdf'
+                    : '/files/PATROCINIOS-AMOF-2025-V3_compressed.pdf'}
+                  target='_blank'
+                  class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option11')}</a
+                >
+              </li>
+              <li class='hover:bg-blue-100 font-semibold'>
+                <a
+                  href='/files/PATROCINIOS-CONFERENCIAS-AMOF-2025_compressed.pdf'
+                  target='_blank'
+                  class='block px-4 py-2'
+                  >{t('menu.option3.subMenu.option12')}</a
                 >
               </li>
               {
