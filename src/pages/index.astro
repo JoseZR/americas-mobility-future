@@ -83,7 +83,9 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
     </div>*/
     }
     <img
-      src='/img/amof_bf_2025.webp'
+      src={i18next.language === 'es'
+        ? '/img/amof_bf_2025.webp'
+        : '/img/amof_bf_2025_eng.webp'}
       class='absolute object-cover object-bottom w-screen h-screen z-[-1]'
     />
   </section>
