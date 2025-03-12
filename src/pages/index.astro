@@ -243,11 +243,11 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
   <p class='mt-20 font-bold uppercase text-4xl text-center mb-6 text-gray-600'>
     {t('home.allies')}
   </p>
-  <div class='container mx-auto my-5'>
-    <div class='sm:flex grid gap-8 justify-center'>
-      <img src='/img/logos/AMIVE.webp' alt='AMIVE' class='w-72' />
-      <img src='/img/CLAUGTO-LOGO.webp' alt='CLAUGTO' class='w-72' />
-    </div>
+  <div
+    class='container mx-auto my-5 grid md:grid-cols-2 gap-4 place-items-center'
+  >
+    <img src='/img/logos/AMIVE.webp' alt='AMIVE' class='w-72' />
+    <img src='/img/CLAUGTO-LOGO.webp' alt='CLAUGTO' width='300' />
   </div>
 
   <section class='py-10 container mx-auto px-4'>
@@ -274,52 +274,29 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
   </section>
   <section class='py-10 container mx-auto px-4'>
     <p class='text-center font-bold text-4xl uppercase text-gray-600'>
-      {t('home.gallery')} 2023
+      {t('home.gallery')} 2024
     </p>
     <div class='mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-4'>
       <div class='grid gap-4'>
         <div>
           <img
             class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery1.webp'
-            alt='Amof 2023 - 1'
-          />
-        </div>
-        <div>
-          <img
-            class='h-60 w-full rounded-lg object-cover'
-            src='/img/gallery2.webp'
-            alt='Amof 2023 - 2'
-          />
-        </div>
-        <div>
-          <img
-            class='h-96 max-w-full rounded-lg object-cover'
-            src='/img/gallery3.webp'
-            alt='Amof 2023 - 3'
-          />
-        </div>
-      </div>
-      <div class='grid gap-4'>
-        <div>
-          <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery4.webp'
-            alt='Amof 2023 - 4'
+            src='/img/galeria/galeria2024-1.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
         <div>
           <img
             class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery5.webp'
-            alt='Amof 2023 - 5'
+            src='/img/galeria/galeria2024-2.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
         <div>
           <img
             class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery6.webp'
-            alt='Amof 2023 - 6'
+            src='/img/galeria/galeria2024-3.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
       </div>
@@ -327,45 +304,68 @@ const base = i18next.language === "es" ? "" : `/${lang}`;
         <div>
           <img
             class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery7.webp'
-            alt='Amof 2023 - 7'
-          />
-        </div>
-        <div>
-          <img
-            class='h-64 w-full rounded-lg object-cover'
-            src='/img/gallery8.webp'
-            alt='Amof 2023 - 8'
+            src='/img/galeria/galeria2024-4.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
         <div>
           <img
             class='h-96 w-full rounded-lg object-cover'
-            src='/img/gallery9.webp'
-            alt='Amof 2023 - 9'
+            src='/img/galeria/galeria2024-5.webp'
+            alt='Amof 2024 - 1'
+          />
+        </div>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-6.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
       </div>
       <div class='grid gap-4'>
         <div>
           <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery10.webp'
-            alt='Amof 2023 - 10'
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-7.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
         <div>
           <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery11.webp'
-            alt='Amof 2023 - 11'
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-8.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
         <div>
           <img
-            class='h-full w-full rounded-lg object-cover'
-            src='/img/gallery12.webp'
-            alt='Amof 2023 - 12'
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-9.webp'
+            alt='Amof 2024 - 1'
+          />
+        </div>
+      </div>
+      <div class='grid gap-4'>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-10.webp'
+            alt='Amof 2024 - 1'
+          />
+        </div>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-11.webp'
+            alt='Amof 2024 - 1'
+          />
+        </div>
+        <div>
+          <img
+            class='h-96 w-full rounded-lg object-cover'
+            src='/img/galeria/galeria2024-12.webp'
+            alt='Amof 2024 - 1'
           />
         </div>
       </div>
