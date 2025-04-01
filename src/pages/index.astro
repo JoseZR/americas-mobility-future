@@ -1,94 +1,24 @@
 ---
-import i18next, { changeLanguage, t } from "i18next";
-import { MarqueeReact } from "../components/MarqueeReact";
-import Layout from "../layouts/Layout.astro";
-import Categories from "../components/Categories.astro";
-import { partners, exhibitors, visitors } from "../logos_partners";
-import { PresenceSocial } from "../components/PresenceSocial.jsx";
-import MouseOverZoom from "../components/MouseOverZoom.jsx";
-import FreeRegisterster from "../components/FreeRegister.astro";
-import Sponsors from "../components/Sponsors.astro";
+import i18next, { changeLanguage, t } from 'i18next'
+import { MarqueeReact } from '../components/MarqueeReact'
+import Layout from '../layouts/Layout.astro'
+import Categories from '../components/Categories.astro'
+import { partners, exhibitors, visitors } from '../logos_partners'
+import { PresenceSocial } from '../components/PresenceSocial.jsx'
+import MouseOverZoom from '../components/MouseOverZoom.jsx'
+import FreeRegisterster from '../components/FreeRegister.astro'
+import Sponsors from '../components/Sponsors.astro'
+import Hero from '../components/home/Hero.astro'
+import '@/styles/global.css'
 
-changeLanguage("es");
+changeLanguage('es')
 
-const lang = i18next.language;
-const base = i18next.language === "es" ? "" : `/${lang}`;
+const lang = i18next.language
+const base = i18next.language === 'es' ? '' : `/${lang}`
 ---
 
 <Layout title='AMOF | Inicio'>
-  <section class='relative h-screen'>
-    {
-      /*<video
-      class='absolute object-cover w-screen h-screen z-[-1]'
-      muted
-      loop
-      autoplay
-      playsinline
-    >
-      <source src='/video/video amof bg_op.mp4' type='video/mp4' />
-    </video>
-    <div class='flex items-center h-full relative'>
-      <div class='bg-gray-950 opacity-45 absolute w-full h-full'></div>
-      <div
-        class='container mx-auto px-4 relative z-50'
-        style='text-shadow: 4px 4px 8px black;'
-      >
-        <p
-          data-aos='fade-down'
-          data-aos-duration='1000'
-          class='lg:text-7xl text-5xl font-bold text-white lg:text-center text-center'
-        >
-          <span class='text-[#03CAFE]'>AMERICAS´<br /> mobi</span><span
-            class='text-[#001A78]'>lity of the future</span
-          >
-        </p>
-        <p
-          data-aos='zoom-in'
-          data-aos-duration='1000'
-          class='mt-5 text-3xl font-bold text-white lg:text-center text-center'
-          set:html={t('home.slogan')}
-        />
-        <p
-          data-aos='fade-up'
-          data-aos-duration='1000'
-          class='mt-10 text-center text-white font-semibold text-5xl'
-        >
-          {t('home.event_date_video')}
-        </p>
-        <p
-          data-aos='fade-up'
-          data-aos-duration='1000'
-          class='mt-5 text-center text-white font-bold text-3xl'
-        >
-          Poliforum - Léon Guanajuato, México
-        </p>
-
-        <div
-          data-aos='fade-up'
-          data-aos-duration='1000'
-          class='mt-10 flex gap-4 justify-center'
-        >
-          <img
-            src='/img/igeco_bn.webp'
-            alt='Italian Exhibition Group'
-            class='w-40'
-          />
-          <img
-            src='/img/deutsche_messe_bn.webp'
-            alt='Deutsche Messe'
-            class='w-40'
-          />
-        </div>
-      </div>
-    </div>*/
-    }
-    <img
-      src={i18next.language === 'es'
-        ? '/img/amof_bf_2025.webp'
-        : '/img/amof_bf_2025_eng.webp'}
-      class='absolute object-cover object-bottom w-screen h-screen z-[-1]'
-    />
-  </section>
+  <Hero />
   <img src={i18next.language === 'es' ? '/amof_esp.webp' : '/amof_eng.webp'} />
   <section
     class='relative grid place-items-center bg-[url(/img/bg_amof_desc1.webp)] bg-fixed bg-cover bg-center pt-32'
